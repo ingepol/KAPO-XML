@@ -4,16 +4,16 @@
     
 	
     <channel>
-	<channel_info> <!-- this is opitonal -->
-      <title>Adryan list</title> <!-- if channels_info, a title is required, other elements are optional -->
-      <genre>Television</genre>
-      <description>Lista de Canales de Adrian  </description>
-       <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
-      <date>17.11.2014</date>
-      <credits>adryan@mail.com</credits>
-    </channel_info>
+		<channel_info> <!-- this is opitonal -->
+	      <title>Adryan list</title> <!-- if channels_info, a title is required, other elements are optional -->
+	      <genre>Television</genre>
+	      <description>Lista de Canales de Adrian  </description>
+	       <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+	      <date>17.11.2014</date>
+	      <credits>adryan@mail.com</credits>
+	    </channel_info>
 	
-    <!--<name>          [COLOR skyblue]► [B]D E P O R T E S [/B] - P R I N C I P A L [COLOR gray] • para ver la Liga de España, La liga de campeones  y demas torneos: VipRacing • Bein ñ • Espn • Fox • TDN • TyC • Gol T  [/COLOR][/COLOR]</name>
+    <name>          [COLOR skyblue]► [B]D E P O R T E S [/B] - P R I N C I P A L [COLOR gray] • para ver la Liga de España, La liga de campeones  y demas torneos: VipRacing • Bein ñ • Espn • Fox • TDN • TyC • Gol T  [/COLOR][/COLOR]</name>
     <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
     <fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
         <items>
@@ -3362,8 +3362,9 @@
 	
 	
         </items>
+
     </channel>
--->	
+
 	
 	
 
