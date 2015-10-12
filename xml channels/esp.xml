@@ -1,0 +1,2071 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+	<channel>
+    <name>[COLOR=green]-----[/COLOR][COLOR=orange]► E S P A Ñ A  [COLOR gray] Canales de España : Antena 3 • Telecinco • Cuatro • La Sexta • TDT • Energy • FDF • Divinity • Nova • Neox • Calle 13 • Discovery • Natgeo • Historia • La 1 • Canales + • Deportes • Axn • TNT • Fox   [/COLOR] [/COLOR][COLOR=green]-----[/COLOR]</name>
+    <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
+    <fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+        <items>
+           
+	
+			
+			<item><title>[COLOR skyblue]Actualiza tu sportsdevil (Descarga e instala el Zip) http://bit.ly/sportsdevil-update[/COLOR]</title>
+			<link>http://ignora.me</link>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR deepskyblue]Debes Actualizar la libreria librtmp (Descarga e actualiza) http://bit.ly/SCLibrtmp[/COLOR]</title>
+			<link>http://ignora.me</link>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Gran Hermano  </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=16924&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=16924&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=16924&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+	
+	<item><title>[COLOR white]Gran Hermano 16 opc.1[/COLOR]  [COLOR gray][SportsDevil][/COLOR]</title>
+	
+	<sportsdevil>http://cinestrenostv.tv/canales/emision3/gh650.html</sportsdevil>
+ <referer>http://cinestrenostv.tv</referer><thumbnail>http://imagenlogo</thumbnail></item>
+ 
+ 
+
+ 
+ 	<item><title>[COLOR white]Gran Hermano 16 (telecinco)[/COLOR]  [COLOR gray][SportsDevil][/COLOR]</title>
+	
+	<sportsdevil>http://verdirectotv.com/tv/nacionales2/telecinco.html</sportsdevil>
+ <referer>http://verdirectotv.com</referer><thumbnail>http://imagenlogo</thumbnail></item>
+ 
+ 
+ 	<item><title>[COLOR white]Gran Hermano 16 (divinity)[/COLOR]  [COLOR gray][SportsDevil][/COLOR]</title>
+	
+	<sportsdevil>http://verdirectotv.com/tv/nacionales/divinity.html</sportsdevil>
+ <referer>http://verdirectotv.com</referer><thumbnail>http://imagenlogo</thumbnail></item>
+ 
+
+ 
+ 
+
+
+		<item>
+<title>test 1</title>
+<link>plugin://plugin.video.f4mTester/?url=http://gh24-lh.akamaihd.net/z/mitele/gh24h_1@132500/manifest.f4m?hdcore=3.2.0&amp;plugin=aasp-3.2.0.77.18
+</link>
+<fanart></fanart>
+<thumbnail>http://imagenlogo</thumbnail></item>	
+
+
+			
+			
+			<item>
+			<title>24 Horas</title>
+			<link>http://iphonelive.rtve.es/24H_LV3_IPH/bitrate_2.m3u8</link>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+			<item>
+		
+			<title>TVE 1</title>
+			<link>rtmp://188.165.213.105/redirect$doregex[tok] playpath=tv1 swfUrl=http://1broadcastlive.com/embed/noreproductor.php?o=1&amp;kpublica=29245 pageUrl=http://1broadcastlive.com/ live=true timeout=20</link>
+			<regex>
+			<name>tok</name>
+			<expres>redirect?(.*?)&</expres>
+			<page>http://1broadcastlive.com/embed/camb_emb.php?channel=tv1&w=670&h=400</page>
+			<referer>http://streamingfreetv.net/</referer>
+			</regex>
+			<regex>
+			<name>file</name>
+			<expres>file=(.*?)&</expres>
+			<page>http://1broadcastlive.com/embed/camb_emb.php?channel=tv1&w=670&h=400</page>
+			<referer>http://streamingfreetv.net/</referer>
+			</regex>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+			
+			<item>
+			<title>La 2 opc.2</title>
+			<link>http://iphonelive.rtve.es/LA2_LV3_IPH/bitrate_2.m3u8</link>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+			
+			
+
+			
+			
+			
+			
+			
+			
+			
+
+			
+
+			<item><title>ANTENA 3 HD opcion 2</title><link>http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel01/antena_3_hd_1548K_1280x720_main.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>	
+
+			<item><title>ANTENA 3 HD  opcion 3</title><link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>	
+			
+			<item><title>ANTENA 3 SD  opcion 4</title><link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_3_av-b.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>	
+			
+			<item><title>ANTENA 3 SD  opcion 5</title><link>http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel01/index.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>	
+			
+			<item><title>ANTENA 3 SD  opcion 6</title><link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_2_av-b.m3u8?sd=10&rebase=on</link><thumbnail>http://imagenlogo</thumbnail></item>	
+			
+				
+			<item><title>test</title><link>http://mdsiosgeo0-lh.akamaihd.net/i/mitele/esmedia_01@175317/index_0_av-b.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>	
+<item><title>ANTENA 3 SD  opcion 7</title><link>rtmp://antena3fms35livefs.fplive.net:1935/antena3fms35live-live/stream-antena3_1</link><thumbnail>http://imagenlogo</thumbnail></item>	
+
+	<item><title>ANTENA 3 SD  opcion 8</title><link>rtmp://antena3fms35livefs.fplive.net:443/antena3fms35live-live playpath=stream-antena3_1 swfUrl=http://www.atresplayer.com/static/swf/AtresPlayer.swf?nc=200 live=1 pageUrl=http://www.atresplayer.com/directos/television/antena3/</link><thumbnail>http://imagenlogo</thumbnail></item>			
+			
+			
+			<item><title>MEGA</title><link>http://a3live-lh.akamaihd.net/i/mega/megageo_1@328914/master.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			
+			<item><title>La Sexta HD 0</title><link>http://a3live-lh.akamaihd.net/i/lasexta_1@35272/index_1_av-p.m3u8?sd=10&rebase=on</link><thumbnail>http://imagenlogo</thumbnail></item>
+			
+			<item><title>La Sexta HD 1</title><link>http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+
+			
+			<item><title>La Sexta HD opcion 2</title><link>http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel02/la_sexta_hd_1548K_1280x720_main.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			
+			<item><title>La Sexta HD opcion 3</title><link>http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel02/1548K_1280x720_main_4739_1430323811.ts</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>La Sexta HD opcion 4</title><link>http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel02/index.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+				
+			
+			<item><title>Telecinco opcion 2 </title><link>http://mdsios1-lh.akamaihd.net/i/mitele/esmediaset_11@168471/index_0_av-b.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			
+			<item><title>Telecinco opcion 3 </title><link>http://mdsios1-lh.akamaihd.net/i/telecinco/esmediaset_11@168471/index_0_av-b.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			
+			<item><title>Telecinco opcion 4 </title><link>http://mdsios1-lh.akamaihd.net/i/mitele/esmediaset_11@168471/index_0_av-p.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>Telecinco opcion 4 </title><link></link><thumbnail>http://imagenlogo</thumbnail></item>
+		
+			
+			<item><title>La Cuatro</title><link>http://mdsios2-lh.akamaihd.net/i/mitele/esmediaset_22@168474/index_0_av-p.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+
+			
+			
+
+
+			
+
+<item><title>[COLOR skyblue][LetOn][/COLOR]La 1</title><link>rtmp://31.220.0.86/pull/laprimera6 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>	
+<item><title>[COLOR skyblue][LetOn][/COLOR]Antena 3</title><link>rtmp://31.220.0.86/pull/antenate swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>	
+<item><title>[COLOR skyblue][LetOn][/COLOR]Telecinco</title><link>rtmp://31.220.0.104/pull/cuatrocu swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]La Cuatro</title><link>rtmp://31.220.0.104/pull/telecincoin swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>			
+<item><title>[COLOR skyblue][LetOn][/COLOR]NON STOP PEOPLE HD</title><link>rtmp://31.220.0.104/pull/nonstop9 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Energy</title><link>rtmp://31.220.0.104/pull/energy35 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Diviniti   </title><link>rtmp://31.220.0.104/pull/divinoti swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]FDF   </title><link>rtmp://31.220.0.104/pull/fdfin swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Neox   </title><link>rtmp://31.220.0.104/pull/neox9 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Nova   </title><link>rtmp://31.220.0.104/pull/novados swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+
+
+<item><title>[COLOR skyblue][LetOn][/COLOR]+ Extra   </title><link>rtmp://31.220.0.104/pull/plusxtra swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]+ Accion   </title><link>rtmp://31.220.0.104/pull/accpls swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR] + Decine  </title><link>rtmp://31.220.0.104/pull/159dcine swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]+ Comedia  </title><link>rtmp://31.220.0.104/pull/comed236 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]+ Series  </title><link>rtmp://31.220.0.104/pull/series741 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+
+
+<item><title>[COLOR skyblue][LetOn][/COLOR]AMC   </title><link>rtmp://31.220.0.104/pull/ammc swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]TMC  </title><link>rtmp://31.220.0.104/pull/tmc78 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Hollywood   </title><link>rtmp://31.220.0.104/pull/235hollywood swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Sundance   </title><link>rtmp://31.220.0.104/pull/sundance14 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Fox   </title><link>rtmp://31.220.0.104/pull/fox623 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Fox Life   </title><link>rtmp://31.220.0.104/pull/foxlife20 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Axn   </title><link>rtmp://31.220.0.104/pull/axn9 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]AXN White   </title><link>rtmp://31.220.0.104/pull/axnw6 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]TNT   </title><link>rtmp://31.220.0.104/pull/tnt369 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]SyFy   </title><link>rtmp://31.220.0.104/pull/syfy258 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Cosmo   </title><link>rtmp://31.220.0.104/pull/cosmo78 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Comedy Central   </title><link>rtmp://31.220.0.104/pull/comedycentral3 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Calle 13  </title><link>rtmp://31.220.0.104/pull/calle1396 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]MTV   </title><link>rtmp://31.220.0.104/pull/mtv125 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+
+
+
+<item><title>[COLOR skyblue][LetOn][/COLOR]Discovery MAX   </title><link>rtmp://31.220.0.104/pull/discomax7 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Discovery Channel   </title><link>rtmp://31.220.0.104/pull/discovery1 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Nat Geo   </title><link>rtmp://31.220.0.104/pull/natgeo36 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Nat Geo Wild   </title><link>rtmp://31.220.0.104/pull/natgeowilde swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Historia   </title><link>rtmp://31.220.0.104/pull/historia45 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]A and E   </title><link>rtmp://31.220.0.104/pull/aanden swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Crimen e Investigacion   </title><link>rtmp://31.220.0.104/pull/ci5 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+
+
+
+<item><title>[COLOR skyblue][LetOn][/COLOR]Cocina  </title><link>rtmp://31.220.0.104/pull/cocinerita swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]De Casa   </title><link>rtmp://31.220.0.104/pull/paralacasa swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Iberalia  </title><link>rtmp://31.220.0.104/pull/iberalias swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Viajar   </title><link>rtmp://31.220.0.104/pull/viajando swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+
+
+
+
+<item><title>[COLOR skyblue][LetOn][/COLOR]Disney Channel   </title><link>rtmp://31.220.0.104/pull/disney521 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Disney Jr   </title><link>rtmp://31.220.0.104/pull/disneyju78 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Disney XD   </title><link>rtmp://31.220.0.104/pull/disneyxd14 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Clan    </title><link>rtmp://31.220.0.104/pull/clan21 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Boing   </title><link>rtmp://31.220.0.104/pull/boing82 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Nick  </title><link>rtmp://31.220.0.104/pull/nick78 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Canal Panda   </title><link>rtmp://31.220.0.104/pull/panda51 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Baby TV   </title><link>rtmp://31.220.0.104/pull/babytv32 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Los Simpsons   </title><link>rtmp://31.220.0.104/pull/boing55 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+<item><title>[COLOR skyblue][LetOn][/COLOR]Solo Musica  </title><link>rtmp://31.220.0.104/pull/solmusica7 swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv/</link></item>
+
+
+
+
+
+
+
+		
+			
+			
+
+			<item><title>Fox</title><link>http://iptvlatam.cf/hls/fox/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>			<item><title>Historia</title><link>http://iptvlatam.cf/hls/historia/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>			<item><title>Iberalia</title><link>http://iptvlatam.cf/hls/iberalia/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>			<item><title>Odisea</title><link>http://iptvlatam.cf/hls/odisea/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>			<item><title>Sandance</title><link>http://iptvlatam.cf/hls/sundance/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>			<item><title>Paramount</title><link>http://iptvlatam.cf/hls/paramount/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>			<item><title>Nat Geo</title><link>http://iptvlatam.cf/hls/natgeo/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>			<item><title>Calle 13</title><link>http://iptvlatam.cf/hls/calle13/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>			<item><title>energy</title><link>http://iptvlatam.cf/hls/energy/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+		
+
+
+
+
+
+ 
+ 
+ <!---------------------------------------------------------------- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ -->
+
+ 
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] TeleCinco </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=1&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=1&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=1&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+ 
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Gran Hermano  </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=16924&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=16924&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=16924&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+ 
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Energy </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=36&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=36&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=36&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+ 
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Divinity</title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=35&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=35&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=35&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+ 
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] FDF </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=37&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=37&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=37&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+ 
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] NOVA </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=34&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=34&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=34&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+ 
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Paramount </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14745&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14745&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14745&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+ 
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] SOMOS </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14747&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14747&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14747&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+ 
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] + Series </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14871&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14871&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14871&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+ 
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] TNT </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=50&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=50&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=50&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] COSMO </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14867&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14867&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14867&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] COMEDY CENTRAL </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14736&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14736&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14736&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] MTV </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14729&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14729&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14729&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Discovery Max </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=38&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=38&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=38&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Nat Geo Wild </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14994&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14994&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14994&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Historia </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=6&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=6&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=6&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Odisea </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14737&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14737&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14737&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] A and E  </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=15101&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=15101&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=15101&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Crimen e Investigacion  </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=16891&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=16891&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=16891&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Cocina </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14741&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14741&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14741&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] DeCasa </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14742&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14742&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14742&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Iberalia </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=15100&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=15100&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=15100&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Viajar </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14752&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14752&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14752&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Disney Channel  </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=39&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=39&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=39&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Disney XD </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14915&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14915&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14915&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Clan </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=41&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=41&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=41&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Boing </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=40&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=40&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=40&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Nick </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=42&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=42&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=42&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Nick Jr </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=4&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=4&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=4&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] 40 TV </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=3&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=3&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=3&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] Solo Musica  </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=16895&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=16895&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=16895&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] La 1 </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=32&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=32&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=32&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] La 2  </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=33&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=33&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=33&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+
+
+
+ <item>
+<title>[COLOR deepskyblue][GBS][/COLOR] La Cuatro </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=2&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=2&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=2&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+
+
+
+
+-----------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>[COLOR deepskyblue][GBS][/COLOR] CANAL+ 1 </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=20&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=20&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=20&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+<item>
+<title>[COLOR deepskyblue][GBS][/COLOR] CANAL+ESTRENOS</title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=21&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=21&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=21&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+<item>
+<title>[COLOR deepskyblue][GBS][/COLOR] CANAL+ DCINE </title>
+
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=22&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=22&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=22&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+<item>
+<title>[COLOR deepskyblue][GBS][/COLOR] CANAL+ COMEDIA </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=24&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=24&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=24&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+
+<item>
+<title>[COLOR deepskyblue][GBS][/COLOR] CANAL+ XTRA </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=26&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=26&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=26&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+<item>
+<title>[COLOR deepskyblue][GBS][/COLOR] DECINE  </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=27&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=27&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=27&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+<item>
+<title>[COLOR deepskyblue][GBS][/COLOR] CANAL+ ACCION </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=23&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=23&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=23&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+
+
+<item>
+ <title>[COLOR deepskyblue][GBS][/COLOR] AMC</title>  
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=18&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=18&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=18&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+
+
+
+ <item>
+    <title>[COLOR deepskyblue][GBS][/COLOR]  HOLLYWOOD</title>
+   <link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=28&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=28&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=28&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+ <thumbnail>http://imagenlogo</thumbnail></item>
+
+<item>
+ <title>[COLOR deepskyblue][GBS][/COLOR] BUZZ</title>
+   <link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14756&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14756&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14756&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+<item>
+    <title>[COLOR deepskyblue][GBS][/COLOR] XTRM</title>
+     <link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14757&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14757&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14757&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+    <thumbnail>http://imagenlogo</thumbnail></item>
+
+	
+	
+
+<item>
+     <title>[COLOR deepskyblue][GBS][/COLOR] AXN </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=49&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=49&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=49&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+	<item>
+     <title>[COLOR deepskyblue][GBS][/COLOR] AXN white</title>
+   <link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=5&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=5&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=5&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+    <thumbnail>http://imagenlogo</thumbnail></item>
+
+	
+	
+	
+
+
+	<item>
+    <title>[COLOR deepskyblue][GBS][/COLOR] CALLE 13</title>
+    <link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=30&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=30&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=30&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+    <thumbnail>http://imagenlogo</thumbnail></item>
+	
+	
+	
+	
+<item>
+    <title>[COLOR deepskyblue][GBS][/COLOR] SYFY</title>
+     <link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=29&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=29&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=29&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+    <thumbnail>http://imagenlogo</thumbnail></item>
+	
+
+<item>
+<title>[COLOR deepskyblue][GBS][/COLOR] FOX LIFE</title>
+ <link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14868&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14868&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14868&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+
+
+
+<item>
+ <title>[COLOR deepskyblue][GBS][/COLOR] SOMOS</title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14747&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14747&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=14747&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+
+
+
+<item>
+<title>[COLOR deepskyblue][GBS][/COLOR] TCM </title>
+<link>rtmp://185.39.11.76/live?token=$doregex[rtmp] playpath=$doregex[path] swfUrl=http://gblackstreaming.com/player.swf live=1 timeout=15 pageUrl=http://gblackstreaming.com token=$doregex[tok]</link>
+<regex>
+<name>rtmp</name>
+<expres>token=(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=31&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=31&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://gblackstreaming.com/embed.php?a=31&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<referer>http://gblackstreaming.com</referer>
+</regex>
+<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+<item>
+<title>[COLOR deepskyblue][GBS][/COLOR] ALX </title>
+<link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=live_alx_nxtv live=1 timeout=20</link>
+<regex>
+<name>getIP</name>
+<expres>function getEdgeServers.*"(.*?),</expres>
+<page>http://vaughnlive.tv/alx_nxtv</page>
+</regex>
+<regex>
+<name>getCODE</name>
+<expres>vsVars.*= "0n0(.*?)"<expres>
+<page>http://vaughnlive.tv/alx_nxtv</page>
+</regex>
+ <thumbnail>http://imagenlogo</thumbnail></item>
+ 
+ 
+ 
+ <!---------------------------------------------------------------- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+ 
+ <!---------------------------------------------------------------- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ -->
+ 
+ 
+					
+
+
+
+
+
+
+
+
+		
+			<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/GH/1.html</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  gran hermano 16  </title><thumbnail>http://www.formulatv.com/images/articulos/42000/42863_1f4a735ea9-th01.jpg</thumbnail><info>gran hermano 16  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/mexico/ghmexico.html</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  gran hermano mexico </title><thumbnail>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQvHDZVWZqeyWi1bR-5UTv-PREGqHHiZFRWz8_Q-kTakS5L05zy</thumbnail><info>gran hermano mexixo </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/tve1.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  ver la primera tve 1  </title><thumbnail>http://2.bp.blogspot.com/-w2PajXAilsI/UQMU6UsjoWI/AAAAAAAAAHw/koNQG_FQTbE/s1600/tve-1-hd.jpg</thumbnail><info>ver la primera tve 1  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/tve2.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  ver la segunda tve 2  </title><thumbnail>http://4.bp.blogspot.com/-9Je-fBiGKpk/UQMC13HEOmI/AAAAAAAAAGQ/edRradN0qcA/s1600/tve-2.jpg</thumbnail><info>ver la segunda tve 2  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/tve24h.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  tve 24h  </title><thumbnail>http://1.bp.blogspot.com/-6bDkkKyFMzY/UicbpGmqcMI/AAAAAAAABEU/ar78R_2jIRM/s1600/aSvVnWV.jpg</thumbnail><info>tve 24h  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/antena-3.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  antena 3  </title><thumbnail>http://3.bp.blogspot.com/-7lcYS9-Prrg/UQMAfYXG4DI/AAAAAAAAAAw/-8H5bM7BSRo/s1600/antena-3.jpg</thumbnail><info>antena 3  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/mega.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  mega  y </title><thumbnail>http://3.bp.blogspot.com/-WDX9_jjoGrw/VZzap2Gub1I/AAAAAAAABXg/YEFDZQIWa60/s200/mega.jpg</thumbnail><info>mega  y </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/la-cuatro.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  cuatro  </title><thumbnail>http://3.bp.blogspot.com/-zohBmzKq2D0/UQMByTk6EaI/AAAAAAAAADw/u04RS3hRMIA/s1600/la-cuatro.jpg</thumbnail><info>cuatro  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/telecinco.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  telecinco  </title><thumbnail>http://3.bp.blogspot.com/-fqZU8AOkVSk/UQMCudEQRwI/AAAAAAAAAFw/0x8eHCLAsIU/s1600/telecinco.jpg</thumbnail><info>telecinco  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/la-sexta.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  la sexta  </title><thumbnail>http://2.bp.blogspot.com/-jUhyEhQJs90/UQMB6Gb3I7I/AAAAAAAAAEQ/kn39-yahlQY/s1600/la-sexta-hd.jpg</thumbnail><info>la sexta  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/intereconomia.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  intereconomia punto pelota  </title><thumbnail>http://3.bp.blogspot.com/-lxFOwPyAhE8/UQMr-p851HI/AAAAAAAAAJc/n0gM2CO2zBc/s1600/intereconomia.jpg</thumbnail><info>intereconomia punto pelota  </info><thumbnail>http://imagenlogo</thumbnail></item>	
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/nova.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  antena 3 nova  </title><thumbnail>http://1.bp.blogspot.com/-7wUWHdbhy2U/Ui2UW46ceKI/AAAAAAAABFk/nVcPg2gsJwM/s1600/novaa.jpg</thumbnail><info>antena 3 nova  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/divinity.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  divinity  </title><thumbnail>http://4.bp.blogspot.com/-ZbhzBb7kBEw/Ui2UTgaTF4I/AAAAAAAABFc/3aiWpEuuB7Q/s1600/divinityy.jpg</thumbnail><info>divinity  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/cosmo.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal cosmopolitan  </title><thumbnail>http://2.bp.blogspot.com/-YtDWYCiOmyA/UQMAwTU7OXI/AAAAAAAAABw/HVPYqn73HKo/s1600/cosmopolitan.jpg</thumbnail><info>canal cosmopolitan  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/energy.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal energy  </title><thumbnail>http://4.bp.blogspot.com/-IwpZQBL2pHk/UQMBDgulv0I/AAAAAAAAACg/o9uMhCNkDaY/s1600/energy.jpg</thumbnail><info>canal energy  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/mtv.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  mtv espaÃ±a  </title><thumbnail>http://2.bp.blogspot.com/-6ZzDemQa6fM/UQMlcDuhJiI/AAAAAAAAAIk/o5UVuS6jq4w/s1600/mtv.jpg</thumbnail><info>mtv espaÃ±a  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/fdf.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  factoria de ficcion fdf  " target="tv</title><thumbnail>http://1.bp.blogspot.com/-jaeEbHF9UZw/Ui2URik4TfI/AAAAAAAABFU/fr923ypekrA/s1600/fdff.jpg</thumbnail><info>factoria de ficcion fdf  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/neox.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  neox  </title><thumbnail>http://3.bp.blogspot.com/-Et4QoqKLASk/UQMCeGTi9bI/AAAAAAAAAE4/mJlP_SBZlpw/s1600/neox.jpg</thumbnail><info>neox  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/fox.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  la fox  </title><thumbnail>http://2.bp.blogspot.com/-uRfGnS5HPBY/UQMlYwySAtI/AAAAAAAAAIU/R_n_i9PHsNU/s1600/fox-hd.jpg</thumbnail><info>la fox  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/foxcrime.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  fox crime  </title><thumbnail>https://pbs.twimg.com/profile_images/378800000692780731/f88ba20d9e19cb97ce86a38044835712.png</thumbnail><info>fox crime  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/tnt.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal tnt  </title><thumbnail>http://4.bp.blogspot.com/-p7mVJlelNvU/UQMCziFk1kI/AAAAAAAAAGI/rBeouJSEZIY/s1600/tnt-hd.jpg</thumbnail><info>canal tnt  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/axn.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  axn  </title><thumbnail>http://2.bp.blogspot.com/-lm6XWeQQ9i0/UQMAh3oePuI/AAAAAAAAAA4/YQPL6MqsXp4/s1600/axn-hd.jpg</thumbnail><info>axn  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/calle13.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal calle 13  </title><thumbnail>http://4.bp.blogspot.com/-p6qecd6Blf4/UQMAnQ3GB5I/AAAAAAAAABQ/NbfQT0VXjYU/s1600/calle-13.jpg</thumbnail><info>canal calle 13  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/syfy.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal syfy  </title><thumbnail>http://2.bp.blogspot.com/-VMjYZVkx3n0/UQMCpgDKI9I/AAAAAAAAAFo/Sb-MxVko2h4/s1600/syfy-hd.jpg</thumbnail><info>canal syfy  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/xtrm.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal xtrm  </title><thumbnail>http://4.bp.blogspot.com/-TAli29gBdjk/UQMC636ZiGI/AAAAAAAAAGg/tnP_2CbJOUY/s1600/xtrm.jpg</thumbnail><info>canal xtrm  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/axnwhite.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  AXN White  </title><thumbnail>http://4.bp.blogspot.com/--Ab9nrMPbHo/UQMAj7_m7RI/AAAAAAAAABA/0wyqnhjyZf4/s1600/axn-white.jpg</thumbnail><info>AXN White  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/holliwood.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal holliwood  </title><thumbnail>http://3.bp.blogspot.com/-ADMvq2wDcbM/UQMBwJAdBNI/AAAAAAAAADo/GxPT-slHPOA/s1600/holliwood.jpg</thumbnail><info>canal holliwood  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/buzz.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal buzz rojo  </title><thumbnail>http://2.bp.blogspot.com/-2JVtHRqUxuE/UQMlVFAhegI/AAAAAAAAAIE/ZhKztuqN6k4/s1600/buzz.jpg</thumbnail><info>canal buzz rojo  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/alx.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  alx syfy  </title><thumbnail>http://3.bp.blogspot.com/-oNIIZuNLhf4/UQM-7wONJMI/AAAAAAAAALM/9l4mKMC_Vm0/s1600/alx-syfy.jpg</thumbnail><info>alx syfy  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/p-comedy.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  paramount comedy  </title><thumbnail>http://1.bp.blogspot.com/-aRVHwUwbIsY/UQMldm3ksBI/AAAAAAAAAIs/wxNGzTzaIaA/s1600/paramount-comedy.jpg</thumbnail><info>paramount comedy  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/p-channel.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  paramount channel  </title><thumbnail>http://1.bp.blogspot.com/-RFMdJjq2LO8/UQMsCjh8MdI/AAAAAAAAAJs/xna9KkyU6X4/s1600/paramount-channel.jpg</thumbnail><info>paramount channel  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/disneymagic.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  disney cine magic  </title><thumbnail>http://2.bp.blogspot.com/-KZ0KrJwrCr8/UQMBBC999VI/AAAAAAAAACY/mvYNAr2rCkA/s1600/disney-magic.jpg</thumbnail><info>disney cine magic  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/cartoon.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  cartoon network  </title><thumbnail>http://4.bp.blogspot.com/-OacR4NN7lIM/UQMApt400rI/AAAAAAAAABY/ZuXLaBtH09U/s1600/cartoon-network.jpg</thumbnail><info>cartoon network  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/amc.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal amc   </title><thumbnail>http://blog.ono.es/wp-content/uploads/2014/11/amclogo4__140305172543.png</thumbnail><info>canal amc   </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/plus1.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal plus   </title><thumbnail>http://1.bp.blogspot.com/-pXSmWON5Kxw/UQMCkIq95LI/AAAAAAAAAFQ/Ai-EpFxjHNM/s1600/plus-1.jpg</thumbnail><info>canal plus   </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/plus2.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal plus 2   </title><thumbnail>http://1.bp.blogspot.com/-STpPdWFNFo8/UQMClpm0X2I/AAAAAAAAAFY/Tw5J2feq_Gs/s1600/plus-2.jpg</thumbnail><info>canal plus 2   </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/plus-estrenos.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal plus estrenos   </title><thumbnail>http://1.bp.blogspot.com/-xc7HA3rg6PA/VZzakyumoLI/AAAAAAAABXQ/yE5LRjp2mMI/s1600/canalplusestrenos.jpg</thumbnail><info>canal plus estrenos   </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/plus-accion.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal plus accion  </title><thumbnail>http://1.bp.blogspot.com/-Sn1UCxeQLLM/UQM1Ux2wEXI/AAAAAAAAAKU/0vSElke3KN8/s1600/plus-accion.jpg</thumbnail><info>canal plus accion  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/plus-dcine.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal plus dcine  </title><thumbnail>http://2.bp.blogspot.com/-nE14LkZ3I3w/UQM1ZOxsuQI/AAAAAAAAAKk/8mwnIfd1wCE/s1600/plus-dcine.jpg</thumbnail><info>canal plus dcine  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/plus-comedia.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal plus comedia  </title><thumbnail>http://4.bp.blogspot.com/-xKumjTsvBso/UQM1Wt6XnAI/AAAAAAAAAKc/yT4kquzhulg/s1600/plus-comedia.jpg</thumbnail><info>canal plus comedia  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/plus-series.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  Canal plus series  </title><thumbnail>http://2.bp.blogspot.com/-wtxIWATCLy0/Up8nf9YbVEI/AAAAAAAABJk/tZYVmiZ2eGE/s200/canal-plus-series.jpg</thumbnail><info>Canal plus series  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/plus-series-xtra.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  Canal plus series xtra  </title><thumbnail>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRamPy2WwMPOGIUeWwMjL4QOIPV-YbdpHewodskTdw1N0wU42ZP</thumbnail><info>Canal plus series xtra  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/plus-toros.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal plus toros  </title><thumbnail>http://3.bp.blogspot.com/-TMm8ma4e1n8/Ui2Ud0_1fZI/AAAAAAAABFs/5uLgvN2YEGc/s1600/plustoros.jpg</thumbnail><info>canal plus toros  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/multibein/canal1.html</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  bein sport  </title><thumbnail>https://pbs.twimg.com/profile_images/615565947567534080/2RA3y7Zh.jpg</thumbnail><info>bein sport  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/multiliga/canal1.html</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal plus liga  </title><thumbnail>http://2.bp.blogspot.com/-5MO7aTt7R4Y/Ui2UgUyn_BI/AAAAAAAABF0/JIfkgOE89ig/s1600/plusliga.jpg</thumbnail><info>canal plus liga  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/multiliga2/canal1.html</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  futbol  por canal plus liga 2 </title><thumbnail>http://www.todotele.com/wp-content/uploads/2011/08/LOGO_CANAL+_LIGA_2.jpg</thumbnail><info>futbol  por canal plus liga 2 </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/plus-partidazo.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal plus partidazo  </title><thumbnail>http://satcesc.com/web/wp-content/uploads/2015/08/canal-plus-partidazo.jpg</thumbnail><info>canal plus partidazo  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/plusfutbol.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal plus futbol  </title><thumbnail>http://4.bp.blogspot.com/-5gFdEJACSuI/Ui2M5enBwMI/AAAAAAAABE0/O0ApwEsVrLM/s1600/p-futbo.jpg</thumbnail><info>canal plus futbol  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/plusdeportes.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal plus deportes  </title><thumbnail>http://3.bp.blogspot.com/-rOsfBHt7XIU/UQMlgPaSqNI/AAAAAAAAAI0/H5YNeFSW-do/s1600/plus-deportes.jpg</thumbnail><info>canal plus deportes  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/plusdeportes2.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal plus deportes 2  </title><thumbnail>http://2.bp.blogspot.com/-_dSXbJpAqGM/UQM1baugH9I/AAAAAAAAAKs/8pWBtYitJ_w/s1600/plus-deportes-2.jpg</thumbnail><info>canal plus deportes 2  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/plusgolf.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal plus golf  </title><thumbnail>http://2.bp.blogspot.com/-YYqWIT14_0c/UQM--lANGlI/AAAAAAAAALU/vWEDLCS6_FQ/s1600/plus-golf.jpg</thumbnail><info>canal plus golf  </info><thumbnail>http://imagenlogo</thumbnail></item>	
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/motogp2.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  moto gp  </title><thumbnail>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSqol0wqNzDBWALWVdYgk2JfmRKhh2svR-al07c25VYbojKRr7P</thumbnail><info>moto gp  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/formula1.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  formula1  </title><thumbnail>http://lh6.ggpht.com/_gKQKwLZ8XUs/TIvsZTMx7tI/AAAAAAAADyE/53Jr585dfOM/s800/logos-hidden-symbolism-f-1.jpg</thumbnail><info>formula1  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/spormania.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  sportmania</title><thumbnail>https://lh6.googleusercontent.com/-gCWrH0tkCXo/UjSOT_X2DLI/AAAAAAAAAbI/MD6iyWm9F4Q/s280/sportmania.jpg</thumbnail><info>sportmania</info><thumbnail>http://imagenlogo</thumbnail></item>	
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/eurosports.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  eurosports  </title><thumbnail>http://1.bp.blogspot.com/-dURY_UAttAw/UQMBH9sqpCI/AAAAAAAAACw/xeQlx4Rh3w4/s1600/eurosport-hd.jpg</thumbnail><info>eurosports  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/eurosports2.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  ver eurosports 2  y en vivo </title><thumbnail>http://2.bp.blogspot.com/-x2Eo83Y-Eck/VZzam-TvBHI/AAAAAAAABXY/GXwBfRwR63k/s1600/eurosport%2B2.gif</thumbnail><info>ver eurosports 2  y en vivo </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/teledeporte.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  teledeporte  </title><thumbnail>http://2.bp.blogspot.com/-eGirw_CUnXQ/UQMCxv0uv1I/AAAAAAAAAGA/7jq1Pv-n0xQ/s1600/teledeporte.jpg</thumbnail><info>teledeporte  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/sport3.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  ver sport 3  y en vivo </title><thumbnail>http://1.bp.blogspot.com/-GxG4o7dTmUw/UU437GpoIgI/AAAAAAAAAqM/Y2LIIAZjGO8/s1600/sport3.jpg</thumbnail><info>ver sport 3  y en vivo </info><thumbnail>http://imagenlogo</thumbnail></item>	
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/realmadridtv.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  Real Madrid Tv  </title><thumbnail>http://2.bp.blogspot.com/-hNyNXf9vc7k/UeJyx4dSkKI/AAAAAAAAA_k/M6AkUr_W_Ag/s200/Realmadrid-TV.jpg</thumbnail><info>Real Madrid Tv  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/barcatv.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  barsa Tv  </title><thumbnail>http://3.bp.blogspot.com/-_Z-7SzSccTQ/Ue5bJEEMIVI/AAAAAAAABBM/qsw7VBjn-bY/s1600/barcatv.jpg</thumbnail><info>barsa Tv  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/directv-sports.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  ver directv sports en vivo </title><thumbnail>http://1.bp.blogspot.com/-BHrrfvMYruA/U7fcJPIlETI/AAAAAAAABRo/t7qnCWGD_Wg/s1600/directv-sports.png</thumbnail><info>ver directv sports en vivo </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/foxsports.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  fox sports  </title><thumbnail>http://2.bp.blogspot.com/-2T1rCN3I5vU/UQMBqZAhZwI/AAAAAAAAADY/UTge9naXZHk/s1600/fox-sports.jpg</thumbnail><info>fox sports  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/foxdeportes.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  fox deportes  </title><thumbnail>http://4.bp.blogspot.com/-MaQHBu9jg0M/UQMBOUOnH9I/AAAAAAAAADQ/1TxLly-1CwI/s1600/fox-deportes.jpg</thumbnail><info>fox deportes  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/deportes/espn.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  espn  </title><thumbnail>http://4.bp.blogspot.com/-I2JTOI_YIBc/UQMBF-563TI/AAAAAAAAACo/nfWaf6IefWM/s1600/espn.jpg</thumbnail><info>espn  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/documentales/discoverychannel.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  discovery channel  </title><thumbnail>http://1.bp.blogspot.com/-AwVdBgG2XF0/UQMAyNNKG0I/AAAAAAAAAB4/c8sTApHtbrw/s1600/discovery-channel.jpg</thumbnail><info>discovery channel  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/documentales/discoverymax.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  discovery max espaÃ±a  </title><thumbnail>http://2.bp.blogspot.com/-WPwlWaDwKBI/UQMA9NKIoRI/AAAAAAAAACI/zR9fzOCdF2I/s1600/discovery-max.jpg</thumbnail><info>discovery max espaÃ±a  </info><thumbnail>http://imagenlogo</thumbnail></item>	
+<item><sportsdevil>http://cinestrenostv.tv/canales/documentales/nationalgeo.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  national geographic  </title><thumbnail>http://3.bp.blogspot.com/-EvE40uDYWwQ/UQMCEBbPsAI/AAAAAAAAAEo/2TY8xepYIMs/s1600/national-geographic.jpg</thumbnail><info>national geographic  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/documentales/xplora.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal xplora  </title><thumbnail>http://2.bp.blogspot.com/-NlmES7o4VT8/UQMC4x2pN_I/AAAAAAAAAGY/3DmB5q2tVt4/s1600/xplora.jpg</thumbnail><info>canal xplora  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/documentales/bio.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  ver bio  en vivo </title><thumbnail>http://4.bp.blogspot.com/-df1BHjkntvM/Unf0ZdMybLI/AAAAAAAABIc/uysugNOWw1E/s1600/bio.jpg</thumbnail><info>ver bio  en vivo </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/documentales/odisea.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal odisea  </title><thumbnail>http://3.bp.blogspot.com/-3zhYxGJNSvQ/UQMChtrkn3I/AAAAAAAAAFI/kBOLAMZ5DJc/s1600/odisea.jpg</thumbnail><info>canal odisea  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/documentales/historia.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal historia  </title><thumbnail>http://4.bp.blogspot.com/-qb3lHNADWN4/UQHdHa67IDI/AAAAAAAAAAg/0ZPoxm-54kw/s1600/historia.jpg</thumbnail><info>canal historia  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/documentales/natgeowill.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  nat geo will  </title><thumbnail>http://1.bp.blogspot.com/-iP3fpKZIOLw/UQMCB1P4WRI/AAAAAAAAAEg/xKAHRYFGWJw/s1600/nat-geo-wild.jpg</thumbnail><info>nat geo will  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/documentales/cazaypesca.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  ver caza y pesca  </title><thumbnail>http://2.bp.blogspot.com/-vPAHPrdzvpk/UboYu31Z1WI/AAAAAAAAA8E/bH-KpcJMyOg/s1600/9JlH5N9.jpg</thumbnail><info>ver caza y pesca  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/documentales/cocina.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  canal cocina  </title><thumbnail>https://lh6.googleusercontent.com/-mSTDGbpRdeQ/AAAAAAAAAAI/AAAAAAAAAAQ/apNC_xgtFY8/photo.jpg</thumbnail><info>canal cocina  </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/nacionales/hustlertv.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  ver hustler tv hd en vivo</title><thumbnail>http://2.bp.blogspot.com/-jrb7SGBmqSQ/U4jcCbR_pKI/AAAAAAAABQo/tAtTIvVUpz0/s1600/hustlertv.jpg</thumbnail><info>ver canal venus  en vivo </info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/xxx/playboy.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  Playboy  </title><thumbnail>http://4.bp.blogspot.com/-n82xk8h98hg/UVc6Ojups3I/AAAAAAAAAq8/PWPjTfWI2gQ/s1600/playboy.jpg</thumbnail><info>Playboy  </info><thumbnail>http://imagenlogo</thumbnail></item>	
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/gh1.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  gran hermano 2015 argentina -LATINOAMERICA</title><thumbnail>http://granhermano2015.com/wp-content/uploads/2014/12/Gran-Hermano-2015-300x147.jpg</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/a24.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  A 24 NOTICIAS -LATINOAMERICA</title><thumbnail>http://3.bp.blogspot.com/-j230yzryuWM/UbmAxkoKhQI/AAAAAAAAA7s/aEyBdY25MvQ/s1600/A24.jpg</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/americatv.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  AMERICA TV -LATINOAMERICA</title><thumbnail>http://1.bp.blogspot.com/-bVD6nUvA9cA/UQfFTX2abKI/AAAAAAAAANU/RAD7y8a8Ia0/s1600/americatv.jpg</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/telefe.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  telefe -LATINOAMERICA</title><thumbnail>http://1.bp.blogspot.com/-gPMbi1eDrhI/UQfFbtRd-pI/AAAAAAAAAN8/Ee_8mocd3bc/s1600/telefe.jpg</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/eltrece.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  el trece -LATINOAMERICA</title><thumbnail>http://3.bp.blogspot.com/-37tKuDXwhYM/URLHTBEsCZI/AAAAAAAAAXg/tyJ6Vc4az3k/s1600/el-trece.jpg</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/magazine.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  magazine -LATINOAMERICA</title><thumbnail>http://2.bp.blogspot.com/-DfAyqp2jr2w/UQfFYjPk1SI/AAAAAAAAANs/Jk9bRLCfhAI/s1600/magazine.jpg</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/nueve.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  el nueve -LATINOAMERICA</title><thumbnail>http://1.bp.blogspot.com/-Sw93yqzC9c0/UQfFaGFfHeI/AAAAAAAAAN0/ThtkN8pVnSY/s1600/nueve-argentina.jpg</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/lasiete.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  la siete -LATINOAMERICA</title><thumbnail>http://2.bp.blogspot.com/-soVN-AVWtSk/Ul0L2Jxo6mI/AAAAAAAABIM/0YlfMowyLmQ/s1600/TVpublica.jpg</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/cn5.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  C5N -LATINOAMERICA</title><thumbnail>http://2.bp.blogspot.com/-9GWxChsfu6o/UQfFW7mP4DI/AAAAAAAAANk/QHiKoni0kVY/s1600/cn5.jpg</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/tn.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  todo noticias -LATINOAMERICA</title><thumbnail>http://2.bp.blogspot.com/-pUy7uJIk5uk/UWrOIDgS4OI/AAAAAAAAAtU/OysYNPPQ10Y/s1600/canaltn.jpg</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/hboplus.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  hbo plus -LATINOAMERICA</title><thumbnail>http://2.bp.blogspot.com/-phiqFeqfnM4/UWrR1cUXfDI/AAAAAAAAAuA/Q8EsCUsnT2A/s1600/hbo-plus.jpg</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/hbolatino.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  hbo latino -LATINOAMERICA</title><thumbnail>http://2.bp.blogspot.com/-5V5ytnqpPJY/UZisYAtbCDI/AAAAAAAAA0c/cUXKL_j2p_U/s1600/hbolatino.png</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/cinemax.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  cine max -LATINOAMERICA</title><thumbnail>http://2.bp.blogspot.com/-rrch7MLoowE/UWrOLhvYdnI/AAAAAAAAAtk/isaQ6ahFTZM/s1600/cinemax.jpg</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/mundofox.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  mundo fox -LATINOAMERICA</title><thumbnail>http://2.bp.blogspot.com/-bSOjNSdlu6w/UZ6ZH4HvwuI/AAAAAAAAA4o/DS5ikiaTm6M/s1600/mundofox.jpg</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/space.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  space -LATINOAMERICA</title><thumbnail>http://3.bp.blogspot.com/-F8G5hx9MphQ/UWrOGcQ2TkI/AAAAAAAAAtM/twCasUhR0KM/s1600/canalspace.jpg</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/fx.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  FX -LATINOAMERICA</title><thumbnail>http://3.bp.blogspot.com/-F377JtLqUbo/UWrOEi1n_VI/AAAAAAAAAtE/wEfOAdFEV0k/s1600/canalfx.jpg</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/amc.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  AMC -LATINOAMERICA</title><thumbnail>http://lh6.ggpht.com/-ytVZ_Yh2iqM/VHknDgwMa1I/AAAAAAAAba4/60OivoiV8wA/s71/amc.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/axn.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  AXN -LATINOAMERICA</title><thumbnail>http://lh5.ggpht.com/-Kc6JIzy95-A/VLmrSYIUHDI/AAAAAAAAbgY/wdSM2RC8uTc/s71/axn.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/comedycentral.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  COMEDY CENTRAL -LATINOAMERICA</title><thumbnail>http://lh6.ggpht.com/-f-cf-f6YP8k/UK0ymbbQQBI/AAAAAAAAUdw/_u9EhQ4VJYw/s71/comedy-central.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/dpelicula.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  DE PELICULA -LATINOAMERICA</title><thumbnail>http://lh6.ggpht.com/-1HrCaTr1fho/VHknDqi16BI/AAAAAAAAbbA/wISs9NV39_Y/s71/de-pelicula.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/fox.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  FOX -LATINOAMERICA</title><thumbnail>http://lh3.ggpht.com/-DPBsUl2YwwA/UCq4yYZC6oI/AAAAAAAAN6M/fPAoBWN0mHQ/s71/canalfox.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/fox1.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  FOX 1 -LATINOAMERICA</title><thumbnail>http://4.bp.blogspot.com/-qBH6Tn79OSg/VFwN6aDFQdI/AAAAAAAAbWk/IMLpCQEOprA/s71/fox-1.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/foxaction.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  FOX ACTION -LATINOAMERICA</title><thumbnail>http://4.bp.blogspot.com/-yUTIC7XI1gc/VHknFYAKnWI/AAAAAAAAbbg/FkXcTLnDSbw/s71/fox-action.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/foxcinema.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  FOX CINEMA -LATINOAMERICA</title><thumbnail>http://4.bp.blogspot.com/-8tE4Yhvl3-o/VHknFfqdBGI/AAAAAAAAbb4/ELIj3GHtGHs/s71/fox-cinema.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/foxclasics.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  FOX CLASSICS -LATINOAMERICA</title><thumbnail>http://4.bp.blogspot.com/-tk0Ghx1eKLg/VHknFycv8LI/AAAAAAAAbcE/ri75IFGRMaw/s71/fox-classics.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/foxfamily.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  FOX FAMILY -LATINOAMERICA</title><thumbnail>http://4.bp.blogspot.com/-zQIXDXqnofk/VHknF8N6x7I/AAAAAAAAbds/53rj90hLeBM/s71/fox-family.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/foxmovies.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  FOX MOVIES -LATINOAMERICA</title><thumbnail>http://4.bp.blogspot.com/-u5mHj1AxygY/VHknGVmzudI/AAAAAAAAbdo/idB4rKWNEqA/s71/fox-movies.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/golden.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  GOLDEN -LATINOAMERICA</title><thumbnail>http://lh6.ggpht.com/-NxyQgWZNlQQ/UyJ2qctt4QI/AAAAAAAAbEg/As3rDyy_5zA/s71/golden.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/goldenedge.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  GOLDEN EDGE -LATINOAMERICA</title><thumbnail>http://lh6.ggpht.com/-aSVTVFNtBAE/U-AVXNBK9mI/AAAAAAAAbJg/CgM4qjCilW4/s71/golden-edge.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/isat.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  I SAT -LATINOAMERICA</title><thumbnail>http://lh6.ggpht.com/-5FWzMIZ0Ni8/VH1-rWUZG1I/AAAAAAAAbeE/qJT69OM5ask/s71/i-sat.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/maxprime.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  MAX PRIME -LATINOAMERICA</title><thumbnail>http://lh3.ggpht.com/-3Vgg8Qu8_yU/VBoh3a0W7JI/AAAAAAAAbT0/FiT0hoCKPXg/s71/max-prime.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/sony.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  SONY -LATINOAMERICA</title><thumbnail>http://lh6.ggpht.com/-HTvR71bet7c/VFxBtH6wQQI/AAAAAAAAbXs/0BlAdbx4XYA/s71/canal-sony.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/studiouniversal.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  STUDIO UNIVERSAL -LATINOAMERICA</title><thumbnail>http://lh6.ggpht.com/-H0iGl5HeJGI/VHknIPtVMQI/AAAAAAAAbc8/yRfau2lFPHs/s71/studio-universal.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/syfy.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  SYFY -LATINOAMERICA</title><thumbnail>http://lh6.ggpht.com/-UcSRDNO1Cxw/VHknITvVF7I/AAAAAAAAbdU/x-z7aILdkBE/s71/syfy.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/tbs.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  TBS -LATINOAMERICA</title><thumbnail>http://lh6.ggpht.com/-y-SqBTGOccc/Ud2tMlMWDwI/AAAAAAAAZBg/bs6BnNTwrhk/s71/TBS-Very-Funny.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/tcm.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  TCM -LATINOAMERICA</title><thumbnail>http://lh6.ggpht.com/-90e4Z1XRjag/VHknImRXIcI/AAAAAAAAbdc/YGVrk3Sbcs8/s71/tcm.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/tnt.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  TNT -LATINOAMERICA</title><thumbnail>http://2.bp.blogspot.com/-uW27barMT74/VFxBuvjh-OI/AAAAAAAAbYw/irp_szF81dM/s71/tnt.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/tntseries.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  TNT SERIES -LATINOAMERICA</title><thumbnail>http://2.bp.blogspot.com/-eJpQKnw4ujo/VQosHy1Cf-I/AAAAAAAAblw/nO3_9EQJd5E/s71/tnt-series.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/universal.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  UNIVERSAL -LATINOAMERICA</title><thumbnail>http://4.bp.blogspot.com/-43iG5Iwt2ng/VFxBuhFjlVI/AAAAAAAAbYU/ocdcyTIws6g/s71/universal-channel.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/warnerchannel.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  WARNER CHANNEL -LATINOAMERICA</title><thumbnail>http://lh6.ggpht.com/-hVSy00jKtv0/VFxBuymlLEI/AAAAAAAAbYc/-ZksnKYuRv8/s71/warner-channel.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/ae.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  AE -LATINOAMERICA</title><thumbnail>http://4.bp.blogspot.com/-2Yqz_45cEoc/VGwI_LRUNsI/AAAAAAAAbZo/6Vglbmo-g8I/s71/ae.png</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/animalplanet.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  ANIMAL PLANET -LATINOAMERICA</title><thumbnail>http://lh4.ggpht.com/-l77p8_aIKb4/U-AJquq0MaI/AAAAAAAAbJQ/O98xU6QNqZ4/s71/animal-planet.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/discovery.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  DISCOVERY -LATINOAMERICA</title><thumbnail>http://4.bp.blogspot.com/-LMCH8rp8C1g/UlcSTAc9SkI/AAAAAAAAaT4/r-6lTTqkPtM/s71/discovery-channel.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/discoverycivilization.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  DISCOVERY CIVILIZATION -LATINOAMERICA</title><thumbnail>http://1.bp.blogspot.com/-NK1DiTvBDhA/VHknESN-5TI/AAAAAAAAbbQ/O88Xa16KMBI/s71/discovery-civilization.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/discoveryhomehealth.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  DISCOVERY HOME HEALTH -LATINOAMERICA</title><thumbnail>http://1.bp.blogspot.com/-funX_hDYevM/VHknEnpAtnI/AAAAAAAAbdw/pgF0BmGMM8k/s71/discovery-home-health.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/discoveryinvestigacion.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  DISCOVERY INVENTIGATION -LATINOAMERICA</title><thumbnail>http://1.bp.blogspot.com/-UQnPwqS4L90/VHknG3lARiI/AAAAAAAAbdk/vdvT_GT1IJ0/s71/id-investigation-discovery.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/discoveryturbo.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  DISCOVERY TURBOL -LATINOAMERICA</title><thumbnail>http://1.bp.blogspot.com/-e3GFFTbXmZ0/VRZdYrDSxGI/AAAAAAAAbmk/cQnid4ZdUBE/s71/discovery-turbo.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+<item><sportsdevil>http://cinestrenostv.tv/canales/argentina/historia.php</sportsdevil><referer>http://cinestrenostv.tv</referer><title>[COLOR skyblue][Cinestrenos.Tv][/COLOR]  HISTORIA -LATINOAMERICA</title><thumbnail>http://lh6.ggpht.com/_mvoRVjZBdzQ/TSKeS8zs_fI/AAAAAAAAEIQ/ywWZ89c9HcI/s71/historychannel.PNG</info><thumbnail>http://imagenlogo</thumbnail></item>
+
+
+
+
+
+ 
+ <!---------------------------------------------------------------- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ -->
+ 
+
+			
+
+			<item>
+			<title>decasa</title>
+			<link>http://decasa.level3.nmp.hls.emision.dof6.com/sogecable/channel44/index.m3u8</link>
+			
+			<thumbnail>http://imagenlogo</thumbnail></item>
+			
+	
+	
+	<item>
+        <title>Hogar Util</title>
+        <link>http://brightcove03-f.akamaihd.net/HOGARUTIL_1_1100@117573?videoId=2518851062001&lineUpId=&pubId=2385340627001&playerId=2418571368001&affiliateId=&v=3.1.0&fp=WIN 11,9,900,117&r=JRBLZ&g=LBXIUFRGSVGB</link>
+        <thumbnail>http://imagenlogo</thumbnail></item>
+		
+		
+
+		
+			
+			
+			<item>
+			<title>Tribu TV</title>
+			<link>http://tribotv-ch01-live-cdn1-hls.streaming.overon.es/tribotv/channel01/tribotv/bitrate_3.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+			
+			
+			
+			
+			
+			
+			<item>
+			<title>Divinity</title>
+			<link>http://mdsios3-lh.akamaihd.net/i/mitele/esmediaset_31@168475/index_0_av-p.m3u8?sd=10&rebase=on</link>
+			<thumbnail></thumbnail>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+			<item>
+			<title>Energy</title>
+			<link>http://mdsiosgeo0-lh.akamaihd.net/i/mitele/esmedia_01@175317/index_0_av-p.m3u8?sd=10&rebase=on</link>
+			<thumbnail></thumbnail>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+			
+			
+			
+			
+
+			
+
+
+			<item>
+			<title>Telecinco</title>
+			<link>http://mdsios2-lh.akamaihd.net/i/mitele/esmediaset_21@168473/index_0_av-p.m3u8?sd=10&rebase=on</link>
+			<thumbnail></thumbnail>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+			
+		
+			
+			<item>
+			<title>La sexta</title>
+			<link>http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel02/la_sexta_hd_1548K_1280x720_main.m3u8</link>
+			<thumbnail></thumbnail>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+			
+			
+			
+
+			
+
+			
+			<item>
+			<title>Canal Sur</title>
+			<link>http://iphone-andaluciatelevision.rtva.stream.flumotion.com/rtva/andaluciatelevision-iphone-multi/main.m3u8</link>
+			<thumbnail></thumbnail>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+			
+			<item>
+			<title>TV3 Catalan</title>
+			<link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:324_web/chunklist_b798000_DVR.m3u8</link>
+			<thumbnail></thumbnail>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+			
+		
+			
+			
+			
+			
+			<item>
+			<title>LIBERTAD DIGITAL TV (HD) </title>
+			<link>http://149.11.34.6:1935/live/ldtv.stream/playlist.m3u8</link>
+			<thumbnail></thumbnail>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+			
+			<item>
+			<title>TV3cat (HD) </title>
+			<link>http://www.tv3.cat/directetv3cat/tv3catpc.m3u8</link>
+			<thumbnail></thumbnail>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+			
+			<item>
+			<title>Canal Extremadura </title>
+			<link>http://corporacionextremena-live.hls.adaptive.level3.net/hls-live/corporacionextremena-channel02/_definst_/live.m3u8</link>
+			<thumbnail></thumbnail>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+			
+			<item>
+			<title>TVG Galicia America </title>
+			<link>http://media3.crtvg.es/live/tvga/playlist.m3u8</link>
+			<thumbnail></thumbnail>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+			
+			<item>
+			<title>Canal Sur Andalucia (SD) </title>
+			<link>http://195.10.10.213/rtva/andaluciatelevisionh264.flv?GKID=ac47d694410111e4bf3d00163e914f69</link>
+			<thumbnail></thumbnail>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+			
+			<item>
+			<title>Hallo TV </title>
+			<link>http://83.169.58.38:1935/live/HalloTV1/playlist.m3u8</link>
+			<thumbnail></thumbnail>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+			
+			
+			<item>
+			<title>Aragon TV </title>
+			<link>rtmp://aragontvlivefs.fplive.net/aragontvlive-live/stream_normal_abt</link>
+			<thumbnail></thumbnail>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+			
+						
+
+			<item>
+			<title>CANAL TV3 CATALAN [COLOR gray](aporte David)[/COLOR]</title>
+			 <link>http://www.tv3.cat/directetv3cat/tv3catpc.m3u8</link>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+			<item>
+			<title>CANAL 8TV CATALAN </title>
+			 <link>rtmp://streaming.8tv.cat:1935/8TV?videoId=3998198240001&lineUpId=&pubId=1589608506001&playerId=1982328835001&affiliateId= playpath=8aldia-directe?videoId=3998198240001&lineUpId=&pubId=1589608506001&playerId=1982328835001&affiliateId= swfUrl=http://admin.brightcove.com/viewer/us20141117.1347/federatedVideoUI/BrightcovePlayer.swf?uid=1423598267178 live=1 pageUrl=http://www.8tv.cat/directe/</link>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+			<item>
+			<title>AUTONOMICA [COLOR gray](aporte David)[/COLOR]</title>
+			<link>rtmp://94.23.54.177/8TV playpath=8aldia-directe swfUrl=http://css01.mundodeportivo.com/imagenes/players/player.swf live=1 pageUrl=http://narrowcast.lavanguardia.com</link>
+			<thumbnail>http://imagenlogo</thumbnail></item> 
+
+			<item>
+			<title>CANAL TELVISIO DE GALICIA  [COLOR gray](aporte David)[/COLOR]</title>
+			<link>http://media3.crtvg.es/live/tvge/playlist.m3u8 </link>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+			<item>
+			<title>CANAL TELEVISION DE MELILLA [COLOR gray](aporte David)[/COLOR]</title>
+			 <link>rtmp://stream.tvmelilla.es:1935/tvmelilla playpath=live swfUrl=http://tvmelilla.es/jwplayer/player.swf live=1 pageUrl=http://tvmelilla.es/directo.html</link>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+			<item>
+			<title>CANAL SUR [COLOR gray](aporte David)[/COLOR]</title>
+			 <link>http://iphone-andaluciatelevision.rtva.stream.flumotion.com/rtva/andaluciatelevision-iphone-multi/main.m3u8</link>
+			<thumbnail>http://imagenlogo</thumbnail></item> 
+
+			<item>
+			<title>CANAL TV CANARIAS [COLOR gray](aporte David)[/COLOR]</title>
+			<link>rtmp://streamrtvcdrb.mad.idec.net/rtvcnet playpath=rtvcnet.drb.stream swfUrl=http://www2.rtvc.es/swf/flowplayer.rtmp-3.1.3.swf live=1 pageUrl=http://www2.rtvc.es/television/enDirecto.aspx?canal=tv</link>
+			<thumbnail>http://imagenlogo</thumbnail></item> 
+
+			<item>
+			<title>CANAL EXTREMADURA [COLOR gray](aporte David)[/COLOR]</title>
+			<link>rtmp://corporacionextremenaocclivefs.fplive.net/corporacionextremenalive-live/ playpath=stream1 swfUrl=http://www.canalextremadura.es/site...slx_reproductor/js/mediaplayer-5.7/player.swf live=1 pageUrl=http://www.canalextremadura.es/alacarta/tv/directo</link>
+			<thumbnail>http://imagenlogo</thumbnail></item>
+
+
+			
+			
+			
+			
+
+			<item>
+			<title>RTVE CLAN</title>
+			<link>http://media0.rtve.es/resources/TE_GLESP/mp4/5/1/1303316681415.mp4?aksessionid=1303766307140_392613</link>    
+			<thumbnail>http://imagenlogo</thumbnail></item>
+
+			
+			
+			
+			<item><title> </title><link>http://ignorame</link><thumbnail>http://imagenlogo</thumbnail></item>
+		
+			<item><title>[COLOR magenta][B]LOCALES ESPAÑA[/B][/COLOR]</title><link>http://iphonelive.rtve.es/TDP_LV3_IPH/bitrate_2.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]ONDA JEREZ[/COLOR]</title><link>http://37.187.135.65:1935/live/directo/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			
+			<item><title>[COLOR magenta][B]La 1[/B][/COLOR]</title><link>http://iphonelive.rtve.es/LA1_LV3_IPH/bitrate_2.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]TELEDEPORTE[/COLOR]</title><link>http://dtv_hls_live-lh.akamaihd.net/i/dtvhls02_delivery@195373/index_4128_av-p.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]NOVA-neox[/COLOR]</title><link>http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel11/index.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]HOGARUTIL[/COLOR]</title><link>http://brightcove03-f.akamaihd.net/HOGARUTIL_1_1100@117573</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]24H[/COLOR]</title><link>http://iphonelive.rtve.es/24H_LV3_IPH/bitrate_2.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]TELECINCO[/COLOR]</title><link>http://xurl.es/tele5</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]ANDALUCIATV[/COLOR]</title><link>http://andaluciatelevision.rtva.stream.flumotion.com/rtva/andaluciatelevisionh264.flv.m3u</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]ANDALUCIATV2[/COLOR]</title><link>http://iphone-andaluciatelevision.rtva.stream.flumotion.com/rtva/andaluciatelevision-iphone-multi/main.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]RADIO105[/COLOR]</title><link>rtmp://fms.105.net/live/105Test1</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]ANTENA3HD[/COLOR]</title><link>http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel01/antena_3_hd_1548K_1280x720_main.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]LASEXTAHD[/COLOR]</title><link>http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel02/la_sexta_hd_1548K_1280x720_main.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]ELCORREOTV[/COLOR]</title><link>http://cls.elitehd-audiovisuales.com/luztv/livestream/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]GRANADA7[/COLOR]</title><link>http://cdns724ste1021.multistream.net/StreamingDirectolive/TG7-200/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]SANROQUE[/COLOR]</title><link>http://flash3.todostreaming.es/sanroque/mystream/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]I+[/COLOR]</title><link>rtmp://149.11.34.6/live/imastv.stream</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]TINDAYATV[/COLOR]</title><link>http://videostream.provideo.es/tindayatv/livestream/chunklist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]CORDOBA[/COLOR]</title><link>http://212.225.255.241:1111RTceuta</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]OASISTV[/COLOR]</title><link>rtmp://edge.wms28.lorini.net/oasistv/oasistv</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]NAVARRA[/COLOR]</title><link>http://cdn.b3.eu.nice264.com:1935/niceLiveServer/NTV_livenatvmb_MB_328ext/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]FERROL[/COLOR]</title><link>mms://5.199.227.2/tvf</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]LEVANTE[/COLOR]</title><link>http://teledifusion.tv:1935/levantetvlive/levantetvlive/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]ALICANTE[/COLOR]</title><link>http://origin.nirestream.tv:80/livetva/Tva/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]DIATENERIFE[/COLOR]</title><link>http://teledifusion.tv:1935/dia/dia/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]OJOSSOLIDARIOS[/COLOR]</title><link>http://wm.mad.interhost.com:80/OjosSolidariosTv/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]TELE BILBAO[/COLOR]</title><link>rtmp://149.11.34.6:1935/live/telebilbao.stream</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]TELE BILBAO 2[/COLOR]</title><link>rtmp://149.11.34.6/live/telebilbao.stream</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]MALAGA[/COLOR]</title><link>mms://canallocal.ptvtelecom.com/PTV-MALAGA</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]CASTILLA[/COLOR]</title><link>http://live.rtvcm.stream.flumotion.com/rtvcm/live.flv.m3u</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]ETB[/COLOR]</title><link>rtmp://cp70268.live.edgefcs.net/live/eitb-ETBSat@5219</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]CYL[/COLOR]</title><link>rtmp://cdn.s10.eu.nice264.com/niceLiveServer/cyl_cyltvlivem_MB_698ext</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]IB3[/COLOR]</title><link>http://ibsatiphone.ib3tv.com/iphoneliveIB3/IB3/IB3.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]ARAGON[/COLOR]</title><link>http://149.11.34.6:1935/live/aragontv.stream/vcx7.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]MEDITERRANEO[/COLOR]</title><link>http://streaming.enetres.net/489DDF7FE98241D19D8970314BC9D3EF021/smil:live.smil/DVR_b600000_w555613878.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]ASTURIAS[/COLOR]</title><link>rtmp://149.11.34.6:1935/live//teleasturias.stream</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]TOLEDO[/COLOR]</title><link>http://flash3.todostreaming.es/edesco/livestream/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]ANDORRA[/COLOR]</title><link>rtmp://194.158.80.31/live/web</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]MIRATV[/COLOR]</title><link>rtmp://tulip.wowzacontrol.com:1935/8150/8150</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]ELITV[/COLOR]</title><link>mms://178.33.117.87/ELITE-TV</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]CEUTA[/COLOR]</title><link>rtmp://teledifusion.tv/anguloceuta/anguloceuta</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]COSTASOL[/COLOR]</title><link>rtmp://flash0.80385-live0.dna.qbrick.com:1935/80385-live0/costa</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]HUELVACOSTA[/COLOR]</title><link>http://cls.todostreaming.eu/azahara/lepevision/chunklist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]ELDIATV[/COLOR]</title><link>rtmp://teledifusion.tv:1935/dia/dia</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]MELILLA[/COLOR]</title><link>http://stream.tvmelilla.es:1935/tvmelilla/live/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]TP7ASTURIAS[/COLOR]</title><link>http://195.10.10.209/rtpa/tv.flv?GKID=2b1a6294f48f11e3bcc100163ea2c744</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]RIBERA[/COLOR]</title><link>http://flash3.todostreaming.es/ribera/livestream/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]TV4[/COLOR]</title><link>http://flash3.todostreaming.es/15o8376r/mystream/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]CADIZ[/COLOR]</title><link>http://flash3.todostreaming.es/unatv2/live/playlist.m3u8 </link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]24HORAS[/COLOR]</title><link>http://iphonelive.rtve.es/24H_LV3_IPH/bitrate_2.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]ANTENA3[/COLOR]</title><link>rtmp://antena3fms35livefs.fplive.net/antena3fms35live-live//stream-antena3_1</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]ARAGONTV[/COLOR]</title><link>http://149.11.34.6:1935/live/aragontv.stream/vcx7.m3u8 </link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]DIOCESANO[/COLOR]</title><link>rtmp://flash3.todostreaming.es/edesco/livestream</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]DIRECTOTV[/COLOR]</title><link>rtmp://87.106.183.39/live/myStream_2</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]ONDACEROTV[/COLOR]</title><link>rtmp://antena3fms35livefs.fplive.net/antena3fms35live-live//stream-eventos6_1</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]HUELVATV[/COLOR]</title><link>http://flash3.todostreaming.es/huelvatv/livestream/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]BALEARESTV[/COLOR]</title><link>http://ibsatiphone.ib3tv.com/iphoneliveIB3/IB3/IB3.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]IBIZATV[/COLOR]</title><link>rtsp://46.249.213.87/broadcast/ibizaontv-tablet.3gp?trackingid=3041310000</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]LASEXTA[/COLOR]</title><link>http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel02/la_sexta_hd_1548K_1280x720_main.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]ELCORREOTV[/COLOR]</title><link>http://cls.elitehd-audiovisuales.com/luztv/livestream/playlist.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]RTPATV[/COLOR]</title><link>http://iphone.rtpa.stream.flumotion.com/rtpa/tv-iphone/main.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]SEVILLATV[/COLOR]</title><link>rtmp://flash0.80137-live0.dna.qbrick.com/80137-live0/sevillafc</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]RIOJATV[/COLOR]</title><link>mms://87.106.208.121/stv</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]TELEMADRID[/COLOR]</title><link>http://iphone.telemadrid.es.edgesuite.net/telemadridsat_iphone.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]TV3CAT[/COLOR]</title><link>http://tv3catnogeo-live.hls.adaptive.level3.net/tv3/tv3cat/tv3cat/tv3cat.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]TVGALICIA[/COLOR]</title><link>http://media3.crtvg.es/live/tvga/hasbahca.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]EXTREMADURATV[/COLOR]</title><link>rtmp://corporacionextremenaocclivefs.fplive.net/corporacionextremenalive-live//stream1</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]TELEDEPORTE[/COLOR]</title><link>http://iphonelive.rtve.es/TDP_LV3_IPH/TDP_LV3_IPH.m3u8 </link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]TV3[/COLOR]</title><link>http://www.tv3.cat/directetv3cat/tv3catpc.m3u8 </link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]ARAGONTV[/COLOR]</title><link>rtmp://aragontvlivefs.fplive.net/aragontvlive-live/stream_normal_abt</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]GALICIA[/COLOR]</title><link>http://media3.crtvg.es/live/tvge/sota.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]FERROL[/COLOR]</title><link>rtsp://streaming.arsenet.com/tvf</link><thumbnail>http://imagenlogo</thumbnail></item>
+			<item><title>[COLOR magenta]ASTURIAS[/COLOR]</title><link>rtmp://149.11.34.6/live/teleasturias.stream</link><thumbnail>http://imagenlogo</thumbnail></item>
+<item><title>[COLOR=orange]test[/COLOR]</title><link>http://167.114.156.30:1935/flu555/_definst_/jhgtv/playlist.m3u8?token=</link><thumbnail>http://imagenlogo</thumbnail></item>
+<item><title>[COLOR=orange]test[/COLOR]</title><link>http://93.174.95.125:1935/edge/_definst_/gj65q2rg18tpmut/playlist.m3u8?wowzasessionid=1419811602</link><thumbnail>http://imagenlogo</thumbnail></item>
+<item><title>[COLOR=orange]test[/COLOR]</title><link>http://93.174.95.125:1935/edge/_definst_/dhp0rpd116qyyj6/playlist.m3u8?wowzasessionid=1419874554</link><thumbnail>http://imagenlogo</thumbnail></item>
+
+			
+
+	
+
+<item><title>carnaval vegano</title><link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls2/124.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+<item><title>megavision/title><link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls2/123.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+<item><title>sistema tv/title><link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls2/127.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+
+<item><title>bio 23</title><link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls2/129.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+	<item><title>plus futbol</title><link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls2/119.m3u8</link><thumbnail>http://imagenlogo</thumbnail></item>
+
+
+					
+        </items>
+		
+		
+    </channel>

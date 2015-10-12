@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+    <name>[COLOR=green]-----[/COLOR][COLOR=orange]► E N T R E T E N I M I E N T O  [COLOR gray]Latino: Fox • Warner • Axn • Telemundo • Univision • Unimas • Space • HBO  • Series 24/7 • Los Simpsons • Dragon Ball • Saint Seya : Caballeros del Zodiaco • El Chavo • Southpark • La hora de la Aventura •   [/COLOR][/COLOR][COLOR=green]-----[/COLOR]</name>
+    <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
+    <fanart>http://i.imgur.com/ycfHPQv.jpg</fanart>
+        <items>
+           <items_info> <!-- this is opitonal -->
+      <title>Adryan List </title>
+      <genre>Tv Live</genre>
+      <description>: Lista de Canales para el Livestreamspro :</description>
+      <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
+      <fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+      <date>03.02.2015</date>
+      <credits>adryan</credits>
+    </items_info>
+	
+	<item>
+			<title>[COLOR skyblue]/-/-/-/-/-/-/-/-/-/-   [COLOR deepskyblue]ENTRETENIMIENTO[/COLOR]  /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-[/COLOR]</title>
+			<link>http://ignora.me</link>
+	</item>
+	
+	
+	
+	
+			
+	
+	
+	
+	
+	<item>
+<title>Gran Hermano Argentina 24hrs en Vivo.</title>
+<link>http://prepublish.f.qaotic.net/a07/ngrp:gh_channel1-100033_all/Playlist.m3u8|Referer=http://vmf.edge-apps.net/embed/live.php?streamname=gh_channel1-100033&autoplay=true</link>
+</item>
+
+
+			
+			<item>
+			<title>[COLOR skyblue]Big Brother Mexico op1[/COLOR]</title>
+			<fanart>http://amqueretaro.com/wp-content/uploads/2015/03/Big-brother-reabrir%C3%A1-sus-puertas-en-M%C3%A9xico-a-partir-de-septiembre-700x325.jpg</fanart>
+			<thumbanail>http://amqueretaro.com/wp-content/uploads/2015/03/Big-brother-reabrir%C3%A1-sus-puertas-en-M%C3%A9xico-a-partir-de-septiembre-700x325.jpg</thumbanail>
+			<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://cdn.shidurlive.com/player.swf swfVfy=1 pageUrl=http://www.shidurlive.com$doregex[do-ping] live=1 timeout=15</link>
+			<regex>
+			<name>rtmp</name>
+			<expres>ova.php.*\n.*\n.*'streamer', '(.*?)'</expres>
+			<page>$doregex[get-page]</page>
+			<cookieJar></cookieJar>
+			<referer>http://tv.televall.com.mx/bigbrother.html</referer>
+			</regex>
+			<regex>
+			<name>path</name>
+			<expres>ova.php.*\n.*unescape..(.*?)'</expres>
+			<page>$doregex[get-page]</page>	
+			<referer>http://tv.televall.com.mx/bigbrother.html</referer>
+			</regex>
+			<regex>
+			<name>do-ping</name>
+			<expres></expres>
+			<page>$doregex[pagewait]$doregex[get-ping]</page>
+			<referer>http://shidurlive.com</referer>
+			<ignorecache/>
+			</regex>
+			<regex>
+			<name>pagewait</name>
+			<expres>$pyFunction: '' if xbmc.sleep(15000) else ''</expres>
+			<page></page>
+			<referer>http://shidurlive.com</referer>
+			<cookieJar></cookieJar>
+			</regex>
+			<regex>
+			<name>get-ping</name>
+			<expres>"pingsts" src="(.*?)"</expres>
+			<page>$doregex[get-page]</page>
+			<cookieJar></cookieJar>
+			<referer>http://tv.televall.com.mx/bigbrother.html</referer>
+			</regex>
+			<regex>
+			<name>get-page</name>
+			<expres>src="(.*?)"</expres>
+			<page>http://shidurlive.com/embed/sky1</page>
+			<referer>http://tv.televall.com.mx/bigbrother.html</referer>
+			<cookieJar></cookieJar>
+			</regex>
+			<thumbnail></thumbnail>
+			</item>
+			
+		<item>
+
+
+		
+			<item>
+			<title>[COLOR skyblue]Big Brother Mexico op2[/COLOR]</title>
+			<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://cdn.shidurlive.com/player.swf swfVfy=1 pageUrl=http://www.shidurlive.com$doregex[do-ping] live=1 timeout=15</link>
+			<regex>
+			<name>rtmp</name>
+			<expres>ova.php.*\n.*\n.*'streamer', '(.*?)'</expres>
+			<page>$doregex[get-page]</page>
+			<cookieJar></cookieJar>
+			<referer>http://tv.televallhd.com/planeta.html</referer>
+			</regex>
+			<regex>
+			<name>path</name>
+			<expres>ova.php.*\n.*unescape..(.*?)'</expres>
+			<page>$doregex[get-page]</page>	
+			<referer>http://tv.televallhd.com/planeta.html</referer>
+			</regex>
+			<regex>
+			<name>do-ping</name>
+			<expres></expres>
+			<page>$doregex[pagewait]$doregex[get-ping]</page>
+			<referer>http://shidurlive.com</referer>
+			<ignorecache/>
+			</regex>
+			<regex>
+			<name>pagewait</name>
+			<expres>$pyFunction: '' if xbmc.sleep(15000) else ''</expres>
+			<page></page>
+			<referer>http://shidurlive.com</referer>
+			<cookieJar></cookieJar>
+			</regex>
+			<regex>
+			<name>get-ping</name>
+			<expres>"pingsts" src="(.*?)"</expres>
+			<page>$doregex[get-page]</page>
+			<cookieJar></cookieJar>
+			<referer>http://tv.televallhd.com/planeta.html</referer>
+			</regex>
+			<regex>
+			<name>get-page</name>
+			<expres>src="(.*?)"</expres>
+			<page>http://shidurlive.com/embed/planeta00</page>
+			<referer>http://tv.televallhd.com/planeta.html</referer>
+			<cookieJar></cookieJar>
+			</regex>
+			<thumbnail></thumbnail>
+			</item>
+
+			
+
+
+<item>
+<title>[COLOR skyblue]Big Brother Mexico op3[/COLOR]</title>
+<link>http://iptvlatam.cf/hls/bigbro/playlist.m3u8</link>
+<thumbnail>http://amqueretaro.com/wp-content/uploads/2015/03/Big-brother-reabrir%C3%A1-sus-puertas-en-M%C3%A9xico-a-partir-de-septiembre-700x325.jpg</thumbnail>
+<FANART>http://amqueretaro.com/wp-content/uploads/2015/03/Big-brother-reabrir%C3%A1-sus-puertas-en-M%C3%A9xico-a-partir-de-septiembre-700x325.jpg</FANART>
+</item>
+
+
+
+
+<item>
+<title>[COLOR skyblue]Big Brother Mexico op4[/COLOR]</title>
+<link>http://3v3ntmex-lh.akamaihd.net/i/b1km3x04_1@138929/master.m3u8</link>
+<thumbnail>http://amqueretaro.com/wp-content/uploads/2015/03/Big-brother-reabrir%C3%A1-sus-puertas-en-M%C3%A9xico-a-partir-de-septiembre-700x325.jpg</thumbnail>
+<FANART>http://amqueretaro.com/wp-content/uploads/2015/03/Big-brother-reabrir%C3%A1-sus-puertas-en-M%C3%A9xico-a-partir-de-septiembre-700x325.jpg</FANART>
+</item>
+
+
+
+
+<item><title>[COLOR silver][Inestables][/COLOR]  BIG BROTHER 1</title><link>http://192.240.113.42:1935/live/canal078.stream/playlist.m3u8?username=team30&password=team30</link></item>
+<item><title>[COLOR silver][Inestables][/COLOR]  BIG BROTHER 2</title><link>http://192.240.113.42:1935/live/canal079.stream/playlist.m3u8?username=team30&password=team30</link></item>
+<item><title>[COLOR silver][Inestables][/COLOR]  BIG BROTHER 3</title><link>http://192.240.113.42:1935/live/canal080.stream/playlist.m3u8?username=team30&password=team30</link></item>
+<item><title>[COLOR silver][Inestables][/COLOR]  BIG BROTHER 4</title><link>http://192.240.113.42:1935/live/canal077.stream/playlist.m3u8?username=team30&password=team30</link></item>
+
+
+<item><title>[COLOR hotpink]Rai IT[/COLOR]</title><link>http://httpstream2.rai.it/rn24.isml/QualityLevels(1256000)/manifest(format=m3u8-aapl).m3u8  </link></item>	<item><title>[COLOR hotpink]FOX  [/COLOR]</title><link>http://201.161.59.6/fox.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]FX [/COLOR]</title><link>http://201.161.59.6/fx.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]SONY  [/COLOR]</title><link>http://201.161.59.6/sony.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]STUDIO UNIVERSAL  [/COLOR]</title><link>http://201.161.59.4/studio.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]WARNER [/COLOR]</title><link>http://201.161.59.6/warner.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]WOBI[/COLOR]</title><link>http://201.161.59.4/wobi.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]LIFETIME[/COLOR]</title><link>http://201.161.59.7/lifetime.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]FOX LIFE[/COLOR]</title><link>http://201.161.59.7/foxlife.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]E[/COLOR]</title><link>http://201.161.59.6/e.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]GOLDEN[/COLOR]</title><link>http://201.161.59.4/golden.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]Golden Edge[/COLOR]</title><link>http://201.161.59.7/goldenedge.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]Paramount Channel[/COLOR]</title><link>http://iptv.latino-webtv.com/paramount-channel.m3u8</link></item><item><title>[COLOR hotpink]National Geographic[/COLOR]</title><link>http://iptv.latino-webtv.com/nat-geo.m3u8</link></item><item><title>[COLOR hotpink]History HD[/COLOR]</title><link>http://iptv.latino-webtv.com/history.m3u8</link></item><item><title>[COLOR hotpink]A&E HD[/COLOR]</title><link>http://iptv.latino-webtv.com/a-and-e.m3u8</link></item><item><title>[COLOR hotpink]Lifetime[/COLOR]</title><link>http://iptv.latino-webtv.com/lifetime.m3u8</link></item><item><title>[COLOR hotpink]Tlnovelas[/COLOR]</title><link>http://iptv.latino-webtv.com/tlnovelas.m3u8</link></item><item><title>[COLOR hotpink]SyFy[/COLOR]</title><link>http://iptv.latino-webtv.com/syfy.m3u8</link></item><item><title>[COLOR hotpink]The Film Zone HD[/COLOR]</title><link>http://iptv.latino-webtv.com/the-film-zone.m3u8<item><title>[COLOR hotpink]DISNEY XD[/COLOR]</title><link>http://201.161.59.4/disneyxd.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]NICK[/COLOR]</title><link>http://201.161.59.6/nick.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]CARTOON NETWORK[/COLOR]</title><link>http://201.161.59.6/cartoonnetwork.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]cbebbies[/COLOR]</title><link>http://201.161.59.6/cbeebies.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]KW[/COLOR]</title><link>http://201.161.59.4/kw.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]NAT GEO[/COLOR]</title><link>http://201.161.59.3/natgeo.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]HISTORY[/COLOR]</title><link>http://201.161.59.7/history.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]H2[/COLOR]</title><link>http://201.161.59.3/h2.isml/QualityLevels(1817984)/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]CANAL DHE[/COLOR]</title><link>http://201.161.59.7/dhe.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]MILENIO TELEVISION[/COLOR]</title><link>http://201.161.59.3/milenio.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]CINE LATINO[/COLOR]</title><link>http://201.161.59.4/cinelatino.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]UNICABLE[/COLOR]</title><link>http://201.161.59.6/unicable.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]TL Novelas[/COLOR]</title><link>http://201.161.59.6/tlnovelas.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]DISTRITO COMEDIA[/COLOR]</title><link>http://201.161.59.6/clasicotv.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]BANDAMAX[/COLOR]</title><link>http://201.161.59.4/bandamax.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]RITMOSON[/COLOR]</title><link>http://201.161.59.4/ritmoson.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]TELEHIT[/COLOR]</title><link>http://201.161.59.7/telehit.isml/manifest(format=m3u8-aapl).m3u8</link></item> <item><title>[COLOR hotpink]Canal de Musica[/COLOR]</title><link>http://live.mvdigital.net:1935/live13/livestream1.sdp/playlist.m3u8</link></item>		<item><title>[COLOR hotpink]Nu Music Tv[/COLOR]</title><link>http://201.161.59.5/nu.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]Milenio[/COLOR]</title><link>http://201.161.59.4/milenio.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]Canal de las estrellas[/COLOR]</title><link>http://201.161.59.3/canal2.isml/manifest(format=m3u8-aapl).m3u8</link></item><item><title>[COLOR hotpink]Canal Cinco[/COLOR]</title><link>http://201.161.59.3/canal5.isml/manifest(format=m3u8-aapl).m3u8</link></item>	<item><title>[COLOR hotpink]Azteca 7  [/COLOR]</title><link>http://201.161.59.3/azteca7.isml/manifest(format=m3u8-aapl).m3u8</link></item>		<item><title>[COLOR hotpink]Foro TV[/COLOR]</title><link>http://201.161.59.3/forotv.isml/manifest(format=m3u8-aapl).m3u8</link></item>	<item><title>[COLOR hotpink]GalaTV[/COLOR]</title><link>http://201.161.59.3/galavision.isml/manifest(format=m3u8-aapl).m3u8</link></item>	<item><title>[COLOR hotpink]Once TV [/COLOR]</title><link>http://201.161.59.3/oncetv.isml/manifest(format=m3u8-aapl).m3u8</link></item>		<item><title>[COLOR hotpink]Cadena 3  [/COLOR]</title><link>http://201.161.59.3/cadena3.isml/manifest(format=m3u8-aapl).m3u8</link></item>		<item><title>[COLOR hotpink]Canal 52 MX  [/COLOR]</title><link>http://201.161.59.4/canal52.isml/manifest(format=m3u8-aapl).m3u8</link></item>			<item><title>[COLOR hotpink]Multicinema[/COLOR]</title><link>http://201.161.59.7/multicinema.isml/QualityLevels(1928000)/manifest(format=m3u8-aapl).m3u8</link></item>	<item><title>[COLOR hotpink]DPelicula[/COLOR]</title><link>http://201.161.59.7/depelicula.isml/QualityLevels(1928000)/manifest(format=m3u8-aapl).m3u8</link></item>	<item><title>[COLOR hotpink]DHE[/COLOR]</title><link>http://201.161.59.7/dhe.isml/QualityLevels(1928000)/manifest(format=m3u8-aapl).m3u8</link></item>			
+				
+
+
+
+
+
+
+
+				<item>			<title>[COLOR pink]Canal FOX op2 [/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.mips.tv:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.mips.tv/membedplayer/zeyuxof1/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.mips.tv</referer>			</regex>			</item>	
+
+
+				
+
+				<item>			<title>[COLOR pink]Canal Fox op3[/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamifyplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.streamifyplayer.com/membedplayer/foxperusalem/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.streamifyplayer.com</referer>			</regex>			</item>	<item>			<title>[COLOR pink]Warner Channel[/COLOR]</title>			<link>rtmp://$doregex[ip]/live playpath=warner2021?id=15846$doregex[pk] swfUrl=http://www.janjuaplayer.com/resources/scripts/eplayer.swf tcUrl=rtmp://janjua.tv:1935/live/			pageUrl=http://www.janjuaplayer.com swfVfy=1 timeout=15 live=1 conn=S:OK</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)<expres>			<page>http://www.janjuaplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>pk</name>			<expres>ea=(.*)'</expres> 			<page>http://www.janjuaplayer.com/embedplayer/warner2021/1/620/382</page>			<referer>http://www.janjuaplayer.com/</referer>			</regex>			</item>			<item>			<title>[COLOR pink]Warner Channel[/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamifyplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.streamifyplayer.com/membedplayer/warnerperusalem/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.streamifyplayer.com</referer>			</regex>			</item>		<item>			<title>[COLOR pink]MTV Latino [/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamifyplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.streamifyplayer.com/membedplayer/mtvmalosolandia/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.streamifyplayer.com</referer>			</regex>			</item>				<item>				<title>[COLOR pink]TeleMusica[/COLOR]</title>				<link>http://186.155.200.118:1935/live/telemusica/master.m3u8?sd=10&rebase=on</link>			</item>			 			 			 			 	<item>			<title>[COLOR pink]Telehit[/COLOR]</title>			<link>rtmp://$doregex[ip]/live playpath=telehit2016?id=14065$doregex[pk] swfUrl=http://www.janjuaplayer.com/resources/scripts/eplayer.swf tcUrl=rtmp://janjua.tv:1935/live/			pageUrl=http://www.janjuaplayer.com swfVfy=1 timeout=15 live=1 conn=S:OK</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)<expres>			<page>http://www.janjuaplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>pk</name>			<expres>ea=(.*)'</expres> 			<page>http://www.janjuaplayer.com/embedplayer/telehit2016/1/620/382</page>			<referer>http://www.janjuaplayer.com/</referer>			</regex>			</item>				<item>			<title>[COLOR pink]TNT [/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamifyplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.streamifyplayer.com/membedplayer/tntperusalem/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.streamifyplayer.com</referer>			</regex>			</item>	<item>			<title>[COLOR pink]AMC [/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamifyplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.streamifyplayer.com/membedplayer/amcmalosolandia/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.streamifyplayer.com</referer>			</regex>			</item>			<item>			<title>[COLOR pink]SPACE[/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamifyplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.streamifyplayer.com/membedplayer/spaceperusalem/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.streamifyplayer.com</referer>			</regex>			</item>		<item>			<title>[COLOR pink]Golden[/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamifyplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.streamifyplayer.com/membedplayer/goldenmalosolandia/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.streamifyplayer.com</referer>			</regex>			</item>				<item>			<title>[COLOR pink]Cinemax[/COLOR]</title>			<link>rtmp://$doregex[ip]/live playpath=cinemax2021?id=15842$doregex[pk] swfUrl=http://www.janjuaplayer.com/resources/scripts/eplayer.swf tcUrl=rtmp://janjua.tv:1935/live/			pageUrl=http://www.janjuaplayer.com swfVfy=1 timeout=15 live=1 conn=S:OK</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)<expres>			<page>http://www.janjuaplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>pk</name>			<expres>ea=(.*)'</expres> 			<page>http://www.janjuaplayer.com/embedplayer/cinemax2021/1/620/382</page>			<referer>http://www.janjuaplayer.com/</referer>			</regex>			</item>	 	<item>			<title>[COLOR pink]Mundo Fox[/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamifyplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.streamifyplayer.com/membedplayer/mundofoxmalosolandia/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.streamifyplayer.com</referer>			</regex>			</item>			 			<item>			<title>[COLOR pink]Canal FX[/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamifyplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.streamifyplayer.com/membedplayer/fxperusalem/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.streamifyplayer.com</referer>			</regex>			</item>			<item>			<title>[COLOR pink]FilmZone[/COLOR]</title>			<link>rtmp://$doregex[ip]/live playpath=filmezone2016?id=33771$doregex[pk] swfUrl=http://www.janjuaplayer.com/resources/scripts/eplayer.swf tcUrl=rtmp://janjua.tv:1935/live/			pageUrl=http://www.janjuaplayer.com swfVfy=1 timeout=15 live=1 conn=S:OK</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)<expres>			<page>http://www.janjuaplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>pk</name>			<expres>ea=(.*)'</expres> 			<page>http://www.janjuaplayer.com/embedplayer/filmezone2016/1/620/382</page>			<referer>http://www.janjuaplayer.com/</referer>			</regex>			</item>				<item>			<title>[COLOR pink]HBO Plus[/COLOR]</title>			<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://cdn.shidurlive.com/player.swf swfVfy=1 pageUrl=http://www.shidurlive.com$doregex[do-ping] live=1 timeout=15</link>			<regex>			<name>rtmp</name>			<expres>ova.php.*\n.*\n.*'streamer', '(.*?)'</expres>			<page>$doregex[get-page]</page>			<cookieJar></cookieJar>			<referer>http://www.moviespremiumhd.com/2015/04/hboplus.html</referer>			</regex>			<regex>			<name>path</name>			<expres>ova.php.*\n.*unescape..(.*?)'</expres>			<page>$doregex[get-page]</page>				<referer>http://www.moviespremiumhd.com/2015/04/hboplus.html</referer>			</regex>			<regex>			<name>do-ping</name>			<expres></expres>			<page>$doregex[pagewait]$doregex[get-ping]</page>			<referer>http://shidurlive.com</referer>			<ignorecache/>			</regex>			<regex>			<name>pagewait</name>			<expres>$pyFunction: '' if xbmc.sleep(15000) else ''</expres>			<page></page>			<referer>http://shidurlive.com</referer>			<cookieJar></cookieJar>			</regex>			<regex>			<name>get-ping</name>			<expres>"pingsts" src="(.*?)"</expres>			<page>$doregex[get-page]</page>			<cookieJar></cookieJar>			<referer>http://www.moviespremiumhd.com/2015/04/hboplus.html</referer>			</regex>			<regex>			<name>get-page</name>			<expres>src="(.*?)"</expres>			<page>http://shidurlive.com/embed/hboplus-hd</page>			<referer>http://www.moviespremiumhd.com/2015/04/hboplus.html</referer>			<cookieJar></cookieJar>			</regex>			<thumbnail></thumbnail>			</item>				<item>			<title>[COLOR pink]MovieCity[/COLOR]</title>			<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://cdn.shidurlive.com/player.swf swfVfy=1 pageUrl=http://www.shidurlive.com$doregex[do-ping] live=1 timeout=15</link>			<regex>			<name>rtmp</name>			<expres>ova.php.*\n.*\n.*'streamer', '(.*?)'</expres>			<page>$doregex[get-page]</page>			<cookieJar></cookieJar>			<referer>http://www.moviespremiumhd.com/2015/04/moviecity.html</referer>			</regex>			<regex>			<name>path</name>			<expres>ova.php.*\n.*unescape..(.*?)'</expres>			<page>$doregex[get-page]</page>				<referer>http://www.moviespremiumhd.com/2015/04/moviecity.html</referer>			</regex>			<regex>			<name>do-ping</name>			<expres></expres>			<page>$doregex[pagewait]$doregex[get-ping]</page>			<referer>http://shidurlive.com</referer>			<ignorecache/>			</regex>			<regex>			<name>pagewait</name>			<expres>$pyFunction: '' if xbmc.sleep(15000) else ''</expres>			<page></page>			<referer>http://shidurlive.com</referer>			<cookieJar></cookieJar>			</regex>			<regex>			<name>get-ping</name>			<expres>"pingsts" src="(.*?)"</expres>			<page>$doregex[get-page]</page>			<cookieJar></cookieJar>			<referer>http://www.moviespremiumhd.com/2015/04/moviecity.html</referer>			</regex>			<regex>			<name>get-page</name>			<expres>src="(.*?)"</expres>			<page>http://shidurlive.com/embed/movie-city1</page>			<referer>http://www.moviespremiumhd.com/2015/04/moviecity.html</referer>			<cookieJar></cookieJar>			</regex>			<thumbnail></thumbnail>			</item>		<item><!--tvpor-internet.com/hbo-en-vivo.html-->			<title>[COLOR pink]HBO SD[/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamifyplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.streamifyplayer.com/membedplayer/hbomalosolandia/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.streamifyplayer.com</referer>			</regex>			</item>			
+				
+				
+				<item><!--tvpor-internet.com/hbo-en-vivo.html-->			<title>[COLOR pink]Cinemax[/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamifyplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.streamifyplayer.com/membedplayer/cinemaxmalosolandia/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.streamifyplayer.com</referer>			</regex>			</item>			<item>			<title>[COLOR pink]FX[/COLOR]</title>			<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://cdn.shidurlive.com/player.swf swfVfy=1 pageUrl=http://www.shidurlive.com$doregex[do-ping] live=1 timeout=15</link>			<regex>			<name>rtmp</name>			<expres>ova.php.*\n.*\n.*'streamer', '(.*?)'</expres>			<page>$doregex[get-page]</page>			<cookieJar></cookieJar>			<referer>http://tv.televall.com.mx/fx.php</referer>			</regex>			<regex>			<name>path</name>			<expres>ova.php.*\n.*unescape..(.*?)'</expres>			<page>$doregex[get-page]</page>				<referer>http://tv.televall.com.mx/fx.php</referer>			</regex>			<regex>			<name>do-ping</name>			<expres></expres>			<page>$doregex[pagewait]$doregex[get-ping]</page>			<referer>http://shidurlive.com</referer>			<ignorecache/>			</regex>			<regex>			<name>pagewait</name>			<expres>$pyFunction: '' if xbmc.sleep(15000) else ''</expres>			<page></page>			<referer>http://shidurlive.com</referer>			<cookieJar></cookieJar>			</regex>			<regex>			<name>get-ping</name>			<expres>"pingsts" src="(.*?)"</expres>			<page>$doregex[get-page]</page>			<cookieJar></cookieJar>			<referer>http://tv.televall.com.mx/fx.php</referer>			</regex>			<regex>			<name>get-page</name>			<expres>src="(.*?)"</expres>			<page>http://shidurlive.com/embed/fxtv</page>			<referer>http://tv.televall.com.mx/fx.php</referer>			<cookieJar></cookieJar>			</regex>			<thumbnail></thumbnail>			</item>			<!--http://tv.televall.com.mx/fx.php?width=620&height=380			--><item>			<title>[COLOR pink]Universal[/COLOR]</title>			<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://cdn.shidurlive.com/player.swf swfVfy=1 pageUrl=http://www.shidurlive.com$doregex[do-ping] live=1 timeout=15</link>			<regex>			<name>rtmp</name>			<expres>ova.php.*\n.*\n.*'streamer', '(.*?)'</expres>			<page>$doregex[get-page]</page>			<cookieJar></cookieJar>			<referer>http://tv.televallhd.com/universal.html</referer>			</regex>			<regex>			<name>path</name>			<expres>ova.php.*\n.*unescape..(.*?)'</expres>			<page>$doregex[get-page]</page>				<referer>http://tv.televallhd.com/universal.html</referer>			</regex>			<regex>			<name>do-ping</name>			<expres></expres>			<page>$doregex[pagewait]$doregex[get-ping]</page>			<referer>http://shidurlive.com</referer>			<ignorecache/>			</regex>			<regex>			<name>pagewait</name>			<expres>$pyFunction: '' if xbmc.sleep(15000) else ''</expres>			<page></page>			<referer>http://shidurlive.com</referer>			<cookieJar></cookieJar>			</regex>			<regex>			<name>get-ping</name>			<expres>"pingsts" src="(.*?)"</expres>			<page>$doregex[get-page]</page>			<cookieJar></cookieJar>			<referer>http://tv.televallhd.com/universal.html</referer>			</regex>			<regex>			<name>get-page</name>			<expres>src="(.*?)"</expres>			<page>http://shidurlive.com/embed/universal</page>			<referer>http://tv.televallhd.com/universal.html</referer>			<cookieJar></cookieJar>			</regex>			<thumbnail></thumbnail>			</item>		<item>			<title>[COLOR pink]SONY[/COLOR]</title>			<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://cdn.shidurlive.com/player.swf swfVfy=1 pageUrl=http://www.shidurlive.com$doregex[do-ping] live=1 timeout=15</link>			<regex>			<name>rtmp</name>			<expres>ova.php.*\n.*\n.*'streamer', '(.*?)'</expres>			<page>$doregex[get-page]</page>			<cookieJar></cookieJar>			<referer>http://tv.televallhd.com/sony.html</referer>			</regex>			<regex>			<name>path</name>			<expres>ova.php.*\n.*unescape..(.*?)'</expres>			<page>$doregex[get-page]</page>				<referer>http://tv.televallhd.com/sony.html</referer>			</regex>			<regex>			<name>do-ping</name>			<expres></expres>			<page>$doregex[pagewait]$doregex[get-ping]</page>			<referer>http://shidurlive.com</referer>			<ignorecache/>			</regex>			<regex>			<name>pagewait</name>			<expres>$pyFunction: '' if xbmc.sleep(15000) else ''</expres>			<page></page>			<referer>http://shidurlive.com</referer>			<cookieJar></cookieJar>			</regex>			<regex>			<name>get-ping</name>			<expres>"pingsts" src="(.*?)"</expres>			<page>$doregex[get-page]</page>			<cookieJar></cookieJar>			<referer>http://tv.televallhd.com/sony.html</referer>			</regex>			<regex>			<name>get-page</name>			<expres>src="(.*?)"</expres>			<page>http://shidurlive.com/embed/sony</page>			<referer>http://tv.televallhd.com/sony.html</referer>			<cookieJar></cookieJar>			</regex>			<thumbnail></thumbnail>			</item>		<item>			<title>[COLOR pink]AXN[/COLOR]</title>			<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://cdn.shidurlive.com/player.swf swfVfy=1 pageUrl=http://www.shidurlive.com$doregex[do-ping] live=1 timeout=15</link>			<regex>			<name>rtmp</name>			<expres>ova.php.*\n.*\n.*'streamer', '(.*?)'</expres>			<page>$doregex[get-page]</page>			<cookieJar></cookieJar>			<referer>http://tv.televallhd.com/axn.html</referer>			</regex>			<regex>			<name>path</name>			<expres>ova.php.*\n.*unescape..(.*?)'</expres>			<page>$doregex[get-page]</page>				<referer>http://tv.televallhd.com/axn.html</referer>			</regex>			<regex>			<name>do-ping</name>			<expres></expres>			<page>$doregex[pagewait]$doregex[get-ping]</page>			<referer>http://shidurlive.com</referer>			<ignorecache/>			</regex>			<regex>			<name>pagewait</name>			<expres>$pyFunction: '' if xbmc.sleep(15000) else ''</expres>			<page></page>			<referer>http://shidurlive.com</referer>			<cookieJar></cookieJar>			</regex>			<regex>			<name>get-ping</name>			<expres>"pingsts" src="(.*?)"</expres>			<page>$doregex[get-page]</page>			<cookieJar></cookieJar>			<referer>http://tv.televallhd.com/axn.html</referer>			</regex>			<regex>			<name>get-page</name>			<expres>src="(.*?)"</expres>			<page>http://shidurlive.com/embed/axn</page>			<referer>http://tv.televallhd.com/axn.html</referer>			<cookieJar></cookieJar>			</regex>			<thumbnail></thumbnail>			</item>	<item>			<title>[COLOR pink]Canal 52MX[/COLOR]</title>			<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://cdn.shidurlive.com/player.swf swfVfy=1 pageUrl=http://www.shidurlive.com$doregex[do-ping] live=1 timeout=15</link>			<regex>			<name>rtmp</name>			<expres>ova.php.*\n.*\n.*'streamer', '(.*?)'</expres>			<page>$doregex[get-page]</page>			<cookieJar></cookieJar>			<referer>http://tv.televallhd.com/canal52mx.html</referer>			</regex>			<regex>			<name>path</name>			<expres>ova.php.*\n.*unescape..(.*?)'</expres>			<page>$doregex[get-page]</page>				<referer>http://tv.televallhd.com/canal52mx.html</referer>			</regex>			<regex>			<name>do-ping</name>			<expres></expres>			<page>$doregex[pagewait]$doregex[get-ping]</page>			<referer>http://shidurlive.com</referer>			<ignorecache/>			</regex>			<regex>			<name>pagewait</name>			<expres>$pyFunction: '' if xbmc.sleep(15000) else ''</expres>			<page></page>			<referer>http://shidurlive.com</referer>			<cookieJar></cookieJar>			</regex>			<regex>			<name>get-ping</name>			<expres>"pingsts" src="(.*?)"</expres>			<page>$doregex[get-page]</page>			<cookieJar></cookieJar>			<referer>http://tv.televallhd.com/canal52mx.html</referer>			</regex>			<regex>			<name>get-page</name>			<expres>src="(.*?)"</expres>			<page>http://shidurlive.com/embed/canal52mx</page>			<referer>http://tv.televallhd.com/canal52mx.html</referer>			<cookieJar></cookieJar>			</regex>			<thumbnail></thumbnail>			</item>				<item>			<title>[COLOR pink]TNT[/COLOR]</title>			<link>rtmp://$doregex[ip]/live playpath=7yujk7?id=22302$doregex[pk] swfUrl=http://www.embedezcast.com/static/scripts/fplayer.swf tcUrl=rtmp://ezcast.tv:1935/live/			pageUrl=http://www.embedezcast.com swfVfy=1 timeout=15 live=1 conn=S:OK</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)<expres>			<page>http://www.embedezcast.com:1935/loadbalancer</page>			</regex>			<regex>			<name>pk</name>			<expres>ea=(.*)'</expres> 			<page>http://www.embedezcast.com/embedplayer/7yujk7/1/620/380</page>			<referer>http://www.embedezcast.com/</referer>			</regex>			</item><item>			<title>[COLOR pink]Tooncast[/COLOR]</title>			<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://cdn.shidurlive.com/player.swf swfVfy=1 pageUrl=http://www.shidurlive.com$doregex[do-ping] live=1 timeout=15</link>			<regex>			<name>rtmp</name>			<expres>ova.php.*\n.*\n.*'streamer', '(.*?)'</expres>			<page>$doregex[get-page]</page>			<cookieJar></cookieJar>			<referer>http://tv.televallhd.com/tooncast.html</referer>			</regex>			<regex>			<name>path</name>			<expres>ova.php.*\n.*unescape..(.*?)'</expres>			<page>$doregex[get-page]</page>				<referer>http://tv.televallhd.com/tooncast.html</referer>			</regex>			<regex>			<name>do-ping</name>			<expres></expres>			<page>$doregex[pagewait]$doregex[get-ping]</page>			<referer>http://shidurlive.com</referer>			<ignorecache/>			</regex>			<regex>			<name>pagewait</name>			<expres>$pyFunction: '' if xbmc.sleep(15000) else ''</expres>			<page></page>			<referer>http://shidurlive.com</referer>			<cookieJar></cookieJar>			</regex>			<regex>			<name>get-ping</name>			<expres>"pingsts" src="(.*?)"</expres>			<page>$doregex[get-page]</page>			<cookieJar></cookieJar>			<referer>http://tv.televallhd.com/tooncast.html</referer>			</regex>			<regex>			<name>get-page</name>			<expres>src="(.*?)"</expres>			<page>http://shidurlive.com/embed/tooncast</page>			<referer>http://tv.televallhd.com/tooncast.html</referer>			<cookieJar></cookieJar>			</regex>			<thumbnail></thumbnail>			</item><item>			<title>[COLOR pink]Discovery Kids[/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamifyplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.streamifyplayer.com/membedplayer/kidsmalosolandia/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.streamifyplayer.com</referer>			</regex>			</item>				<item>			<title>[COLOR pink]Disney Channel[/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamifyplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.streamifyplayer.com/membedplayer/disneymalosolandia/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.streamifyplayer.com</referer>			</regex>			</item>		<item>			<title>[COLOR pink]Disney[/COLOR]</title>			<link>rtmp://$doregex[ip]/live playpath=zeyudisneyyye?id=233435$doregex[pk] swfUrl=http://www.mipsplayer.com/content/scripts/fplayer.swf tcUrl=rtmp://mips.tv:1935/live/			pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=15 live=1 conn=S:OK</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)<expres>			<page>http://www.mipsplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>pk</name>			<expres>ea=(.*)'</expres> 			<page>http://www.mipsplayer.com/embedplayer/zeyudisneyyye/1/620/382</page>			<referer>http://www.mipsplayer.com/</referer>			</regex>			</item>	<item>			<title>[COLOR pink]Boomerang (SportsDevil)[/COLOR]</title>			<sportsdevil>http://www.fulltelevisionhd.net/2014/09/boomerang-en-vivo-por-internet.html</sportsdevil>			<referer>http://www.fulltelevisionhd.net</referer>			</item><item>			<title>[COLOR pink]Boomerang[/COLOR]</title>			<link>http://live.mvdigital.net:1935/live11/livestream1.sdp/playlist.m3u8?wowzasessionid=1222806252</link>			</item>		<item>			<title>[COLOR pink]Nickelodeon SD[/COLOR]</title>			<link>rtmp://$doregex[ip]/live playpath=nickyyy?id=22350$doregex[pk] swfUrl=http://www.embedezcast.com/static/scripts/fplayer.swf tcUrl=rtmp://ezcast.tv:1935/live/			pageUrl=http://www.embedezcast.com swfVfy=1 timeout=15 live=1 conn=S:OK</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)<expres>			<page>http://www.embedezcast.com:1935/loadbalancer</page>			</regex>			<regex>			<name>pk</name>			<expres>ea=(.*)'</expres> 			<page>http://www.embedezcast.com/embedplayer/nickyyy/1/620/380</page>			<referer>http://www.embedezcast.com/</referer>			</regex>			</item>	<item>			<title>[COLOR pink]Cartoon Network SD[/COLOR]</title>			<link>rtmp://$doregex[ip]/live playpath=cartooonn?id=22351$doregex[pk] swfUrl=http://www.embedezcast.com/static/scripts/fplayer.swf tcUrl=rtmp://ezcast.tv:1935/live/			pageUrl=http://www.embedezcast.com swfVfy=1 timeout=15 live=1 conn=S:OK</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)<expres>			<page>http://www.embedezcast.com:1935/loadbalancer</page>			</regex>			<regex>			<name>pk</name>			<expres>ea=(.*)'</expres> 			<page>http://www.embedezcast.com/embedplayer/cartooonn/1/620/380</page>			<referer>http://www.embedezcast.com/</referer>			</regex>			</item>	<item>			<title>[COLOR pink]Cartoon Network [/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamifyplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.streamifyplayer.com/membedplayer/cartoonmalosolandia/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.streamifyplayer.com</referer>			</regex>			</item>				<item>			<title>[COLOR pink]Nick[/COLOR]</title>			<link>rtmp://$doregex[ip]/live playpath=nick2021?id=15845$doregex[pk] swfUrl=http://www.janjuaplayer.com/resources/scripts/eplayer.swf tcUrl=rtmp://janjua.tv:1935/live/			pageUrl=http://www.janjuaplayer.com swfVfy=1 timeout=15 live=1 conn=S:OK</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)<expres>			<page>http://www.janjuaplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>pk</name>			<expres>ea=(.*)'</expres> 			<page>http://www.janjuaplayer.com/embedplayer/nick2021/1/620/382</page>			<referer>http://www.janjuaplayer.com/</referer>			</regex>			</item><item>			<title>[COLOR pink]Canal Disney Jr[/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamifyplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.streamifyplayer.com/membedplayer/juniormalosolandia/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.streamifyplayer.com</referer>			</regex>			</item>	<item>			<title>[COLOR pink]Disney Jr[/COLOR]</title>			<link>rtmp://$doregex[ip]/live playpath=juniorperusalem?id=42828$doregex[pk] swfUrl=http://www.janjuaplayer.com/resources/scripts/eplayer.swf tcUrl=rtmp://janjua.tv:1935/live/			pageUrl=http://www.janjuaplayer.com swfVfy=1 timeout=15 live=1 conn=S:OK</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)<expres>			<page>http://www.janjuaplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>pk</name>			<expres>ea=(.*)'</expres> 			<page>http://www.janjuaplayer.com/embedplayer/juniorperusalem/1/620/382</page>			<referer>http://www.janjuaplayer.com/</referer>			</regex>			</item>	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item><title>[COLOR pink]TATETI (Latino)[/COLOR]</title><thumbnail>http://www.inspanish.com.au/images/ta%20te%20ti%20logo-crop-u9892.png</thumbnail><link>http://tinyurl.com/ouacf5h</link></item>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <item><title>[COLOR pink]ANIME TV (Latino)[/COLOR]</title><thumbnail>http://2.bp.blogspot.com/_LtyMnyOYMc8/S8-DgnWcWuI/AAAAAAAABoI/r03Az8uLJF8/s1600/animeTV.png</thumbnail><link>http://tinyurl.com/oduols2</link></item>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item><title>[COLOR pink]South Park TV (Latino)[/COLOR]</title><thumbnail>http://4.bp.blogspot.com/-LJW57-7pty0/VdDHM0ObPaI/AAAAAAAAF8M/g1cHA2AArh0/s1600/South_Park_sign_logo.png</thumbnail><link>http://tinyurl.com/o4wzm7m</link></item>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 	<item>			<title>[COLOR pink]Mi gente TV[/COLOR]</title>			<link>$doregex[get-link]</link>			<regex>			<name>get-link</name>			<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/18551741/streams/live/playlist.m3u8')</expres>			<page></page>			</regex> 			</item>		<item>			<title>[COLOR pink]Nat Geo[/COLOR]</title>			<link>rtmp://$doregex[ip]/live playpath=natgeooo?id=22352$doregex[pk] swfUrl=http://www.embedezcast.com/static/scripts/fplayer.swf tcUrl=rtmp://ezcast.tv:1935/live/			pageUrl=http://www.embedezcast.com swfVfy=1 timeout=15 live=1 conn=S:OK</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)<expres>			<page>http://www.embedezcast.com:1935/loadbalancer</page>			</regex>			<regex>			<name>pk</name>			<expres>ea=(.*)'</expres> 			<page>http://www.embedezcast.com/embedplayer/natgeooo/1/620/380</page>			<referer>http://www.embedezcast.com/</referer>			</regex>			</item>				<item>			<title>[COLOR pink]Nat Geo[/COLOR]</title>			<link>http://fichd-lh.akamaihd.net/i/NATGEOW_LATAM@304509/index_2000_av-b.m3u8?sd=10&rebase=on</link>			</item>	<item>			<title>[COLOR pink]H2[/COLOR]</title>			<link>http://201.161.59.3/h2.isml/manifest(format=m3u8-aapl).m3u8</link>			</item>			<item>			<title>[COLOR pink]History[/COLOR]</title>			<link>http://live.mvdigital.net:1935/live10/livestream1.sdp/playlist.m3u8</link>			</item>		<item>			<title>[COLOR pink]History Channel [/COLOR]</title>			<link>http://93.174.95.125:1935/edge/_definst_/dhp0rpd116qyyj6/playlist.m3u8?wowzasessionid=1419874554</link>			</item>			<item>			<title>[COLOR pink]Tru TV [/COLOR]</title>			<link>http://93.174.95.125:1935/edge/_definst_/uhnr4161ybioa5w/playlist.m3u8?wowzasessionid=1420124955</link>			</item>	<item>			<title>[COLOR pink]DW | Latinoamerica 400p[/COLOR]</title>			<link>rtmp://$doregex[get-m3u8]/$doregex[get-file]</link>			<regex>			<name>get-m3u8</name>			<expres>meta base="rtmp:\/\/(.*?)"</expres>			<page>http://www.metafilegenerator.de/DWelle/tv-latinoamerica/flv/tv.smil</page>			<referer>http://www.dw.de/multimedia/tv-en-vivo/s-100837</referer>			</regex>			<regex>			<name>get-file</name>			<expres>"high".*src="(.*?)"</expres>			<page>http://www.metafilegenerator.de/DWelle/tv-latinoamerica/flv/tv.smil</page>			<referer>http://www.dw.de/multimedia/tv-en-vivo/s-100837</referer>			</regex>			</item>	<item><title>[COLOR pink]Canal DW[/COLOR]</title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres><page>http://tv.vera.com.uy/canal/6019</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex></item><item>			<title>[COLOR pink]Dw[/COLOR]</title>			<link>rtmp://$doregex[ip]/live playpath=dclatino2014?id=22879$doregex[pk] swfUrl=http://www.janjuaplayer.com/resources/scripts/eplayer.swf tcUrl=rtmp://janjua.tv:1935/live/			pageUrl=http://www.janjuaplayer.com swfVfy=1 timeout=15 live=1 conn=S:OK</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)<expres>			<page>http://www.janjuaplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>pk</name>			<expres>ea=(.*)'</expres> 			<page>http://www.janjuaplayer.com/embedplayer/dclatino2014/1/620/382</page>			<referer>http://www.janjuaplayer.com/</referer>			</regex>			</item>	<item><title>[COLOR pink]RT en Español[/COLOR]</title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres><page>http://tv.vera.com.uy/canal/6027</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex></item><item>			<title>[COLOR pink]Discovery Channel[/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamifyplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.streamifyplayer.com/membedplayer/discoverymalosolandia/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.streamifyplayer.com</referer>			</regex>			</item>	
+				
+<item>
+<title>[COLOR pink]Discovery CIVI[/COLOR]</title>
+<link>http://iptvlatam.cf/hls/discciv/playlist.m3u8</link></item>				<item>
+<title>[COLOR pink]Discovery SCI[/COLOR]</title>
+<link>http://iptvlatam.cf/hls/discsci/playlist.m3u8</link></item>				
+				
+				<item><title>[COLOR pink]Discovery Channel op2[/COLOR]</title><link>rtmp://$doregex[ip]/live playpath=clearmaster4?id=233756$doregex[pk] swfUrl=http://www.mipsplayer.com/content/scripts/fplayer.swf tcUrl=rtmp://mips.tv:1935/live/pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=15 live=1 conn=S:OK</link><regex><name>ip</name><expres>redirect=(.*)<expres><page>http://www.mipsplayer.com:1935/loadbalancer</page></regex><regex><name>pk</name><expres>ea=(.*)'</expres> <page>http://www.mipsplayer.com/embedplayer/clearmaster4/1/620/382</page><referer>http://www.mipsplayer.com/</referer></regex></item><item><title>[COLOR pink]History opc1[/COLOR]</title><link>rtmp://$doregex[ip]/live playpath=clearmaster3?id=233757$doregex[pk] swfUrl=http://www.mipsplayer.com/content/scripts/fplayer.swf tcUrl=rtmp://mips.tv:1935/live/pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=15 live=1 conn=S:OK</link><regex><name>ip</name><expres>redirect=(.*)<expres><page>http://www.mipsplayer.com:1935/loadbalancer</page></regex><regex><name>pk</name><expres>ea=(.*)'</expres> <page>http://www.mipsplayer.com/embedplayer/clearmaster3/1/620/382</page><referer>http://www.mipsplayer.com/</referer></regex></item>	<item>			<title>[COLOR pink]DW | Latinoamerica 480p[/COLOR]</title>			<link>rtmp://$doregex[get-m3u8]/$doregex[get-file]</link>			<regex>			<name>get-m3u8</name>			<expres>meta base="rtmp:\/\/(.*?)"</expres>			<page>http://www.metafilegenerator.de/DWelle/tv-latinoamerica/flv/tv.smil</page>			<referer>http://www.dw.de/multimedia/tv-en-vivo/s-100837</referer>			</regex>			<regex>			<name>get-file</name>			<expres>"highest".*src="(.*?)"</expres>			<page>http://www.metafilegenerator.de/DWelle/tv-latinoamerica/flv/tv.smil</page>			<referer>http://www.dw.de/multimedia/tv-en-vivo/s-100837</referer>			</regex>			</item>	<item>			<title>[COLOR pink]Nasa TV HD[/COLOR]</title>			<link>http://iphone-streaming.ustream.tv/ustreamVideo/$doregex[path]/streams/live/playlist.m3u8</link>			<regex>			<name>path</name>			<expres>"https://www.ustream.tv/embed/(.+?)"></expres>			<page>http://www.ustream.tv/channel/6540154</page>			<referer> </referer>			</regex>			<thumbnail></thumbnail>			</item>	<item>			<title>[COLOR pink]Tu History [/COLOR]</title>			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_mfv_05 live=1 timeout=20</link>			<regex>			<name>clearCode</name>			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>			<page></page>			</regex>			<regex>			<name>getencoded</name>			<expres>:mvnkey-(.*)</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getserver</name>			<expres>(.*?);</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getUrl</name>			<expres>(.*)</expres>			<page>http://mvn.vaughnsoft.net/video/edge/live_mfv_05$doregex[gettime]-$doregex[gettime].33434</page>			</regex>			<regex>			<name>gettime</name>			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>			<page></page>			</regex>			</item>	<item>			<title>[COLOR pink]Tu History [/COLOR]</title>			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_mfv_08 live=1 timeout=20</link>			<regex>			<name>clearCode</name>			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>			<page></page>			</regex>			<regex>			<name>getencoded</name>			<expres>:mvnkey-(.*)</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getserver</name>			<expres>(.*?);</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getUrl</name>			<expres>(.*)</expres>			<page>http://mvn.vaughnsoft.net/video/edge/live_mfv_08$doregex[gettime]-$doregex[gettime].33434</page>			</regex>			<regex>			<name>gettime</name>			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>			<page></page>			</regex>			</item>				<item>			<title>[COLOR pink]H2[/COLOR]</title>			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_mfv_09 live=1 timeout=20</link>			<regex>			<name>clearCode</name>			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>			<page></page>			</regex>			<regex>			<name>getencoded</name>			<expres>:mvnkey-(.*)</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getserver</name>			<expres>(.*?);</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getUrl</name>			<expres>(.*)</expres>			<page>http://mvn.vaughnsoft.net/video/edge/live_mfv_09$doregex[gettime]-$doregex[gettime].33434</page>			</regex>			<regex>			<name>gettime</name>			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>			<page></page>			</regex>			</item>	<item>			<title>[COLOR pink]Nat Geo Wild / History Channel[/COLOR]</title>			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_canalhistoria live=1 timeout=20</link>			<regex>			<name>clearCode</name>			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>			<page></page>			</regex>			<regex>			<name>getencoded</name>			<expres>:mvnkey-(.*)</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getserver</name>			<expres>(.*?);</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getUrl</name>			<expres>(.*)</expres>			<page>http://mvn.vaughnsoft.net/video/edge/live_canalhistoria$doregex[gettime]-$doregex[gettime].33434</page>			</regex>			<regex>			<name>gettime</name>			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>			<page></page>			</regex>			</item>	<item>			<title>[COLOR pink]Discovery[/COLOR]</title>			<link>$doregex[get-link]</link>			<regex>			<name>get-link</name>			<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/17248101/streams/live/playlist.m3u8')</expres>			<page></page>			</regex> 			</item>	<item>			<title>[COLOR pink]History[/COLOR]</title>			<link>http://live.mvdigital.net:1935/live10/livestream1.sdp/playlist.m3u8</link>			</item>			<item>			<title>[COLOR pink]History[/COLOR]</title>			<link>rtmp://69.39.239.81/app/gears-channel</link>			</item>	<item>			<title>[COLOR pink]DMAX Italia[/COLOR]</title>			<link>rtmp://$doregex[ip]/live playpath=dsdfsdff?id=39204$doregex[pk] conn=S:OK swfUrl=http://www.janjuaplayer.com/resources/scripts/eplayer.swf pageUrl=http://www.janjuaplayer.com/embedplayer/dsdfsdff/1/500/380 swfVfy=true buffer=5000 live=true</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)<expres>			<page>http://www.janjua.tv:1935/loadbalancer</page>			</regex>			<regex>			<name>pk</name>			<expres>ea=(.*)'</expres>			<page>http://www.janjuaplayer.com/embedplayer/dsdfsdff/1/500/380</page>			<referer>http://www.janjuaplayer.com/</referer>			</regex>			</item>	<item>			<title>[COLOR pink]DISCOVERY en Español (SportsDevil)[/COLOR]</title>			<sportsdevil>http://www.fulltelevisionhd.net/2013/02/discovery-channel-en-vivo-por-internet.html</sportsdevil>			<referer>http://www.fulltelevisionhd.net</referer>			</item>			<item><title>[COLOR pink]Animal Planet USA[/COLOR]</title><link>$doregex[url]</link><regex>	<name>url</name>	<expres>uhls","url":"(.*?)"</expres>                                           	<page>http://$doregex[host]/1/ustream?connectionId=$doregex[cid]</page>	<referer>http://www.ustream.tv</referer></regex><regex>	<name>host</name>	<expres>host":"(.*?)"</expres>                                           	<page>http://r45917422-1-12762028-channel-live.ums.ustream.tv/1/ustream?type=viewer&amp;appId=11&amp;appVersion=2&amp;media=12762028&amp;application=channel</page>	<referer>http://www.ustream.tv</referer></regex><regex>	<name>cid</name>	<expres>Id":"(.*?)"</expres>                                           	<page>http://r45917422-1-12762028-channel-live.ums.ustream.tv/1/ustream?type=viewer&amp;appId=11&amp;appVersion=2&amp;media=12762028&amp;application=channel</page>	<referer>http://www.ustream.tv</referer></regex><thumbnail></thumbnail></item>	<item>			<title>[COLOR blue]Telemundo[/COLOR]</title>			<link>$doregex[get-link]</link>			<regex>			<name>get-link</name>			<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/20931896/streams/live/playlist.m3u8')</expres>			<page></page>			</regex> 			</item>			<item>	<!--			<item>			<item>			<title>[COLOR blue]Telemundo op.3[/COLOR]</title> http://www.onlinetv.planetfools.com/tvenvivo/telemundo-tv-en-vivo.php 			<link>$doregex[get-link]</link>			<regex>			<name>get-link</name>			<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/15379493/streams/live/playlist.m3u8')</expres>			<page></page>			</regex> 			</item>	-->	<item>			<title>[COLOR blue]Telemundo opc1[/COLOR]</title>			<link>$doregex[get-link]</link>			<regex>			<name>get-link</name>			<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/20720323/streams/live/playlist.m3u8')</expres>			<page></page>			</regex> 			</item>	<item><title>[COLOR blue]Telemundo (funcionando)[/COLOR]</title><link>http://198.178.126.247:1935/app/telemundox1chivas_69s-channel/.m3u8</link></item>				<item>			<title>[COLOR blue]Telemundo 42[/COLOR]</title>			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_telemundo43 live=1 timeout=20</link>			<regex>			<name>clearCode</name>			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>			<page></page>			</regex>			<regex>			<name>getencoded</name>			<expres>:mvnkey-(.*)</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getserver</name>			<expres>(.*?);</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getUrl</name>			<expres>(.*)</expres>			<page>http://mvn.vaughnsoft.net/video/edge/live_telemundo43$doregex[gettime]-$doregex[gettime].33434</page>			</regex>			<regex>			<name>gettime</name>			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>			<page></page>			</regex>			</item>				<!--				<item><title>[COLOR blue]Univision (opc.1)[/COLOR]</title><link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link><regex>        <name>path</name>        <expres>file: "(.*).flv</expres>        <page>https://www.streamlive.to/view/69932</page></regex><regex>        <name>tok</name>        <expres>token":"([^"]*)</expres>        <page>$doregex[tokpg]</page>        <referer>https://www.streamlive.to</referer></regex><regex>        <name>tokpg</name>        <expres>getJSON\("([^"]*)</expres>        <page>https://www.streamlive.to/view/69932</page></regex><regex>        <name>xs</name>        <expres>/(\?xs=.*?)"</expres>        <page>https://www.streamlive.to/view/69932</page>        <rawpost>captcha=$doregex[answer]</rawpost>        <referer>https://www.streamlive.to</referer>        <cookieJar></cookieJar>        <ignorecache/></regex><regex>        <name>answer</name>        <expres>$pyFunction:($doregex[captcha])</expres>        <page></page></regex><regex>        <name>captcha</name>        <expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>        <page></page></regex><regex>        <name>xcaptcha</name>        <expres>Question: (.*) =</expres>        <page>https://www.streamlive.to/view/69932</page>        <referer>http://www.streamlive.to</referer>        <cookieJar></cookieJar></regex></item>	<item>			<title>[COLOR blue]Univision 03[/COLOR]</title><!-- http://www.mirandotv.net/2014/03/univision-en-vivo-por-internet.html 			<link>$doregex[get-link]</link>			<regex>			<name>get-link</name>			<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/15379493/streams/live/playlist.m3u8')</expres>			<page></page>			</regex> 			</item> -->				<item>			<title>[COLOR blue]WAPA PR[/COLOR]</title>			<link>rtmp://demo.iblups.com/demo playpath=SoeNe8hdA0 swfUrl=http://iblups.com/playertvlive123456789.swf?config=configplayer%2Ephp%3Fid%3D19967&autostart=true live=1 pageUrl=http://iblups.com/e_WapaPRace-498-310</link>	</item>		<item>			<title>[COLOR blue]Univision 2[/COLOR]</title>			<link>$doregex[get-link]</link>			<regex>			<name>get-link</name>			<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/20631310/streams/live/playlist.m3u8')</expres>			<page></page>			</regex> 			</item><item>			<title>[COLOR blue]Univision  HD33[/COLOR]</title>			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_univision_hd34 live=1 timeout=20</link>			<regex>			<name>clearCode</name>			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>			<page></page>			</regex>			<regex>			<name>getencoded</name>			<expres>:mvnkey-(.*)</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getserver</name>			<expres>(.*?);</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getUrl</name>			<expres>(.*)</expres>			<page>http://mvn.vaughnsoft.net/video/edge/live_univision_hd34$doregex[gettime]-$doregex[gettime].33434</page>			</regex>			<regex>			<name>gettime</name>			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>			<page></page>			</regex>			</item>				
+				
+				
+		<item>			<title>[COLOR blue]Univision 1hd[/COLOR]</title>			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_1_univisionhd live=1 timeout=20</link>			<regex>			<name>clearCode</name>			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>			<page></page>			</regex>			<regex>			<name>getencoded</name>			<expres>:mvnkey-(.*)</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getserver</name>			<expres>(.*?);</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getUrl</name>			<expres>(.*)</expres>			<page>http://mvn.vaughnsoft.net/video/edge/live_1_univisionhd$doregex[gettime]-$doregex[gettime].33434</page>			</regex>			<regex>			<name>gettime</name>			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>			<page></page>			</regex>			</item>
+		<item>			<title>[COLOR blue]Univision NY[/COLOR]</title>			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_univision_mar41 live=1 timeout=20</link>			<regex>			<name>clearCode</name>			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>			<page></page>			</regex>			<regex>			<name>getencoded</name>			<expres>:mvnkey-(.*)</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getserver</name>			<expres>(.*?);</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getUrl</name>			<expres>(.*)</expres>			<page>http://mvn.vaughnsoft.net/video/edge/live_univision_mar41$doregex[gettime]-$doregex[gettime].33434</page>			</regex>			<regex>			<name>gettime</name>			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>			<page></page>			</regex>			</item>		<item>			<title>[COLOR blue]Univision 69[/COLOR]</title>			<link>rtmp://$doregex[rtmpip]/live playpath=anahii?id=5286 conn=S:OK swfUrl=http://www.streamify.tv/resources/scripts/eplayer.swf pageUrl=http://www.streamify.tv live=1 timeout=20</link>			<regex>			<name>rtmpip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamify.tv:1935/loadbalancer</page>			<referer>http://www.streamify.tv/resources/scripts/eplayer.swf</referer>			</regex>			</item><item>			<title>[COLOR blue]Univision opc3[/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamifyplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.streamifyplayer.com/membedplayer/anahii/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.streamifyplayer.com</referer>			</regex>			</item>			<item>			<title>[COLOR blue]Univision 69[/COLOR]</title>			<link>rtmp://162.220.56.237/app/ playpath=turbomaxhds-channel</link>	</item>				<item>			<title>[COLOR blue]Mundo Fox[/COLOR]</title>			<link>http://$doregex[ip]$doregex[m3u8]</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)</expres>			<page>http://www.streamifyplayer.com:1935/loadbalancer</page>			</regex>			<regex>			<name>m3u8</name>			<expres>ea \+ "(.*?)"</expres>			<page>http://www.streamifyplayer.com/membedplayer/chivass_69/1/500/400</page>			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			<referer>http://www.streamifyplayer.com</referer>			</regex>			</item>				<item>			<title>[COLOR blue]Unimas opc1[/COLOR]</title>			<link>$doregex[get-link]</link>			<regex>			<name>get-link</name>			<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/20644254/streams/live/playlist.m3u8')</expres>			<page></page>			</regex> 			</item>			<item>			<title>[COLOR blue]Unimas 18[/COLOR]</title>			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_unimas20 live=1 timeout=20</link>			<regex>			<name>clearCode</name>			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>			<page></page>			</regex>			<regex>			<name>getencoded</name>			<expres>:mvnkey-(.*)</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getserver</name>			<expres>(.*?);</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getUrl</name>			<expres>(.*)</expres>			<page>http://mvn.vaughnsoft.net/video/edge/live_unimas20$doregex[gettime]-$doregex[gettime].33434</page>			</regex>			<regex>			<name>gettime</name>			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>			<page></page>			</regex>			</item>	<item>			<title>[COLOR blue]Estrella TV[/COLOR]</title>			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_estrella1000 live=1 timeout=20</link>			<regex>			<name>clearCode</name>			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>			<page></page>			</regex>			<regex>			<name>getencoded</name>			<expres>:mvnkey-(.*)</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getserver</name>			<expres>(.*?);</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getUrl</name>			<expres>(.*)</expres>			<page>http://mvn.vaughnsoft.net/video/edge/live_estrella1000$doregex[gettime]-$doregex[gettime].33434</page>			</regex>			<regex>			<name>gettime</name>			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>			<page></page>			</regex>			</item>			<!--	<item><title>[COLOR blue]Mundo Fox [/COLOR]</title><link>http://66.55.92.79:1935/app/ana69s-channel/.m3u8</link></item>				<item><title>[COLOR blue]Estrella TV [/COLOR]</title><link>http://66.55.92.79:1935/app/turbomaxs-channel/.m3u8</link></item>	<item><title>[COLOR blue]test [/COLOR]</title><link>http://66.55.92.79:1935/app/chiivas69s-channel/.m3u8</link></item>				<item><title>[COLOR blue]test[/COLOR]</title><link>http://66.55.92.79:1935/app/chivass_69s-channel/.m3u8</link></item>			zrivo12s-Channel/plugins/video/show?startMuted=false	<item><title>[COLOR blue]Green Planet[/COLOR]</title><link>http://80.80.160.168/live/4/live.m3u8</link></item>-->	<item><title>[COLOR blue]TV Latina[/COLOR]</title><link>http://live.mvdigital.net:1935/live1/livestream1.sdp/playlist.m3u8</link></item><item><title>[COLOR blue]GlobalTV[/COLOR]</title><link>http://live.mvdigital.net:1935/live2/livestream1.sdp/playlist.m3u8</link></item>		<item><title>[COLOR blue]ATV[/COLOR]</title><link>http://live.mvdigital.net:1935/live3/livestream1.sdp/playlist.m3u8</link></item>		<item><title>[COLOR blue]test ???[/COLOR]</title><link>http://live.mvdigital.net:1935/live4/livestream1.sdp/playlist.m3u8</link></item>		<item><title>[COLOR blue]????[/COLOR]</title><link>http://live.mvdigital.net:1935/live6/livestream1.sdp/playlist.m3u8</link></item>		<item><title>[COLOR blue]Panamericana Peru[/COLOR]</title><link>http://live.mvdigital.net:1935/live8/livestream1.sdp/playlist.m3u8</link></item>		<item><title>[COLOR blue]Red TV[/COLOR]</title><link>http://live.mvdigital.net:1935/live9/livestream1.sdp/playlist.m3u8</link></item>				<item><title>[COLOR blue]TVeo Miami[/COLOR]</title><link>http://iphone-streaming.ustream.tv/uhls/14034121/streams/live/iphone/playlist.m3u8</link></item>				<item><title>[COLOR blue]Tico TV[/COLOR]</title><link>http://iphone-streaming.ustream.tv/uhls/20969301/streams/live/iphone/playlist.m3u8</link>			<thumbnail>http://i.imgur.com/GWHzGfr.png</thumbnail>			</item><item>			<title>[COLOR blue]Tico TV 2[/COLOR]</title>			<link>http://iphone-streaming.ustream.tv/ustreamVideo/$doregex[path]/streams/live/playlist.m3u8</link>			<regex>			<name>path</name>			<expres>"https://www.ustream.tv/embed/(.+?)"></expres>			<page>http://www.ustream.tv/channel/ticotvlive</page>			<referer> </referer>			</regex>			<thumbnail>http://i.imgur.com/GWHzGfr.png</thumbnail>			</item><item>			<title>[COLOR blue]Caracol SD Colombia[/COLOR]</title>			<link>rtmp://$doregex[ip]/live playpath=grghtrhtr?id=22163$doregex[pk] swfUrl=http://www.embedezcast.com/static/scripts/fplayer.swf tcUrl=rtmp://ezcast.tv:1935/live/			pageUrl=http://www.embedezcast.com swfVfy=1 timeout=15 live=1 conn=S:OK</link>			<regex>			<name>ip</name>			<expres>redirect=(.*)<expres>			<page>http://www.embedezcast.com:1935/loadbalancer</page>			</regex>			<regex>			<name>pk</name>			<expres>ea=(.*)'</expres> 			<page>http://www.embedezcast.com/embedplayer/grghtrhtr/1/620/380</page>			<referer>http://www.embedezcast.com/</referer>			</regex>			</item>	<item>			<title>[COLOR blue]Caracol Colombia[/COLOR]</title><sportsdevil>http://www.streamlive.to/embed/52715</sportsdevil>			<referer>http://www.streamlive.to</referer>	</item>	<item>			<title>[COLOR blue]POP TV - Uruguay[/COLOR]</title>			<sportsdevil>http://livestream.com/accounts/6092655/events/4012368/player</sportsdevil><referer>http://livestream.com</referer>			</item>	<item>			<title>[COLOR blue]TV Chile Canal 13 (Chile)[/COLOR]</title>			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_roytvchile live=1 timeout=20</link>			<regex>			<name>clearCode</name>			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>			<page></page>			</regex>			<regex>			<name>getencoded</name>			<expres>:mvnkey-(.*)</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getserver</name>			<expres>(.*?);</expres>			<page>$doregex[getUrl]</page>			</regex>			<regex>			<name>getUrl</name>			<expres>(.*)</expres>			<page>http://mvn.vaughnsoft.net/video/edge/live_roytvchile$doregex[gettime]-$doregex[gettime].33434</page>			</regex>			<regex>			<name>gettime</name>			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>			<page></page>			</regex>			</item>		<item>			<title>[COLOR blue]Russia Today - RT HD[/COLOR]</title>			<link>http://rt-lh.akamaihd.net/i/ch_02@325606/index_720p_av-p.m3u8?sd=10&rebase=on</link>	</item>				</item><item>			<title>[COLOR blue]Nuestras Tele Noticias[/COLOR]</title>			<link>http://livestream-f.akamaihd.net/13988764_1183803_a464c259_1_678@26206?v=3.6.0&fp=WIN%2018,0,0,232&r=YZKIG&g=QZBXULKIOYXF</link>	</item>				<item><title>[COLOR blue]Al jazeera[/COLOR]</title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres><page>http://tv.vera.com.uy/canal/11580</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex></item>	<item><title>[COLOR blue]France 24[/COLOR]</title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres><page>http://tv.vera.com.uy/canal/9845</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex></item><item><title>[COLOR blue]Telesur [/COLOR]</title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres><page>http://tv.vera.com.uy/canal/6028</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex></item>		<item><title>[COLOR blue]TV Brasil[/COLOR]</title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres><page>http://tv.vera.com.uy/canal/6026</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex></item>			<item>			<title>[COLOR blue]CCTV [/COLOR]</title>			<link>plugin://plugin.video.f4mTester/?url=http://ak.live.cntv.cn/z/cctvxiyu_1@71834/manifest.f4m?hdcore=2.11.3</link>			<thumbnail></thumbnail>			</item>			<item>			<title>[COLOR blue]HBO ingles (movies)[/COLOR]</title>			<link>rtmp://94.102.49.207/iguide playpath=0bf02qe6msgtu4s swfUrl=http://cdn1.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/ token=#ed%h0#w18623jsda6523lDGDvcx7</link><!-- -->			<thumbnail></thumbnail>			</item>	<item>			<title>[COLOR blue]HBO HD Ingles[/COLOR]</title>			<link>http://113.160.49.34/lives/origin03/hbohd.isml/hbohd-2096k.m3u8</link>			<thumbnail></thumbnail>			</item>		
+			<item>
+				<title>Telefe Argentina</title>
+				<link>http://live-edge01.telecentro.net.ar:1935/live/tlfhd-180/playlist.m3u8</link>
+			</item>
+			
+
+		
+			
+			<item><title>Todo Anime</title><link>http://video7.stream.mx:1935/raxatv/raxatv/chunklist_w884577146.m3u8?monclovacaliente.m3u8</link></item>
+			
+			
+
+		
+<item>
+<title> grantv</title>
+<link>rtmp://$doregex[get-ip]/live/ playpath=egtv602?id=21643&$doregex[pk] conn=S:OK
+swfUrl=http://www.embedezcast.com/static/scripts/fplayer.swf pageUrl=http://www.embedezcast.com  live=true timeout=15</link>
+<regex>
+<name>get-ip</name>
+<expres>redirect=(.*)</expres>
+<page>http://www.embedezcast.com:1935/loadbalancer</page>
+</regex>
+<regex>
+<name>pk</name>
+<expres>ea=(.*)'</expres>
+<page>http://www.embedezcast.com/embedplayer/egtv602/1/600/400</page>
+<referer>http://www.elgrantv.com/</referer>
+</regex>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+				<item>
+			<title>America TV opc.1</title>
+			<link>http://ooyalahd2-f.akamaihd.net/i/atv02_delivery@25405/master.m3u8</link><!-- -->
+			</item>
+			
+				<item>
+			<title>America TV opc.2</title>
+			<link>http://ooyalahd2-f.akamaihd.net/i/atv02_delivery@25405/index_564_av-p.m3u8</link><!-- -->
+			</item>
+			
+			<item>
+			<title>Telefe</title>
+			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_beto_3 live=1 timeout=20</link>
+			<regex>
+			<name>clearCode</name>
+			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
+			<page></page>
+			</regex>
+			<regex>
+			<name>getencoded</name>
+			<expres>:mvnkey-(.*)</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getserver</name>
+			<expres>(.*?);</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getUrl</name>
+			<expres>(.*)</expres>
+			<page>http://mvn.vaughnsoft.net/video/edge/live_beto_3$doregex[gettime]-$doregex[gettime].33434</page>
+			</regex>
+			<regex>
+			<name>gettime</name>
+			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
+			<page></page>
+			</regex>
+			</item>
+			
+			
+			<item>
+			<title>Bolivia</title>
+			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_bolivia live=1 timeout=20</link>
+			<regex>
+			<name>clearCode</name>
+			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
+			<page></page>
+			</regex>
+			<regex>
+			<name>getencoded</name>
+			<expres>:mvnkey-(.*)</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getserver</name>
+			<expres>(.*?);</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getUrl</name>
+			<expres>(.*)</expres>
+			<page>http://mvn.vaughnsoft.net/video/edge/live_bolivia$doregex[gettime]-$doregex[gettime].33434</page>
+			</regex>
+			<regex>
+			<name>gettime</name>
+			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
+			<page></page>
+			</regex>
+			</item>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+		
+			<item>
+			<title>Paraguay Online</title>
+			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_paraguayonline live=1 timeout=20</link>
+			<regex>
+			<name>clearCode</name>
+			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
+			<page></page>
+			</regex>
+			<regex>
+			<name>getencoded</name>
+			<expres>:mvnkey-(.*)</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getserver</name>
+			<expres>(.*?);</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getUrl</name>
+			<expres>(.*)</expres>
+			<page>http://mvn.vaughnsoft.net/video/edge/live_paraguayonline$doregex[gettime]-$doregex[gettime].33434</page>
+			</regex>
+			<regex>
+			<name>gettime</name>
+			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
+			<page></page>
+			</regex>
+			</item>
+			
+			
+			
+			<item>
+			<title>Americana TV</title>
+			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_americana live=1 timeout=20</link>
+			<regex>
+			<name>clearCode</name>
+			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
+			<page></page>
+			</regex>
+			<regex>
+			<name>getencoded</name>
+			<expres>:mvnkey-(.*)</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getserver</name>
+			<expres>(.*?);</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getUrl</name>
+			<expres>(.*)</expres>
+			<page>http://mvn.vaughnsoft.net/video/edge/live_americana$doregex[gettime]-$doregex[gettime].33434</page>
+			</regex>
+			<regex>
+			<name>gettime</name>
+			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
+			<page></page>
+			</regex>
+			</item>
+			
+			
+			
+			
+			<item>
+			<title>TV Noticias - Peru</title>
+			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_tvnorte live=1 timeout=20</link>
+			<regex>
+			<name>clearCode</name>
+			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
+			<page></page>
+			</regex>
+			<regex>
+			<name>getencoded</name>
+			<expres>:mvnkey-(.*)</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getserver</name>
+			<expres>(.*?);</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getUrl</name>
+			<expres>(.*)</expres>
+			<page>http://mvn.vaughnsoft.net/video/edge/live_tvnorte$doregex[gettime]-$doregex[gettime].33434</page>
+			</regex>
+			<regex>
+			<name>gettime</name>
+			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
+			<page></page>
+			</regex>
+			</item>
+			
+			
+			
+			<item>
+			<title>GAMA TV</title>
+			<link>$doregex[get-page]</link>
+			<regex>
+			<name>get-page</name>
+			<expres>"rtsp_url":"(.*?)"</expres>
+			<page>http://new.livestream.com/accounts/7895918/events/3314732/player?width=960&amp;height=540&amp;autoPlay=true</page>
+			<referer>http://www.americateve.com/vivo</referer>
+			<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0</agent>
+			</regex>
+			<thumbnail></thumbnail>
+			</item>
+
+			
+			<item>
+			<title>Gama TV</title>
+			<link>http://livestream-f.akamaihd.net/7895918_3314732_92083974_1_446@132480?v=3.6.0&fp=WIN%2016,0,0,305&r=YUBOK&g=XLPNIZVVOOTN</link>
+			</item>
+			
+			<item>
+			<title>Gama TV</title>
+			<link>http://veetle.com/index.php/hls/streamMbrfast/52dada61bdf13_/stream.m3u8</link>
+			</item>
+			
+			
+			
+
+
+			<item>
+			<title>H Vision</title>
+			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_hvisionn live=1 timeout=20</link>
+			<regex>
+			<name>clearCode</name>
+			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
+			<page></page>
+			</regex>
+			<regex>
+			<name>getencoded</name>
+			<expres>:mvnkey-(.*)</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getserver</name>
+			<expres>(.*?);</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getUrl</name>
+			<expres>(.*)</expres>
+			<page>http://mvn.vaughnsoft.net/video/edge/live_bajocerortv$doregex[gettime]-$doregex[gettime].33434</page>
+			</regex>
+			<regex>
+			<name>gettime</name>
+			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
+			<page></page>
+			</regex>
+			</item>
+			
+		 
+
+			
+			
+			<item>
+			<title>Canal Trece ***</title>
+			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_vk_1 live=1 timeout=20</link>
+			<regex>
+			<name>clearCode</name>
+			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
+			<page></page>
+			</regex>
+			<regex>
+			<name>getencoded</name>
+			<expres>:mvnkey-(.*)</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getserver</name>
+			<expres>(.*?);</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getUrl</name>
+			<expres>(.*)</expres>
+			<page>http://mvn.vaughnsoft.net/video/edge/live_vk_1$doregex[gettime]-$doregex[gettime].33434</page>
+			</regex>
+			<regex>
+			<name>gettime</name>
+			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
+			<page></page>
+			</regex>
+			</item>
+		 
+			
+
+			
+			<item><title>Tvc Chicago</title>
+			<link>rtmp://76.79.146.124/live/ playpath=TVCSB swfUrl=http://tutvgratis.tv/frontend/js/jwplayer.flash.swf live=1 pageUrl=http://tutvgratis.tv/embed/channelid?channelid=156&w=&h=</link></item>
+			
+	<!-- username | password |
+|-----------|----------|
+| .agustin | 123 |
+| .oscar | 123 |
+| 0003m | 1212 |
+| andreagzz | 123 |
+| chuy8203 | 123 |
+| chuyes | 123 |
+| edvaldez | 123 |
+| adan33 | 123 |
+| team30 | team30 |
+*--------------------
+
+
+	
+	<item><title>[COLOR silver][Inestables][/COLOR]  Telemundo</title><link>http://192.240.113.42:1935/live/canal012.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  UFC HD</title><link>http://192.240.113.42:1935/live/canal009.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  TELEMUNDO USA</title><link>http://192.240.113.42:1935/live/canal007.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  AZTECA 7 HD</title><link>http://192.240.113.42:1935/live/canal002.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  TDN MEX</title><link>http://192.240.113.42:1935/live/canal088.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  NFL NETWORK</title><link>http://192.240.113.42:1935/live/canal087.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  OUTDOOR CHANNEL</title><link>http://192.240.113.42:1935/live/canal086.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  CANAL E</title><link>http://192.240.113.42:1935/live/canal075.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  XEW Canal 2</title><link>http://192.240.113.42:1935/live/canal045.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  XHIMT Canal 7</title><link>http://192.240.113.42:1935/live/canal047.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  XHGC Canal 5</title><link>http://192.240.113.42:1935/live/canal046.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  XHDF Canal 13</title><link>http://192.240.113.42:1935/live/canal049.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  Cartoon Network Norte</title><link>http://192.240.113.42:1935/live/canal043.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  Disney Junior Norte</title><link>http://192.240.113.42:1935/live/canal042.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  </title><link>Nat Geo Wild</title><link>http://192.240.113.42:1935/live/canal044.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  FX Latin</title><link>http://192.240.113.42:1935/live/canal017.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  Fox Life</title><link>http://192.240.113.42:1935/live/canal018.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  AXN Latino America</title><link>http://192.240.113.42:1935/live/canal019.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  Fox Sport 1</title><link>http://192.240.113.42:1935/live/canal020.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  Fox Sport 2</title><link>http://192.240.113.42:1935/live/canal021.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  ESPN America Latina</title><link>http://192.240.113.42:1935/live/canal022.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  ESPN2 Mexico</title><link>http://192.240.113.42:1935/live/canal023.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  HBO Latino America</title><link>http://192.240.113.42:1935/live/canal041.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  </title><link>Cantinflas</title><link>http://192.240.113.42:1935/live/canal037.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  Naturaleza Salvaje</title><link>http://192.240.113.42:1935/live/canal039.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  Canal FOX Mexico</title><link>http://192.240.113.42:1935/live/canal016.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  Los Picapiedra</title><link>http://192.240.113.42:1935/live/canal033.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  Pedro Infante</title><link>http://192.240.113.42:1935/live/canal038.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  Baby Einstein</title><link>http://192.240.113.42:1935/live/canal015.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  La Ninera</title><link>http://192.240.113.42:1935/live/canal014.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  Don Gato</title><link>http://192.240.113.42:1935/live/canal031.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  Derbez En Cuando</title><link>http://192.240.113.42:1935/live/canal024.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  NCIS</title><link>http://192.240.113.42:1935/live/canal032.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  La Pantera Rosa</title><link>http://192.240.113.42:1935/live/canal034.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  Familia Moderna</title><link>http://192.240.113.42:1935/live/canal035.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  La Familia Peluche</title><link>http://192.240.113.42:1935/live/canal025.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  Futurama</title><link>http://192.240.113.42:1935/live/canal026.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  Avengers</title><link>http://192.240.113.42:1935/live/canal028.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  South Park</title><link>http://192.240.113.42:1935/live/canal029.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  2 Hombres Y Medio</title><link>http://192.240.113.42:1935/live/canal027.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  Los Simpson Channel</title><link>http://192.240.113.42:1935/live/canal036.stream/playlist.m3u8?username=team30&password=team30</link></item><item><title>[COLOR silver][Inestables][/COLOR]  
+	
+	--->
+	
+	
+			
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/50652</page></regex><title>[COLOR hotpink][iLive][/COLOR] BET</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/52715</page></regex><title>[COLOR hotpink][iLive][/COLOR] CARACOL TELEVISION COLOMBIA</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/46476</page></regex><title>[COLOR hotpink][iLive][/COLOR] ABC  (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/57846</page></regex><title>[COLOR hotpink][iLive][/COLOR] Lifetime (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/68952</page></regex><title>[COLOR hotpink][iLive][/COLOR] A&E</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/57973</page></regex><title>[COLOR hotpink][iLive][/COLOR] TNT (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/38768</page></regex><title>[COLOR hotpink][iLive][/COLOR] USA Network (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/46454</page></regex><title>[COLOR hotpink][iLive][/COLOR] Syfy (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/69109</page></regex><title>[COLOR hotpink][iLive][/COLOR] TLC</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/52479</page></regex><title>[COLOR hotpink][iLive][/COLOR] Spike TV (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/57956</page></regex><title>[COLOR hotpink][iLive][/COLOR] NBC (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/69477</page></regex><title>[COLOR hotpink][iLive][/COLOR] The Big Bang Theory- ApolloFm</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/71610</page></regex><title>[COLOR hotpink][iLive][/COLOR] Comedy Central</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/52480</page></regex><title>[COLOR hotpink][iLive][/COLOR] Bravo</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/53856</page></regex><title>[COLOR hotpink][iLive][/COLOR] Hallmark (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/51896</page></regex><title>[COLOR hotpink][iLive][/COLOR] RCN TELEVISION COLOMBIA</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/70731</page></regex><title>[COLOR hotpink][iLive][/COLOR] Canal+ Cinema France (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/69425</page></regex><title>[COLOR hotpink][iLive][/COLOR] Family Guy  -ApolloFm</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/56002</page></regex><title>[COLOR hotpink][iLive][/COLOR] Fox Networks(HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/70211</page></regex><title>[COLOR hotpink][iLive][/COLOR] Channel 4 UK (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/72136</page></regex><title>[COLOR hotpink][iLive][/COLOR] Sky Atlantic (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/70468</page></regex><title>[COLOR hotpink][iLive][/COLOR] TF1 (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/38687</page></regex><title>[COLOR hotpink][iLive][/COLOR] Disney Junior</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/71971</page></regex><title>[COLOR hotpink][iLive][/COLOR] Zee TV</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/68359</page></regex><title>[COLOR hotpink][iLive][/COLOR] The HD Movie Channel 2</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/72038</page></regex><title>[COLOR hotpink][iLive][/COLOR] Tom & Jerry</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/70730</page></regex><title>[COLOR hotpink][iLive][/COLOR] Syfy France (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/46209</page></regex><title>[COLOR hotpink][iLive][/COLOR] AMC  (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/68358</page></regex><title>[COLOR hotpink][iLive][/COLOR] The HD Movie Channel 1</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/72043</page></regex><title>[COLOR hotpink][iLive][/COLOR] Gravity Falls</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/52053</page></regex><title>[COLOR hotpink][iLive][/COLOR] HGTV (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/53857</page></regex><title>[COLOR hotpink][iLive][/COLOR] OWN - Oprah Winfrey Network (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/70633</page></regex><title>[COLOR hotpink][iLive][/COLOR] History Channel Europe [HD]</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/30303</page></regex><title>[COLOR hotpink][iLive][/COLOR] ABC Family - Mttvmario</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/65833</page></regex><title>[COLOR hotpink][iLive][/COLOR] Travel channel (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/52506</page></regex><title>[COLOR hotpink][iLive][/COLOR] Food Network (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/70212</page></regex><title>[COLOR hotpink][iLive][/COLOR] Discovery France (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/70632</page></regex><title>[COLOR hotpink][iLive][/COLOR] Discovery Investigation-Europe [HD]</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/52988</page></regex><title>[COLOR hotpink][iLive][/COLOR] VH1</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/69112</page></regex><title>[COLOR hotpink][iLive][/COLOR] Discovery (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/70213</page></regex><title>[COLOR hotpink][iLive][/COLOR] National Geographic Wild France (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/68872</page></regex><title>[COLOR hotpink][iLive][/COLOR] National Geographic (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/39949</page></regex><title>[COLOR hotpink][iLive][/COLOR] History (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/68871</page></regex><title>[COLOR hotpink][iLive][/COLOR] Science (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/70182</page></regex><title>[COLOR hotpink][iLive][/COLOR] History Channel HD</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/69111</page></regex><title>[COLOR hotpink][iLive][/COLOR] ID - Investigation Discovery (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/71881</page></regex><title>[COLOR hotpink][iLive][/COLOR] Sky Showcase (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/71665</page></regex><title>[COLOR hotpink][iLive][/COLOR] Sky Action (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/71577</page></regex><title>[COLOR hotpink][iLive][/COLOR] Sky Movie Premier (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/38366</page></regex><title>[COLOR hotpink][iLive][/COLOR] SuperHero movie channel</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/69036</page></regex><title>[COLOR hotpink][iLive][/COLOR] Showtime</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/38449</page></regex><title>[COLOR hotpink][iLive][/COLOR] Fox Movie Channel</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/71664</page></regex><title>[COLOR hotpink][iLive][/COLOR] Sky Comedy (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/36673</page></regex><title>[COLOR hotpink][iLive][/COLOR] Friends show</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/71666</page></regex><title>[COLOR hotpink][iLive][/COLOR] Sky Family (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/71667</page></regex><title>[COLOR hotpink][iLive][/COLOR] Sky Drama (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/38214</page></regex><title>[COLOR hotpink][iLive][/COLOR] HBO Comedy movie</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/37002</page></regex><title>[COLOR hotpink][iLive][/COLOR] Jackie Chan</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/71731</page></regex><title>[COLOR hotpink][iLive][/COLOR] Sky Scifi-Horror (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/38217</page></regex><title>[COLOR hotpink][iLive][/COLOR] That's 70 show</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/72186</page></regex><title>[COLOR hotpink][iLive][/COLOR] HBO HD</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/55182</page></regex><title>[COLOR hotpink][iLive][/COLOR] Family Guy</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/40783</page></regex><title>[COLOR hotpink][iLive][/COLOR] House MD</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/46465</page></regex><title>[COLOR hotpink][iLive][/COLOR] Fox News (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/46461</page></regex><title>[COLOR hotpink][iLive][/COLOR] CNN (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/52505</page></regex><title>[COLOR hotpink][iLive][/COLOR] MSNBC (HD)</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/57804</page></regex><title>[COLOR hotpink][iLive][/COLOR] CNN International</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/70785</page></regex><title>[COLOR hotpink][iLive][/COLOR] CNN</title></item>
+<item><link>$doregex[getM3U8]</link><regex><name>getM3U8</name><expres>controls.*src="(.*?)"</expres><page>http://m.streamlive.to/view/71981</page></regex><title>[COLOR hotpink][iLive][/COLOR] CNBC</title></item>
+	
+	
+	<item><title>Buryring the ex</title><imdb>3339674</imdb></item>	
+	
+<item><title>Univision</title><link>http://iptvlatam.cf/hls/univision/playlist.m3u8</link></item>
+
+<item><title>Fox</title><link>http://iptvlatam.cf/hls/fox/playlist.m3u8</link></item>
+
+<item><title>Paramount</title><link>http://iptvlatam.cf/hls/natgeo/playlist.m3u8</link></item>
+
+<item><title>Historia</title><link>http://iptvlatam.cf/hls/historia/playlist.m3u8</link></item>
+
+<item><title>Canal 13 Argentina</title><link>mms://209.160.20.34/canal3/</link></item>
+
+
+
+<item><title>Telemundo</title><link>http://209.133.208.194:1935/app/telemundox1chivas_69s-channel/playlist.m3u8</link></item>
+
+<item><title>Telemundo (Option 2)</title><link>http://iphone-streaming.ustream.tv/uhls/20720323/streams/live/iphone/playlist.m3u8?</link></item>
+
+<item><title>Univision HD</title><link>http://209.133.208.26:1935/app/turbomax-hds-channel/playlist.m3u8</link></item>
+
+<item><title>MundoMax</title><link>http://209.133.208.194:1935/app/ana69s-channel/playlist.m3u8</link></item>
+
+<item><title>NASA ISS 1</title><link>http://iphone-streaming.ustream.tv/uhls/17074538/streams/live/iphone/playlist.m3u8</link></item>
+
+<item><title>NASA ISS 2</title><link>http://iphone-streaming.ustream.tv/uhls/9408562/streams/live/iphone/playlist.m3u8</link></item>
+
+<item><title>NASA TV SD</title><link>http://iphone-streaming.ustream.tv/ustreamVideo/6540154/streams/live/playlist.m3u8</link></item>
+
+<item><title>NASA TV HD</title><link>http://nasatv-lh.akamaihd.net/i/NASA_101@319270/master.m3u8</link></item>
+
+<item><title>Test***</title><link>http://200.76.77.237/LIVE/H01/CANAL201/PROFILE03.m3u8?=-adryanlist</link></item>
+
+<item><title>Ultra Cine HD/title><link>http://vemoxhlslive-i.akamaihd.net/hls/live/219940/vemoxchannel1/iOS/vemoxchannel1@219940/index.m3u8</link></item>
+  <item><title>Ultra Cine/title><link>http://vemoxhlslive-i.akamaihd.net/hls/live/219940/vemoxchannel1/iOS/vemoxchannel1@219940/stream2/streamPlaylist.m3u8</link></item>
+  <item><title>Ultra Film HD/title><link>http://vemoxhlslive-i.akamaihd.net/hls/live/219942/vemoxchannel3/iOS/vemoxchannel3@219942/index.m3u8</link></item>
+  <item><title>Ultra Film/title><link>http://vemoxhlslive-i.akamaihd.net/hls/live/219942/vemoxchannel3/iOS/vemoxchannel3@219942/stream2/streamPlaylist.m3u8</link></item>
+
+
+        </items>
+    </channel>

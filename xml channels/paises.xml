@@ -1,0 +1,2535 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channels>
+    <channels_info> <!-- this is opitonal -->
+      <title>Adryan list</title> <!-- if channels_info, a title is required, other elements are optional -->
+      <genre>Television</genre>
+      <description>Lista de Canales de Adrian  </description>
+       <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+      <date>17.11.2014</date>
+      <credits>adryan@mail.com</credits>
+    </channels_info>
+	
+	
+	
+	
+	
+      <channel>
+    <name>          Argentina</name>
+    <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
+    <fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+        <items>
+                
+			<item><title>[COLOR=green]-----[/COLOR][COLOR=orange] A R G E N T I N A[/COLOR][COLOR=green]-----[/COLOR]</title><link>http://about.me/adryan</link></item>
+			
+			
+			<item><info>TV Argentina</info><title>[COLOR skyblue]TN HD[/COLOR]</title><link>rtsp://stream.tn.com.ar/live/tnhd1</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]TN SD[/COLOR]</title><link>rtsp://stream.tn.com.ar/live/tnmovil3</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]EL TRECE HD[/COLOR]</title><link>rtsp://stream.eltrecetv.com.ar/live13/13tv/13tv1/</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]EL TRECE HD (2)[/COLOR]</title><link>http://live-edge01.telecentro.net.ar/live/13hd-360/playlist.m3u8</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]EL TRECE SD[/COLOR]</title><link>http://live-edge01.telecentro.net.ar/live/13hd-180/playlist.m3u8</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]C5N[/COLOR]</title><link>rtmp://c5n.stweb.tv:1935/c5n/live_media</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]C5N (2)[/COLOR]</title><link>rtmp://c5n.stweb.tv:1935/c5n/live</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]CANAL 26 HD[/COLOR]</title><link>rtsp://live-edge01.telecentro.net.ar:80/live/26hd-360</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]CANAL 26 HD (2)[/COLOR]</title><link>http://live-edge01.telecentro.net.ar/live/26hd-360/playlist.m3u8</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]CANAL 26 SD[/COLOR]</title><link>http://live-edge01.telecentro.net.ar/live/26hd-180/playlist.m3u8</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue] A24[/COLOR]</title><link>http://iphone-streaming.ustream.tv/uhls/17916700/streams/live/iphone/playlist.m3u8</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]360TV[/COLOR]</title><link>http://lsd360tvhls-lh.akamaihd.net/i/360TVHLS_1@197877/master.m3u8</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]Canal Rural[/COLOR]</title><link>rtsp://streamrural.cmd.com.ar:1935/liverural/crural/rural1</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]CNN en español[/COLOR]</title><link>http://187.247.255.139/Apple/CNNEspanol1200.m3u8</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]ARG TV PUBLICA HD[/COLOR]</title><link>http://live-edge01.telecentro.net.ar/live/tvphd-360/playlist.m3u8</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]ARG TV PUBLICA SD[/COLOR]</title><link>http://live-edge01.telecentro.net.ar/live/tvphd-180/playlist.m3u8</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]America TV[/COLOR]</title><link>http://live-edge01.telecentro.net.ar/live/amrchd-360/playlist.m3u8</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]America TV HD 720[/COLOR]</title><link>http://live-edge01.telecentro.net.ar/live/amrchd-720/playlist.m3u8</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]TeLeFe SD HQ[/COLOR]</title><link>http://live-edge01.telecentro.net.ar:1935/live/tlfhd-360/playlist.m3u8</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]Canal 2 Misiones[/COLOR]</title><link>http://190.57.237.214/live/canal.m3u8</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]Canal 29 Ensenada[/COLOR]</title><link>rtmp://panel.dattalive.com/8008/8008</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]Canal 4 Esquel[/COLOR]</title><link>rtmp://streamlky.alsolnet.com/canal4/live</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]Canal 4 HD 720 Jujuy[/COLOR]</title><link>rtmp://streaming.wirenetserver.com.ar/canal4/live_1</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]Canal 7 Jujuy mms[/COLOR]</title><link>mms://200.43.187.111/canal7</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]Canal 79 San Juan[/COLOR]</title><link>rtmp://painel.serveron.com.br:1935/8162/8162</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]Canal 9 Parana[/COLOR]</title><link>http://ionlive1-lh.akamaihd.net/i/canal9_1@125365/master.m3u8</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]Canal 9 Salta[/COLOR]</title><link>http://xcanal9saltax.api.channel.livestream.com/3.0/playlist.m3u8</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]Canal Rural 1 rtsp[/COLOR]</title><link>rtsp://streamrural.cmd.com.ar:554/liverural/crural/rural1</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]CANAL RURAL 2 rtsp[/COLOR]</title><link>rtsp://streamrural.cmd.com.ar:554/liverural/crural/rural2</link></item>
+<item><info>TV Argentina</info><title>[COLOR skyblue]ECO TV Tandil[/COLOR]</title><link>rtmp://mediacontrol.jargon.com.ar/elecotv/elecotv</link></item>
+
+
+			<item><title>Argentina: America TV</title><link>http://live-edge01.telecentro.net.ar/live/amrchd-360/playlist.m3u8</link></item>
+<item><title>Argentina: America TV HD </title><link>http://live-edge01.telecentro.net.ar/live/amrchd-720/playlist.m3u8</link></item>
+<item><title>Argentina: Canal 4 HD </title><link>rtmp://streaming.wirenetserver.com.ar/canal4/live_1</link></item>
+<item><title>Argentina: Canal 9 Bio Bio HD 720</title><link>http://wow2.cl.digitalproserver.com/c9//c9.smil/chunklist_w722946044_b1200000.m3u8</link></item>
+<item><title>Argentina: CANAL 26 HD</title><link>http://live-edge01.telecentro.net.ar/live/26hd-360/playlist.m3u8</link></item>
+<item><title>Argentina: EL TRECE </title><link>http://live-edge01.telecentro.net.ar/live/13hd-360/playlist.m3u8</link></item>
+<item><title>Argentina: El Trece HD </title><link>http://live-edge01.telecentro.net.ar:1935/live/13hd-720/playlist.m3u8</link></item>
+<item><title>Argentina: TELEFE HD</title><link>http://live-edge01.telecentro.net.ar/live/tlfhd-360/playlist.m3u8</link></item>
+<item><title>Argentina: Telpin Canal 2 HD Pinamar</title><link>rtmp://201.219.100.30:1935/telpintv/ttv.stream_720p</link></item>
+<item><title>Argentina: TV PUBLICA HD</title><link>http://live-edge01.telecentro.net.ar/live/tvphd-360/playlist.m3u8</link></item>
+			
+			
+			
+			<item>
+			<title>120 AMERICA TV</title>
+			<link>http://iphone-streaming.ustream.tv/ustreamVideo/$doregex[path]/streams/live/playlist.m3u8</link>
+			<regex>
+			<name>path</name>
+			<expres>"https://www.ustream.tv/embed/(.+?)"></expres>
+			<page>http://www.ustream.tv/channel/17916695</page>
+			<referer> </referer>
+			</regex>
+			<thumbnail></thumbnail>
+			</item>
+			<item><title>121 TN HD</title>
+			<link>rtsp://stream.tn.com.ar/live/tnmovil2</link></item>
+
+			<item><title>124 TELEFE HD</title>
+			<link>rtmp://cp129990.live.edgefcs.net/live/notidiario@190117</link></item>
+
+			<item><title>125 TELEFE HD -OPCION 2-</title>
+			<link>rtmp://wdc02.iviplanet.com/Tele-Fe/myStream.sdp</link></item> 
+			
+			<item><title>126 TELEFE HD -OPCION 3-</title>
+			<link>rtmp://wdc02.iviplanet.com/Tele-Fe/ playpath=myStream.sdp swfUrl=http://p.jwpcdn.com/6/2/jwplayer.flash.swf live=1 pageUrl=http://www.cxntv.com/canales/telefe/</link></item> 
+			
+
+			<item><title>127 CANAL 13 HD</title>
+			<link>rtsp://stream.eltrecetv.com.ar/live13/13tv/13tv1</link></item>
+			
+			<item><title>127 CANAL 13 HD</title>
+			<link>rtmp://stream.eltrecetv.com.ar/live13/13tv/13tv1 playpath=13tv1 swfUrl=http://cdn.eltrecetv.com.ar/sites/all/libraries/jwplayer/player.swf pageUrl=http://www.eltrecetv.com.ar/vivo live=1</link></item>
+
+			
+			<item><title>128 CANAL 9</title>
+			<link>http://72.46.226.53/live01/_definst_/canal91/playlist.m3u8</link></item>
+
+			<item><title>130 Canal 7 MZDA</title>
+			<link>http://iphone-streaming.ustream.tv/ustreamVideo/16101191/streams/live/playlist.m3u8</link></item>
+
+			<item><title>131 C5N HD</title>
+			<link>http://c5n.stweb.tv:1935/c5n/live_media/playlist.m3u8</link></item>
+
+			<item><title>132 C5N HD - Opcion 2</title>
+			<link>rtmp://c5n.stweb.tv:1935/c5n/live_media</link></item>
+
+			<item><title>133 C5N HD - Opcion 3</title>
+			<link>rtmp://wdc02.iviplanet.com/C5N/myStream.sdp</link></item>
+
+			<item><title>135 Canal 360</title>
+			<link>rtmp://wdc02.iviplanet.com/360TV/myStream.sdp</link></item> 
+
+			<item><title>136 Canal 11 - NO SIEMPRE ACTIVO</title>
+			<link>http://iphone-streaming.ustream.tv/uhls/8957585/streams/live/iphone/playlist.m3u8</link></item>
+
+			<item><title>139 TV Publica HD</title>
+			<link>rtmp://wdc02.iviplanet.com/TVPublicaHD/myStream.sdp</link></item>
+
+			<item><title>140 A24</title>
+			<link>http://iphone-streaming.ustream.tv/ustreamVideo/17916700/streams/live/playlist.m3u8</link></item>
+
+			<item><title>141 A24 OPCION 2</title>
+			<link>rtmp://wdc02.iviplanet.com/A24/myStream.sdp</link></item>
+
+			<item><title>142 CN23 HD</title>
+			<link>rtmp://wdc02.iviplanet.com/CN23HD/myStream.sdp</link></item>
+
+			<item>
+				<title>150 Canal 6 Digital Corrientes</title><link>rtmp://streamlky.alsolnet.com:1935/noticiasdel6/live</link>
+				<thumbnail>http://www.fotosdigitalesgratis.com/noticias/fotos/Canal6Digital-Logo.jpg</thumbnail>
+			</item>
+			
+			<item>
+				<title>152 Canal 10 Entre Rios</title><link>http://iphone-streaming.ustream.tv/ustreamVideo/253309/streams/live/playlist.m3u8</link>
+				<thumbnail>http://2.bp.blogspot.com/-YRwLG1VUGyg/TsfAJESs9yI/AAAAAAAABgI/Y-EbAN5cYBs/s1600/c10sanjoseentrerios.jpg</thumbnail>
+			</item>
+			
+			<item>
+			<title>155 TV Publica Argentina OPCION 2</title>
+			<link>rtmp://lat2.cxnlive.com/live/ playpath=tvphd swfUrl=http://p.jwpcdn.com/6/2/jwplayer.flash.swf live=1 pageUrl=http://www.cxntv.com/canales/tvp-hd-argentina/</link>
+			</item>
+			
+			<item>
+			<title>157 TyC Sports</title>
+			<link>http://usa.fankytv.com/live/tyc.stream/playlist.m3u8</link>
+			</item>
+			 
+			<item>
+			<title>158 DEPORTV</title>
+			<link>http://$doregex[get-url]/DXTV/smil:DXTV.smil/playlist.m3u8?wmsAuthSign=$doregex[get-id]</link>
+			<regex>
+			<name>get-iframe</name>
+			<expres>iframe-page" src="([^"]*)<expres>
+			<page>http://streaming.deportv.gov.ar/</page>
+			</regex>
+			<regex>
+			<name>get-id</name>
+			<expres>m3u8\?wmsAuthSign=(.*?)'<expres>
+			<page>$doregex[get-iframe]</page>
+			<referer>http://streaming.deportv.gov.ar/</referer>
+			</regex>
+			<regex>
+			<name>get-url</name>
+			<expres>rtspLinkA' href='rtsp:\/\/(.*?)\/DXTV<expres>
+			<page>$doregex[get-iframe]</page>
+			<referer>http://streaming.deportv.gov.ar/</referer>
+			</regex>
+			</item>
+			
+			
+			<item>
+			<title>159 Directv</title>
+			<link>rtmp://$doregex[rtmpip]/live playpath=osopanda?id=18232 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf pageUrl=http://www.janjua.tv live=1 timeout=20</link>
+			<regex>
+			<name>rtmpip</name>
+			<expres>redirect=(.*)</expres>
+			<page>http://www.janjua.tv:1935/loadbalancer?osopanda</page>
+			<referer>http://www.janjua.tv/resources/scripts/eplayer.swf</referer>
+			</regex>
+			</item>
+			<item>
+			<title>000 DeporTV</title>
+			<link>rtmp://fl04.iviplanet.com/DeporTV playpath=myStream.sdp swfUrl=http://www.tvmia.com/scripts/player.swf live=1 pageUrl=http://www.tvmia.com/seleccioncanal/argentina/deportv</link>
+			</item>
+			<item>
+			<title>000 TyC Sports</title>
+			<link>rtmp://sl100tb.cxnlive.com/live/tyc.stream</link>
+			</item>
+			
+			<item>
+			<title>000 DeporTV</title>
+			<link>rtmp://sl100tb.cxnlive.com:1935/live playpath=deportv.stream swfUrl=http://player.longtailvideo.com/player5.3.swf live=1 pageUrl=http://www.tv-envivo.com.ar/2013/03/deportv-en-vivo.html</link>
+			</item>
+			
+			<title>000 Fox Sports</title>
+			<link>rtmpe://cdn.castup.tv:80/redirect playpath=26?74E9X swfUrl=http://www.castup.tv/player/plr.swf live=1 pageUrl=http://www.castup.tv/embed_2.php?channel=26?74E9X&vw=468&vh=360 token=#@8x12pX@!x@# timeout=15</link>
+			</item>
+			<item>
+			<title>TLF</title>
+			<link>http://token-lh.akamaihd.net/i/Telefe_1@123611/index_1_av-p.m3u8</link>
+			</item>
+			<item><title>TELEFE HD</title> <link>rtmp://sl100tb.cxnlive.com/live/telefe.stream</link></item>
+			<item><title>EL TRECE HD: </title> <link>rtsp://stream.eltrecetv.com.ar/live13/13tv/13tv1</link></item>
+			<item><title>AMERICA TV HD: </title> <link>rtmp://sl100tb.cxnlive.com/live/america.stream</link></item> 
+			<item><title>CANAL 9 HD: </title> <link>rtmp://sl100tb.cxnlive.com/live/canal9.stream</link></item> 
+			<item><title>TV PUBLICA HD:</title> <link>rtmp://sl100tb.cxnlive.com/live/tvpublica.stream</link></item> 
+			<item><title>TyC Sports HD:</title> <link>rtmp://sl100tb.cxnlive.com/live/tyc.stream</link></item> 
+			<item><title>TN HD: </title> <link>rtsp://stream.tn.com.ar/live/tnhd1</link></item> 
+			<item><title>C5N: </title> <link>http://c5n.stweb.tv:1935/c5n/live_media/playlist.m3u8</link></item> 
+			<item><title>Canal 26 HD: </title> <link>rtsp://live-edge01.telecentro.net.ar:80/live/26hd-360</link></item> 
+			<item><title>Deportv hd: </title> <link>http://wdc02.iviplanet.com:1935/DeporTV/myStream.sdp/playlist.m3u8</link></item> 
+			<item><title>ESPN + : </title> <link>http://www.ienlace-tv.com:1935/live7/livestream1.sdp/playlist.m3u8</link></item>
+			<item><title>Magazine TV: </title> <link>rtsp://stream.mgzn.tv/live/mgzntv/mgzntv</link></item> 
+			<item><title>History: </title> <link>http://www.ienlace-tv.com:1935/live10/livestream1.sdp/playlist.m3u8</link></item> 
+			<item><title>Boomerang (canal infantil): </title> <link>http://www.ienlace-tv.com:1935/live11/livestream1.sdp/playlist.m3u8</link></item> 
+			<item><title>Discovery kids: </title> <link>http://www.ienlace-tv.com:1935/live6/livestream1.sdp/playlist.m3u8</link></item> 
+			<item><title>Q Musica: </title> <link>mms://streamqm.uigc.net/qmusica</link></item> 
+			
+			
+			<item>
+			<title>[COLOR lime]Argentinisima[/COLOR]<title>
+			<link>mms://transmisionargtv.com.ar:8207/</link>
+			<thumbnail>http://www.argentinisimatv.com.ar/templates/template_argtv/images/logo_argtv.gif</thumbnail>
+			</item>
+
+			<item>
+			<title>[COLOR lime]Kiss TV[/COLOR]<title>
+			<link>rtmp://tst.es.flash.glb.ipercast.net/ app=tst.es-live/ playpath=live swfUrl=http://www.kisstelevision.es/flowplayer-3.2.16.swf pageUrl=http://www.sintelevisor.com/tv/canales/kisstv.php live=true timeout=15</link>
+			<thumbnail>http://www.sintelevisor.com/tv/imagenes/kisstv.jpg</thumbnail>
+			</item>
+
+			<item>
+			<title>[COLOR lime]El Rural[/COLOR]<title>
+			<link>rtmp://streamrural.cmd.com.ar/ app=liverural/crural playpath=rural1 swfUrl=http://www.elrural.com/sites/default/files/jwplayermodule/player/player.swf pageUrl=http://www.elrural.com/canal_rural/vivo live=true timeout=15</link>
+			<thumbnail>http://www.elrural.com/sites/default/files/elrural_favicon.png</thumbnail>
+			</item>
+
+			<item>
+			<title>[COLOR lime]Fashion TV HD[/COLOR]<title>
+			<link>rtmp://stream.fashiontvla.com/ app=liveftv/ftv playpath=ftv2 swfUrl=http://fashiontvla.com/sites/all/modules/custom/nota_video/player.swf pageUrl=http://fashiontvla.com/vivo live=true timeout=15</link>
+			<thumbnail>http://www.sintelevisor.com/tv/imagenes/ftv.jpg</thumbnail>
+			</item>
+
+			<item>
+			<title>[COLOR lime]Magazine TV[/COLOR]<title>
+			<link>rtmp://stream.mgzn.tv/live/ app=mgzntv playpath=mgzntv swfUrl=http://www.mgzn.tv/sites/all/themes/magazine/images/player.swf pageUrl=http://www.mgzn.tv/ live=true timeout=15</link>
+			<thumbnail>http://www.magazinetv.com/sites/default/files/styles/logo_mgzn/public/logo-mgzn_0.jpg</thumbnail>
+			</item>
+
+			<item>
+			<title>[COLOR lime]Cine Canal[/COLOR]<title>
+			<link>rtmp://109.123.126.34/live playpath=space3014?id=71935 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/fplayer.swf pageUrl=http://www.ucaster.eu/embedded/space3014/1/600/385 live=true timeout=15</link>
+			<thumbnail>http://www.sintelevisor.com/tv/imagenes/cinecanal.jpg</thumbnail>
+			</item>
+
+			<item>
+			<title>[COLOR lime]TV Pública[/COLOR]<title>
+			<link>http://ffahds-lh.akamaihd.net/z/c7hds_3@7396/manifest.f4m</link>
+			<thumbnail>http://www.tv14.net/wp-content/uploads/2010/09/TV-P%C3%BAblica.jpg</thumbnail>
+			</item>
+
+			<item>
+			<title>[COLOR lime]Telefe HD[/COLOR]<title>
+			<link>http://token-lh.akamaihd.net/i/Telefe_1@123611/index_1_av-p.m3u8</link>
+			<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/telefe.png</thumbnail>
+			</item>
+
+			<item>
+			<title>[COLOR lime]Canal 13[/COLOR]<title>
+			<link>rtmp://stream.eltrecetv.com.ar/ app=live13/13tv playpath=13tv1 swfUrl=http://static.eltrecetv.com.ar/sites/all/libraries/jwplayer/player-licensed.swf live=true timeout=15 pageUrl=http://www.eltrecetv.com.ar/vivo</link>
+			<thumbnail>http://www.impulsonegocios.com/resources/produccion/contenidos/medium/pais/eltrecehd150511.jpg</thumbnail>
+			</item>
+
+			<item>
+			<title>[COLOR lime]America TV[/COLOR]<title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=WL0K91T5bDw</link>
+			<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/america_ar.png</thumbnail>
+			</item>
+
+			<item>
+			<title>[COLOR lime]Canal 9[/COLOR]<title>
+			<link>http://token-lh.akamaihd.net/i/Canal9_1@123610/index_1_av-p.m3u8</link>
+			<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/canal9_ar.png</thumbnail>
+			</item>
+
+			<item>
+			<title>[COLOR lime]C5N[/COLOR]<title>
+			<link>rtmp://c5n.stweb.tv:1935/c5n playpath=live swfUrl=http://c5n.minutouno.com/js/c5n/jwplayer/player.swf??autostart=true&amp;file=live&amp;streamer=rtmp://c5n.stweb.tv:1935/c5n&amp;rtmp.subscribe=true&amp;autoplay=true&amp;autostart=true&amp;allowscriptaccess=always&amp;&amp;logo.linktarget=_blank&amp;logo.position=top-left&amp;logo.hide=false&amp;skin=nacht.zip&amp;autostart=true&amp;repeat=always&amp;stretching=exactfit&amp;volume=50 live=true timeout=15 pageUrl=http://c5n.minutouno.com/js/c5n/jwplayer/player.swf??autostart=true&amp;file=live&amp;streamer=rtmp://c5n.stweb.tv:1935/c5n&amp;rtmp.subscribe=true&amp;autoplay=true&amp;autostart=true&amp;allowscriptaccess=always&amp;&amp;logo.linktarget=_blank&amp;logo.position=top-left&amp;logo.hide=false&amp;skin=nacht.zip&amp;autostart=true&amp;repeat=always&amp;stretching=exactfit&amp;volume=50</link>
+			<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/c5n.png</thumbnail>
+			</item>
+
+			<item>
+			<title>[COLOR lime]TN Noticias[/COLOR]<title>
+			<link>rtmp://stream.tn.com.ar/live playpath=tnhd2 swfUrl=http://tn.com.ar/sites/all/themes/leono/swf/dplayer/player.swf pageUrl=http://tn.com.ar/envivo/24hs live=true timeout=15</link>
+			<thumbnail>http://www.grupoclarin.com/en/sites/default/files/logo_tn_0_0.jpg</thumbnail>
+			</item>
+
+			<item>
+			<title>[COLOR lime]TYC Sports HD[/COLOR]<title>
+			<link>rtmp://sl100tb.cxnlive.com:1935/live/ playpath=tyc.stream swfUrl=http://player.longtailvideo.com/player5.3.swf pageUrl=http://www.tv-envivo.com.ar/2011/01/tyc-sports-en-vivo.html live=true timeout=15</link>
+			<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tyc_sports.png</thumbnail>
+			</item>
+
+
+			<item>
+			<title>[COLOR lime]DirecTV[/COLOR]<title>
+			<link>rtmp://37.48.93.39/live playpath=combateperu?id=216672 conn=S:OK swfUrl=http://www.mipsplayer.com/content/scripts/fplayer.swf pageUrl=http://www.mipsplayer.com/embedplayer/combateperu/1/600/385 live=true timeout=15</link>
+			<thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/directv_lam_sports.png</thumbnail>
+			</item>
+
+			
+			
+			
+			
+			
+			
+			
+            </items>	
+       
+    </channel>
+	      <channel>
+    <name>          Colombia</name>
+    <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
+    <fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+        <items>
+		
+		
+		<!--
+	
+			<item>
+			<title>Caracol TV (sportdevil requerido)</title>
+			<sportsdevil>http://cdn.divertiendo.me/caracol1.php</sportsdevil>
+			<referer>http://www.todocanales.net</referer>
+			</item>
+			<item>
+			<title>RCN TV (sportdevil requerido)</title>
+			<sportsdevil>http://cdn.divertiendo.me/rcn1.php</sportsdevil>
+			<referer>http://www.todocanales.net</referer>
+			</item>			
+			
+			
+			-->
+		
+			<item>
+			<title>Caracol RCN Colombia</title>
+			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_caracol_rcn_col live=1 timeout=20</link>
+			<regex>
+			<name>clearCode</name>
+			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
+			<page></page>
+			</regex>
+			<regex>
+			<name>getencoded</name>
+			<expres>:mvnkey-(.*)</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getserver</name>
+			<expres>(.*?);</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getUrl</name>
+			<expres>(.*)</expres>
+			<page>http://mvn.vaughnsoft.net/video/edge/live_caracol_rcn_col$doregex[gettime]-$doregex[gettime].33434</page>
+			</regex>
+			<regex>
+			<name>gettime</name>
+			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
+			<page></page>
+			</regex>
+			</item>
+			
+				<item>
+			<title>CANAL CARACOL</title>
+			<link>http://caracoltvlivehds-lh.akamaihd.net/i/caracol02_1@126280/index_1028_av-p.m3u8?sd=10&rebase=on</link>
+			</item>
+			
+			<item>
+			<title>CANAL CARACOL</title>
+			<link>http://live.mvdigital.net:1935/live4/livestream1.sdp/playlist.m3u8</link>
+			</item>
+			
+			<item>
+			<title>CARACOL</title>
+			<link>http://46.165.220.232:8088/live/kkkcolhd/playlist.m3u8?id=233323&wowzasessionid=3847459779&pk=9c4608318e8a703a78edd1af0f73db22f3570dde96417fd72aac9f2cf9551914</link>
+			</item>
+			
+			
+			
+			<item>
+			<title>CANAL RCN</title>
+			<link>http://canalrcn-mobile-live.4cloud.co/livercn/AppSenalRcn/chunklist.m3u8</link>
+			</item>
+			
+			<item>
+			<title>CANAL RCN</title>
+			<link>http://canalrcn-mobile-live.4cloud.com/livercn/AppSenalRcn/chunklist.m3u8</link>
+			</item>
+
+			<item>
+			<title>CANAL Caracol ***</title>
+			<link>http://caracoltvlivehds-lh.akamaihd.net/i/wowzalive_1@126280/index_300_av-b.m3u8?sd=10&rebase=on</link>
+			</item>
+			      
+
+			<item>
+			<title>Caracol</title>
+			<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
+			<regex>
+			<name>path</name>
+			<page>http://www.streamlive.to/view/52715</page>
+			<expres>file: "(.*).flv</expres>
+			</regex>
+			<regex>
+			<name>tok</name>
+			<expres>token":"([^"]*)</expres>
+			<page>$doregex[tokpg]</page>
+			<referer>https://www.streamlive.to</referer>
+			</regex>
+			<regex>
+			<name>tokpg</name>
+			<expres>getJSON\("([^"]*)</expres>
+			<page>http://www.streamlive.to/view/52715</page>
+			</regex>
+			<regex>
+			<name>xs</name>
+			<expres>/(\?xs=.*?)"</expres>
+			<page>http://www.streamlive.to/view/52715</page>
+			<rawpost>captcha=$doregex[answer]</rawpost>
+			<referer>https://www.streamlive.to</referer>
+			<cookieJar></cookieJar>
+			<ignorecache/>
+			</regex>
+			<regex>
+			<name>answer</name>
+			<expres>$pyFunction:($doregex[captcha])</expres>
+			<page></page>
+			</regex>
+			<regex>
+			<name>captcha</name>
+			<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+			<page></page>
+			</regex>
+			<regex>
+			<name>xcaptcha</name>
+			<expres>Question: (.*) =</expres>
+			<page>http://www.streamlive.to/view/52715</page>
+			<referer>http://www.streamlive.to</referer>
+			<cookieJar></cookieJar>
+			</regex>
+			
+			</item>
+			
+			
+			
+			<item>
+			<title>RCN</title>
+			<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
+			<regex>
+			<name>path</name>
+			<page>http://www.streamlive.to/view/52714</page>
+			<expres>file: "(.*).flv</expres>
+			</regex>
+			<regex>
+			<name>tok</name>
+			<expres>token":"([^"]*)</expres>
+			<page>$doregex[tokpg]</page>
+			<referer>https://www.streamlive.to</referer>
+			</regex>
+			<regex>
+			<name>tokpg</name>
+			<expres>getJSON\("([^"]*)</expres>
+			<page>http://www.streamlive.to/view/52714</page>
+			</regex>
+			<regex>
+			<name>xs</name>
+			<expres>/(\?xs=.*?)"</expres>
+			<page>http://www.streamlive.to/view/52714</page>
+			<rawpost>captcha=$doregex[answer]</rawpost>
+			<referer>https://www.streamlive.to</referer>
+			<cookieJar></cookieJar>
+			<ignorecache/>
+			</regex>
+			<regex>
+			<name>answer</name>
+			<expres>$pyFunction:($doregex[captcha])</expres>
+			<page></page>
+			</regex>
+			<regex>
+			<name>captcha</name>
+			<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+			<page></page>
+			</regex>
+			<regex>
+			<name>xcaptcha</name>
+			<expres>Question: (.*) =</expres>
+			<page>http://www.streamlive.to/view/52714</page>
+			<referer>http://www.streamlive.to</referer>
+			<cookieJar></cookieJar>
+			</regex>
+			
+			</item>
+			
+			
+			<item>
+			<title>Señal Colombia <title>
+			<link>http://cdns840stu1010.multistream.net/rtvc2live/amlst:scolombia/media_u45em7647_b500000.m3u8</link>
+			</item>
+	
+	
+<item><title>Telecafe</title><link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/TCAF/tu1_1.m3u8?</link></item>
+<item><title>TELEANTIOQUIA HD</title><link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/TANT/tu1_1.m3u8?</link></item>
+<item><title>Telemedellin</title><link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/TMED/tu1_1.m3u8?</link></item>
+<item><title>CosmoVision</title><link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/COSM/tu1_1.m3u8?</link></item>
+<item><title>CANAL CAPITAL</title><link>http://localhost:8899/live.m3u? tmp=0&portal=1&channel=ffrt2+http%3A%2F%2Fcdns840stu1010.multistream.net%2Fcanalcapitallive%2Famlst%3Alive%2Fmaster.m3u8</link></item>
+<item><title>CANAL U</title><link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/CANU/tu1_1.m3u8?</link></item>
+<item><title>TV AGRO</title><link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/TVAG/tu1_3.m3u8?</link></item>
+<item><title>Cable Noticias</title><link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/CNOT/tu1_1.m3u8?</link></item>
+<item><title>El Tiempo</title><link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/TIEM/tu1_1.m3u8?</link></item>
+<item><title>UNE TV Manizales</title><link>http://lcdn.une.net.co/v1/AUTH_HLSLIVE/UNEZ/tu1_1.m3u8?</link></item>
+<item><title>UNE TV CARIBE</title><link>http://lcdn.une.net.co/v1/AUTH_HLSLIVE/UNEQ/tu1_1.m3u8?</link></item>
+<item><title>UNE TV ARMENIA</title><link>http://lcdn.une.net.co/v1/AUTH_HLSLIVE/UNEA/tu1_1.m3u8?</link></item>
+<item><title>TELE VIDA</title><link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/TVID/tu1_1.m3u8?</link></item>
+<item><title>TRENDY MUSICA</title><link>http://hlslive.lcdn.une.net .co/v1/AUTH_HLSLIVE/TREN/tu1_1.m3u8?</link></item>
+<item><title>CANAL ANTIESTRES</title><link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/ANTI/tu1_1.m3u8?</link></item>
+<item><title>CANTINAZO</title><link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/CANT/tu1_1.m3u8?</link></item>
+<item><title>LIFEDESING</title><link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/LDTV/tu1_1.m3u8?</link></item>
+<item><title>MIMUSICA HD</title><link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/MMHD/tu1_1.m3u8?</link></item>
+<item><title>TELE AMIGA</title><link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/0002/tu1_1.m3u8?</link></item>
+<item><title>TIGO MUSIC</title><link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/MESH/tu1_1.m3u8?</link></item>
+
+<item>
+			<title>Caracol<title>
+			<link>http://caracoltvlivehds-lh.akamaihd.net/i/wowzalive_1@126280/master.m3u8</link>
+			</item>
+
+           	
+			
+			<item>
+				<title>Caracol HD Colombia</title>
+				<link>http://caracoltvlivehds-lh.akamaihd.net/i/caracol02_1@126280/index_764_av-p.m3u8?sd=10&rebase=on</link>
+				
+			</item>
+			
+			<item><title>Canal 13</title><link>http://cdns840stu1010.multistream.net/rtvcCanalUNOlive/amlst:live/master.m3u8</link></item>
+			
+			
+			<item><title>Canal 13</title>
+			<link>http://cdns840stu1010.multistream.net/canaltr3celive/amlst:live/playlist_b500000.m3u8</link></item>
+			
+
+			<item><title>Mi Gente</title>
+			<link>http://iphone-streaming.ustream.tv/ustreamVideo/18551741/streams/live/playlist.m3u8</link></item>
+			
+
+			<item><title>Telepacifico</title>
+			<link>http://iphone-streaming.ustream.tv/ustreamVideo/12380713/streams/live/playlist.m3u8</link></item>
+			
+
+			<item><title>Telecaribe</title>
+			<link>http://cdns840stu1010.multistream.net/telecaribelive/amlst:live/master.m3u8</link></item>
+			
+
+			<item><title>Telecafe</title>
+			<link>http://xtelecafex.api.channel.livestream.com/3.0/playlist.m3u8</link></item>
+			
+
+			<item><title>Canal Cnc QuindÃ­o</title>
+			<link>http://xcncarmeniax.api.channel.livestream.com/3.0/playlist.m3u8</link></item>
+			
+
+			<item><title>Canal 9</title>
+			<link>http://cdns840stu1010.multistream.net/rtvclive/amlst:live/playlist_b500000.m3u8</link></item>
+			
+			
+			<item>
+			<title>Star2</title>
+			<sportsdevil>http://telerisatv.com/star2.html</sportsdevil>
+			<referer>http://telerisatv.com</referer>
+			</item>
+
+			<item>
+			<title>Latina</title>
+			<sportsdevil>http://tele-on.com/frecuencia_latina.html</sportsdevil>
+			<referer>http://www.mirandotv.net</referer>
+			</item>
+			
+<item><title>Zoom Canal  </title>
+<link>http://xcanalzoomtvx.api.channel.livestream.com/3.0/playlist.m3u8</link>
+
+<item><title>Señal Colombia </title>
+<link>http://cdns840stu1010.multistream.net/rtvc2live/amlst:scolombia/media_u45em7647_b500000.m3u8</link>
+
+<item><title>CMB Televisión  </title>
+rtmp://hd.worldkast.com:1935/8076/_definst_/mp4:80763
+
+<item><title>UNE PEREIRA </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/215944/grupoune_st33@215944/st33_index.m3u8</link>
+
+<item><title>UNE MEDELLIN </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/207646/grupoune_st27@207646/st27_index.m3u8</link>
+
+<item><title>TELEVENTAS  </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/205011/grupoune_st2@205011/st2_index.m3u8</link>
+
+<item><title>VIDA  </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/205018/grupoune_st9@205018/st9_index.m3u8</link>
+
+<item><title>TeleAntioquia  </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/205013/grupoune_st4@205013/st4_index.m3u8</link>
+
+<item><title>Canal El Tiempo  </title>
+<link>http://ooyalahd2-f.akamaihd.net/i/eltiempo1avts_1603@1603/master.m3u8?iks61.channel22</link>
+
+<item><title>Canal Uno  </title>
+<link>http://cdn6.iviplanet.com:1935/CanalUnoColombia/myStream.sdp/playlist.m3u8</link>
+
+<item><title>TV Agro </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/205015/grupoune_st6@205015/st6_index.m3u8</link>
+
+<item><title>CableNoticias </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/205016/grupoune_st7@205016/st7_index.m3u8</link>
+
+<item><title>Tele VID </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/205018/grupoune_st9@205018/st9_index.m3u8</link>
+
+<item><title>TRENDY Channel </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/205019/grupoune_st10@205019/st10_index.m3u8</link>
+
+<item><title>Canal Antiestres </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/206413/grupoune_st12@206413/st12_index.m3u8</link>
+
+<item><title>Cosmovision </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/206415/grupoune_st14@206415/st14_index.m3u8</link>
+
+<item><title>Canal U </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/206416/grupoune_st15@206416/st15_index.m3u8</link>
+
+<item><title>Telecafe </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/206417/grupoune_st16@206417/st16_index.m3u8</link>
+
+<item><title>Cantinazo TV </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/206419/grupoune_st18@206419/st18_index.m3u8</link>
+
+<item><title>Click </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/206577/grupoune_st19@206577/st19_index.m3u8</link>
+
+<item><title>Life Design HD </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/207384/grupoune_st22@207384/st22_index.m3u8</link>
+
+<item><title>VMAS TV </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/207642/grupoune_st23@207642/st23_index.m3u8</link>
+
+<item><title>Suena TV </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/215955/grupoune_st44@215955/st44_index.m3u8</link>
+
+<item><title>UNE TV </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/207643/grupoune_st24@207643/st24_index.m3u8</link>
+
+<item><title>ME SUENA </title>  
+<link>http://uneapple-i.akamaihd.net/hls/live/205017/grupoune_st8@205017/st8_index.m3u8</link>
+
+<item><title>H13N-TELE ANTIOQUIA </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/205013/grupoune_st4@205013/st4_index.m3u8</link>
+
+<item><title>TELEMEDELLIN </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/206414/grupoune_st13@206414/st13_index.m3u8</link>
+
+<item><title>TELEMEDELLIN HD </title>
+<link>http://api.new.livestream.com/accounts/4608897/events/2230380/videos/85757210.m3u8</link>
+
+<item><title>TV AGRO </title>
+<link>http://uneapple-i.akamaihd.net/hls/live/205015/grupoune_st6@205015/st6_index.m3u8</link>
+
+<item><title>TRECE </title>
+<link>http://cdns840stu1010.multistream.net/canaltr3celive/amlst:live/canalesdelpueblotv.m3u8?iks61.channel25</link>
+
+<item><title>TELECARIBE </title>
+<link>http://cdns840stu1010.multistream.net/telecaribelive/amlst:live/canalesdelpueblotv.m3u8?iks61.channel20</link>
+
+<item><title>CANAL CAPITAL </title>
+<link>http://cdns840stu1010.multistream.net/canalcapitallive/amlst:live/canalesdelpueblotv.m3u8?iks61.channel23</link>
+
+<item><title>CANAL CONGRESO </title>
+<link>http://cdns840stu1010.multistream.net/rtvclive/amlst:live/canalesdelpueblotv.m3u8?iks61.channel21</link>
+
+<item><title>TELEPACIFICO
+<link>http://iphone-streaming.ustream.tv/ustreamVideo/12380713/streams/live/playlist.m3u8</link>
+
+
+
+			
+			
+			
+			
+			
+			
+			
+        </items>
+</channel>		
+
+
+
+ <channel>
+    <name>          Chile</name>
+    <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
+    <fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+        <items>
+		<item>
+ <title>MEGA HD</title>
+ <link>http://edge-61-cl.edge.mdstrm.com/live/smil:db6a38a0a2bffd96d01965c4d975b9fb/playlist.m3u8?</link>
+ <thumbnail>http://upload.wikimedia.org/wikipedia/commons/d/da/Mega_hd.png</thumbnail>
+ </item>
+   
+<item>
+ <title>tvn HD</title>
+ <link>http://edge-12-cl.edge.mdstrm.com/tvn-live/smil:7cb6048ff45cb5cdf7f5fed828597fd1/master.m3u8</link>
+<thumbnail>http://www.frocus.net/images/logotv/original/tvn-chile.jpg</thumbnail>
+ </item>
+   
+<item>
+ <title>sub tv santiago</title>
+ <link>mmsh://190.196.9.186:8080/subtv</link>
+ <thumbnail>http://www.meddiostv.com/tv/subtv.jpg</thumbnail>
+ </item>
+  <item>
+
+<item>
+<title>VIVE DEPORTES</title>
+<link>http://200.104.250.182:1935/vtr_vivedeportes_online/vivedeportes-ipad/playlist.m3u8?wowzasessionid=1070247734</link>
+<thumbnail>http://i5.minus.com/iZ8Fv9UuWR6eQ.png</thumbnail>
+</item>
+
+<item>
+<title>VIVE</title>
+<link>http://live.hls.http.13.ztreaming.com/13hddesktop/13hd-632.m3u8</link>
+<thumbnail></thumbnail>
+</item>
+
+
+ 
+ <item>
+<title>CHILE VISION</title>
+<link>http://chile_hds-lh.akamaihd.net/i/chilevisionINT_1@140714/master.m3u8</link>
+<thumbnail>https://pbs.twimg.com/profile_images/550643019154587648/zpJ86zDv.jpeg</thumbnail>
+</item>
+
+
+<item>
+ <title>CANAL 13 sd</title>
+ <link>rtsp://edge-us.edge.mdstrm.com:80/live-s/4fcbddfd5aa3be6366c7670301eb019f_144p</link>
+<thumbnail>http://static.13.cl/static/img/logo-ogfacebook.png</thumbnail>
+</item>
+
+
+<item><title>RedTV HD</title><link>http://movilstream.digitalproserver.com:443/redtv/redtvvivo/livestream1/playlist.m3u8</link></item>
+<item><title>UCV HD</title><link>http://movilstream.digitalproserver.com/ucvtv/ucvtv.smil/chunklist-b1248000.m3u8</link></item>
+<item><title>TVN HD</title><link>http://wow3.tvn.cl:1935/liveedge/tvnelemental.smil/chunklist-b1431000.m3u8</link></item>
+<item><title>Mega HD</title><link>http://edge-12-cl.edge.mdstrm.com/live/smil:db6a38a0a2bffd96d01965c4d975b9fb/playlist_b1500.m3u8</link></item>
+<item><title>CHV HD</title><link>http://live.hls.http.chv.ztreaming.com/chvhd/chvHi.m3u8</link></item>
+<item><title>C13 HD</title><link>http://13.live.cdn.cl/13hddesktop/13hd-1250.m3u8</link></item>
+<item><title>C13 Cable</title><link>http://cluster.13cmovil.ztreaming.com/13cm/grpz13c/playlist.m3u8</link></item>
+<item><title>RecTV</title><link>http://13rec.movil.ztreaming.com/13rec/13rec/playlist.m3u8</link></item>
+<item><title>ETC TV</title><link>http://movilstream.digitalproserver.com/etctv/etctvvivo/livestream1/playlist.m3u8</link></item>
+<item><title>CDO Premium</title><link>http://wow2.cl.digitalproserver.com/cdo/cdovivo/cdo.smil/chunklist_w913906597_b1064000.m3u8</link></item>
+<item><title>TV Chile</title><link>http://edge-20-mvstr.edge.mdstrm.com/tvn-live/smil:285a5c6dade574d5f111419c85c6cf17/chunklist_b800000.m3u8</link></item>
+<item><title>AntofagastaTV HD</title><link>http://wow2.cl.digitalproserver.com/atv/atvvivo/atv.smil/chunklist_w949479730_b2200000.m3u8</link></item>
+<item><title>BioBioTV HD</title><link>http://wow2.cl.digitalproserver.com/c9/livestream1/chunklist_w983075885.m3u8</link></item>
+<item><title>TVU Concepcion HD</title><link>http://movilstream.digitalproserver.com/tvu/tvuvivo/livestream1/playlist.m3u8</link></item>
+<item><title>ITV HD</title><link>http://wow2.cl.digitalproserver.com/itv/itvvivo/livestream1/playlist.m3u8</link></item>
+<item><title>PinguinoTV HD</title><link>http://streaming.elpinguino.com:1935/live/pinguinotv_720p/playlist.m3u8</link></item>
+<item><title>Holvoet HD</title><link>http://movilstream.digitalproserver.com/holvoet/holvoetvivo/holvoet.smil/chunklist-b1248000.m3u8</link></item>
+<item><title>Contivision HD</title><link>http://wow2.cl.digitalproserver.com/contivisionhd/contivisionhdvivo/contivisionhd.smil/chunklist_w1162159593_b1496000.m3u8</link></item>
+<item><title>CampusTV HD</title><link>http://movilstream.digitalproserver.com/campustv/campustvvivo/livestream1/playlist.m3u8</link></item>
+<item><title>Ufrovision HD</title><link>http://movilstream.digitalproserver.com/ufro/ufrovivo/ufro.smil/chunklist-b1564000.m3u8</link></item>
+<item><title>UOCT Santiago</title><link>http://mdstrm.com/live-stream-playlist-v/53443c472c6e89675103cc4c.m3u8</link></item>
+ 
+
+        <item>
+﻿  <title>rectv</title>
+﻿  <link>http://13rec.movil.ztreaming.com/13rec/13rec/playlist.m3u8</link>
+﻿  <thumbnail>http://www.puranoticia.cl/front/adjunto/img/2014/04/01/foto_93786_280x190px_1.jpg</thumbnail>
+﻿  </item>
+   
+
+     
+   <item>
+﻿  <title>la red</title>
+﻿  <link>http://wow1.dallas.digitalproserver.com/redtv/redtvvivo/livestream3/master.m3u8</link>
+﻿  <thumbnail>http://3.bp.blogspot.com/-zYybGSlMFQo/UEw21CMW3KI/AAAAAAAAA8g/SgKgqMpIPjw/s1600/La+Red+(Chile+TV).png</thumbnail>
+﻿  </item>
+﻿  
+﻿  <item>
+﻿  <title>tvchile</title>
+﻿  <link>http://edge-12-cl.edge.mdstrm.com/tvn-live/smil:285a5c6dade574d5f111419c85c6cf17/master.m3u8</link>
+﻿  <thumbnail>http://4.bp.blogspot.com/_pFTD3I8CXKM/S_GJyBI_1iI/AAAAAAAAC-Q/1GWE_JTmM4U/s1600/TVN.jpg</thumbnail>
+﻿  </item>
+﻿  ﻿  
+ 
+   
+   <item>
+﻿  <title>quinta tv</title>
+﻿  <link>http://iphone-streaming.ustream.tv/uhls/2950729/streams/live/iphone/playlist.m3u8</link>
+﻿  <thumbnail>https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-frc3/t31.0-8/c0.0.851.315/p851x315/171966_119005471592137_1298593148_o.jpg</thumbnail>
+﻿  </item>
+﻿  
+﻿  <item>
+﻿  <title>canal 5tv linares</title>
+﻿  <link>rtmp://v1.streaminglatinoamerica.com/canal5/canal5</link>
+﻿  <thumbnail>http://www.radioancoa.cl/wp-content/uploads/2012/06/ANCOA-CANAL5.jpg</thumbnail>
+﻿  </item>
+﻿  
+﻿  <item>
+﻿  <title>pinguino tv punta arenas</title>
+﻿  <link>rtmp://streaming.elpinguino.com:1935/live/pinguinotv_360p</link>
+﻿  <thumbnail>http://elpinguino.com/web2012/logo.png</thumbnail>
+﻿  </item>
+﻿  
+﻿  <item>
+﻿  <title>tv red  punta arenas</title>
+﻿  <link>rtmp://69.164.193.177/live/myStream</link>
+﻿  <thumbnail>http://elpinguino.com/uploads/imagenes/31ff813ec09ff24223fd1fed891336da.jpg</thumbnail>
+﻿  </item>
+﻿  
+        <item>
+﻿  <title>itv patagonia hd (chile)</title>
+﻿  <link>http://movilstream.digitalproserver.com/itv/itvvivo/itv.smil/chunklist-b1500000.m3u8</link>
+﻿  <thumbnail>http://2.bp.blogspot.com/-4RniWElOBUU/UB2dvCK2sVI/AAAAAAAAAdM/DF5HwTNecHs/s1600/itv_patagonia.jpg</thumbnail>
+﻿  </item>
+
+        <item>
+﻿  <title>canal 9 bio bio (chile)</title>
+﻿  <link>http://wow2.cl.digitalproserver.com/c9//c9.smil/chunklist_w1848769691_b1200000.m3u8</link>
+﻿  <thumbnail>https://alvaromiguieles.files.wordpress.com/2012/05/475140_10150594533767204_637551787_o.jpg</thumbnail>
+﻿  </item>
+
+<item>
+	<title>canal 2 san felipe</title>
+	<link>rtmp://flashmedia.aconcaguared.com/live/live_605537_nhAdU2RY</link>
+	<thumbnail>http://1.bp.blogspot.com/-5382QbcemgY/U_73eMlLVCI/AAAAAAAASg0/wzd411gkOr8/s1600/Valle%2BTelevision%2B2%2BTV%2BLos%2BAndes%2BSan%2BFelipe%2BChile.png</thumbnail>
+	</item>
+
+
+	
+			
+			
+        </items>
+</channel>	
+
+
+
+          <channel>
+    <name>          Ecuador</name>
+    <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
+    <fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+        <items>
+                <item><title>[COLOR=green]-----[/COLOR][COLOR=orange] E C U A D O R  [/COLOR][COLOR=green]-----[/COLOR]</title><link>http://about.me/adryan</link></item>
+			
+			<item>
+			<title>TC</title>
+			<link>rtmp://38.96.148.216:1935/live playpath=ecuadortvn3 swfUrl=http://www.ecuadortv.ec/mod_video/player.swf live=1</link>
+			<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tc_ec.png</thumbnail>
+			</item>
+
+
+
+
+			<item>
+			<title>ECTV</title>
+			<link>rtmp://38.96.148.216:1935/live/ playpath=internacional swfUrl=http://p.jwpcdn.com/6/9/jwplayer.flash.swf pageUrl=http://www.ecuadortv.ec/ live=true timeout=15</link>
+			<thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/ecuador_tv.png</thumbnail>
+			</item>
+
+			
+			<item>
+			<title>ECUADOR TV lOCAL</title>
+			<link>http://38.96.148.216:1935/live/myStream2/playlist.m3u8</link>
+			<thumbnail></thumbnail>
+			</item>
+      
+			<item>
+			<title>ECUADOR TV Internacional</title>
+			<link>http://38.96.148.216:1935/live/internacional/ecuadortvinternacional2.m3u8</link>
+			<thumbnail></thumbnail>
+			</item>
+			
+			
+			
+			<item>
+			<title>Ecuavisa</title>
+			<link>rtmp://62.210.83.152:1935/liverepeat playpath=ecuatv1 swfUrl=http://direct-stream.biz/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://direct-stream.biz/embednews.php?c=ecuatv1&vw=600&vh=400</link>
+			
+			</item>
+ 
+
+	
+
+ 			<item>
+			<title>TVN Ecuador</title>
+			<link>http://xtvncanalecx.api.channel.livestream.com/3.0/playlist.m3u8</link>
+			
+			</item>
+
+
+			<item>
+			<title>Oromar TV</title>
+			<link>rtmp://stream.gcorpvision.com:19356/live/ playpath=oromartv swfUrl=http://ecuafut.me.la/jwplayerskin/skin-xml-base64/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://livesenales.ucoz.net/oromartv.html</link>
+			
+			</item>
+
+
+
+		
+ 
+ 
+
+
+
+ <item>
+	<title>ECOTEL</title>
+	<link>rtmp://enhd.co:1935/ecoteltv/ playpath=ecoteltv swfUrl=http://enhd.co/system/misc/jwplayer6/jwplayer.flash.swf live=1 pageUrl=http://www.ecotel.tv/en-vivo/</link>
+	<thumbnail>http://www.ecotel.tv/wp-content/uploads/2014/12/senal-en-vivo.jpg</thumbnail>
+	</item>
+
+        
+ 
+ <item>
+        <title>UTV</title>
+        <link>rtmp://online.utn.edu.ec/online/utvstream</link>
+        <thumbnail>http://www.ucsgrtv.com/television/images/programacion/utvlogo.jpg</thumbnail>
+        </item>
+
+
+ 
+
+ 
+ 
+ 
+ 
+
+
+      <item>
+	<title>ecuador tv</title>
+	<link>rtmp://38.96.148.216:1935/live/ playpath=internacional swfUrl=http://ecuafut.me.la/jwplayerskin/skin-xml-base64/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://livesenales.ucoz.net/ecuatvinternacional.html</link>
+	
+	</item>
+
+
+
+        <item>
+	<title>TC Television</title>
+	<link>rtmp://174.127.72.180:1935/live/_definst_ playpath=mp4:10003 swfUrl=http://static.elcanaldelfutbol.com/embed/jwplayer.flash.swf live=1 pageUrl=http://www.tctelevision.com/calle7/tcinternacional/index.php</link>
+	<thumbnail>http://www.tctelevision.com/sites/all/themes/centum/logo.png</thumbnail>
+	</item>
+
+
+
+
+        <item>
+	<title>Canela TV</title>
+	<link>http://38.96.148.216:1935/live/canelatv/playlist.m3u8</link>
+
+	</item>
+
+  
+       
+
+        <item>
+	<title>Uno Ecuador</title>
+	<link>rtmp://62.210.83.154:1935/liverepeat playpath=ecuatv2 swfUrl=http://direct-stream.biz/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://direct-stream.biz/embednews.php?c=ecuatv2&vw=600&vh=400</link>
+
+	</item>
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+            </items>	
+        
+   </channel>	
+
+
+   
+          <channel>
+    <name>         Centro America</name>
+    <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
+    <fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+        <items>
+                <item><title>[COLOR=green]-----[/COLOR][COLOR=orange] C E N T R O    A M E R I C A  [/COLOR][COLOR=green]-----[/COLOR]</title><link>http://about.me/adryan</link></item>
+			
+			
+			
+			<item>
+			<title>El Salvador - Canal 4 Deportes * [Vaughlive Addon]</title>
+			<link>plugin://plugin.stream.vaughnlive.tv/?mode=PlayLiveStream&amp;channel=canal4es</link>
+			</item>
+			
+			
+			
+
+			<item><title>El Salvador - Canal 10 tves (No siempre esta online)</title>
+			<link>rtmp://198.24.135.42:80/canal10/ playpath=canal10 swfUrl=http://www.tves10.com/envivo/web/canal10.swf live=1 pageUrl=http://www.tves10.com/envivo/web/</link></item>
+
+			<item><title>El Salvador - Canal 17 TBB</title>
+			<link>rtmp://streamingcontrol.com/tbbcentral/ playpath=l1v1.sdp_640 swfUrl=http://streamingcontrol.com/system/misc/jwplayer6/jwplayer.flash.swf live=1 pageUrl=http://www.tabernaculo.net/canal17.php</link></item>
+
+			<item><title>El Salvador - Canal 21 Megavision</title>
+			<link>rtmp://cp86438.live.edgefcs.net/live playpath=livestream3_281@56890 swfUrl=http://cdn.livestream.com/chromelessPlayer/v20/playerapi.swf?jsEnabled=false live=1 pageUrl=http://www.503tves.net/2011/06/canal-21.html#.VDnkjlej1H0</link></item>
+
+			<item><title>El Salvador - Canal 23 TVX (No siempre esta online)</title>
+			<link>rtmp://panel.elsalvadordigital.com:1935/canal23/ playpath=canal23 swfUrl=http://telesal.tv/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf live=1 pageUrl=http://telesal.tv/tvx/</link></item>
+
+			<item><title>El Salvador - Canal 29 Genteve</title>
+			<link>http://cdns840stu1010.multistream.net/genteve.c29.svlive/amlst:live/huraivza_b750000.m3u8</link></item>
+
+			<item><title>El salvador - Canal 99 TV Telemas 6:0AM-10:00PM</title>
+			<link>rtmp://panel.elsalvadordigital.com/telemas playpath=telemas swfUrl=http://www.tvtelemas.com/media/jwadvanced/player/5/player.swf live=1 pageUrl=http://www.tvtelemas.com/index.php?option=com_content&view=article&id=17&It emid=16</link></item>
+
+			<item><title>Guatemala - Guatevision</title>
+			<link>rtsp://bravo967.sysvirtuales.com/live/stream1.sdp</link></item>
+
+			<item><title>Honduras - Televicentro</title>
+			<link>rtmp://org1.livestreamingcdn.com:80/livecdn517 playpath=mexcam swfUrl=http://unistream4.tulix.tv/mediaplayer/player.swf live=1 pageUrl=http://televicentro.hn/</link></item>
+			
+			
+			
+			
+			<item><title>AZTECA GUATE</title>
+			<link>http://aztecalive-lh.akamaihd.net/i/1ym9yab3c_1@66742/master.m3u8</link></item>
+
+			<item><title>AZTECA 35</title>
+			<link>http://aztecalive-lh.akamaihd.net/i/1tsbqgpq6_1@66743/master.m3u8</link></item>
+
+			<item><title>GUATEVISION</title>
+			<link>http://bravo967.sysvirtuales.com/live/stream1.sdp/playlist.m3u8</link></item>
+
+			<item><title>CANAL ANTIGUA</title>
+			<link>http://iphone-streaming.ustream.tv/uhls/1435410/streams/live/iphone/playlist.m3u8</link></item>
+
+			<item><title>1850 TELEVISION</title>
+			<link>http://redradios.net:1935/1850television/1850television/playlist.m3u8</link></item>
+
+			<item><title>NTV GUATEMALA</title>
+			<link>http://bravo967.sysvirtuales.com/tvn/live1.sdp/playlist.m3u8</link></item>
+
+			<item><title>VEA CANAL</title>
+			<link>http://iphone-streaming.ustream.tv/uhls/3935086/streams/live/iphone/playlist.m3u8</link></item>
+
+			<item><title>TV USAC</title>
+			<link>http://iphone-streaming.ustream.tv/ustreamVideo/8376988/streams/live/playlist.m3u8</link></item>
+
+			<item><title>AZTECA HONDURAS</title>
+			<link>http://aztecalive-lh.akamaihd.net/i/142kvpq0l_1@67741/master.m3u8</link></item>
+
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+            </items>	
+        
+   </channel>
+
+
+
+
+          <channel>
+    <name>          Canada</name>
+    <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
+    <fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+        <items>
+                <item><title>[COLOR=green]-----[/COLOR][COLOR=orange] C A N A D A   [/COLOR][COLOR=green]-----[/COLOR]</title><link>http://about.me/adryan</link></item>
+			
+			
+			
+
+
+	<item><title> CTV NEWS</title>
+	<link>http://198.179.31.198/live/2053.high.stream/2053.high.stream/index.m3u8</link></item>
+	<item><title> CTV</title>
+	<link>http://87.239.31.232/hls/230.3.4.169.sd.stream.m3u8</link></item>
+	<item><title>ARGENT TV</title>
+	<link>rtmp://cp39414.live.edgefcs.net/live/argent@9751 playpath=argent@9751 swfUrl=http://player.longtailvideo.com/player.swf live=1 pageUrl=http://tv.webactu-webtv.com/canada3/argent.html</link></item>
+	<item><title>TVA2/TVA SPORTS</title>
+	<link>rtmp://cp39414.live.edgefcs.net/live/shoptva@9752 playpath=shoptva@9752 swfUrl=http://player.longtailvideo.com/player.swf live=1 pageUrl=http://tv.webactu-webtv.com/canada3/tva2.html</link></item>
+	<item><title>METRO TV</title>
+	<link>rtmp://cp228779.live.edgefcs.net:1935/live playpath=metrovision_live@138690 swfUrl=http://fpdownload.adobe.com/strobe/FlashMediaPlayback_101.swf/[[DYNAMIC]]/1 live=1 pageUrl=http://tv.webactu-webtv.com/canada3/metro.html</link></item>
+	<item><title>LCN</title>
+	<link>rtmp://cp39414.live.edgefcs.net/live/lcn1@9753/ playpath=lcn1@9753 swfUrl=http://tv.webactu-webtv.com/jwplayer1/jwplayer.flash.swf live=1 pageUrl=http://tv.webactu-webtv.com/canada3/lcn.html</link></item>
+	<item><title>RDI EXPRESS</title>
+	<link>rtmp://cp86675.live.edgefcs.net:1935/live playpath=RDI_TV@49158 swfUrl=http://player.longtailvideo.com/player.swf live=1 pageUrl=http://tv.webactu-webtv.com/canada3/rdi2.html</link></item>
+	<item><title>VTV</title>
+	<link>rtmp://cp101680.live.edgefcs.net/live playpath=livev_2@50832 swfUrl=http://player.longtailvideo.com/player.swf live=1 pageUrl=http://tv.webactu-webtv.com/canada3/vtv.html</link></item>
+	
+	
+		<item><title>CBC - News Station</title>
+		<link>rtmp://b.cdn.newschat.tv/edge pageUrl=http://www.livenewschat.eu/canada/?husham.com swfUrl=http://msnbclive.eu/player.swf playpath=cbc_live</link></item>
+
+
+
+
+
+			
+			
+            </items>	
+        
+   </channel>		
+   
+
+
+   
+   
+   
+   
+   
+   
+   
+          <channel>
+    <name>          Honduras</name>
+    <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
+    <fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+   <items>
+   
+   <item><info>TelesistemaHn</info><title>Telesistema HD </title><link>http://162.212.176.83:8080/telesistema.stream.m3u8</link></item>
+<item><info>canal5Hn</info><title>canal 5 HD </title><link>http://162.212.176.83:8080/canal5.stream.m3u8</link></item>
+<item><info>telecadenaHn</info><title>Telecadena HD </title><link>http://162.212.176.83:8080/telecadena.stream.m3u8</link></item>
+<item><info>tenHn</info><title>Canal TEN HD </title><link>http://hd.worldkast.com/8378/smil:8378.smil/playlist.m3u8</link></item>
+<item><info>canal11Hn</info><title>Canal 11 </title><link>http://162.212.176.83:8080/campustv.stream.m3u8</link></item>
+<item><info>hchHn</info><title>HCH </title><link>http://162.212.176.83:8080/hchtv.m3u8</link></item>
+<item><info>globotvHn</info><title>Globo tv </title><link>http://162.212.176.83:8080/globotv.m3u8</link></item>
+<item><info>canal6Hn</info><title>Canal 6 </title><link>http://162.212.176.83:8080/canal6.stream.m3u8</link></item>
+<item><info>mayatvHn</info><title>Maya tv </title><link>http://162.212.176.83:8080/mayatv.m3u8</link></item>
+<item><info>teleceibaHn</info><title>Teleceiba </title><link>http://162.212.176.83:8080/teleceiba.m3u8</link></item>
+<item><info>teleprogresoHn</info><title>Teleprogreso </title><link>http://162.212.176.83:8080/teleprogreso.m3u8</link></item>
+<item><info>tododeportesHn</info><title>Todo Deportes </title><link>http://162.212.176.83:8080/tododeportes.stream.m3u8</link></item>
+<item><info>sulavisionHn</info><title>Sulavision </title><link>http://162.212.176.83:8080/sulavision.m3u8</link></item>
+   
+   
+   </items>
+   </channel>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+          <channel>
+    <name>          Guatemala</name>
+    <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
+    <fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+        <items>
+                <item><title>[COLOR=green]-----[/COLOR][COLOR=orange] G U A T E M A L A   [/COLOR][COLOR=green]-----[/COLOR]</title><link>http://about.me/adryan</link></item>
+			
+			
+			
+<item>
+
+<title>Guatevision</title>
+<link>rtsp://bravo967.sysvirtuales.com/live/stream1.sdp</link>
+<thumbnail>http://www.aquienguate.com/images/logos/guatevision.jpg</thumbnail>
+
+</item>
+
+
+<item>
+
+<title>Canal Antigua</title>
+
+<link>http://iphone-streaming.ustream.tv/ustreamVideo/1435410/streams/live/playlist.m3u8</link>
+ <thumbnail>http://3.bp.blogspot.com/-RgFIxZIQnjY/UUKvmnRMhOI/AAAAAAAAAR8/VlV44lq3gc8/s1600/Logo+Canal+Antigua.jpg</thumbnail>
+ 
+</item>
+
+
+
+<item>
+
+<title>Azteca Guate</title>
+
+<link>http://urtmpkal-f.akamaihd.net/i/0f99bi3hu_1@131037/index_2_av-b.m3u8?sd=10&rebase=on</link>
+
+<thumbnail>http://tedxguatemalacity.com/2012/files/2012/03/logo-azteca.png</thumbnail>
+</item>
+
+			
+			
+            </items>	
+        
+   </channel>		
+   
+   
+   
+   
+    <channel>
+    <name>          USA</name>
+    <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
+    <fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+        <items>
+                <item><title>[COLOR=green]-----[/COLOR][COLOR=orange] U S A   [/COLOR][COLOR=green]-----[/COLOR]</title><link>http://about.me/adryan</link></item>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+<item><title>BeIN Sport Premier HD</title><link>http://streamindo.ddns.net/jhos/beib3_5/streamindo/playlist.m3u8</link></item>
+
+<item><title>Discovery Channel HD</title><link>http://93.174.95.125:1935/edge/_definst_/ishyd3sopok3p27/playlist.m3u8?wowzasessionid=1419872569</link></item>
+
+<item><title>Disney Channel HD</title><link>http://93.174.95.125:1935/edge/_definst_/2tag4dzgwof5ma2/playlist.m3u8?wowzasessionid=1420170412</link></item>
+
+<item><title>ABC 22 HD</title><link>http://93.174.95.125:1935/edge/_definst_/nz7l9vc5nv1og7b/playlist.m3u8?wowzasessionid=1419880374</link></item>
+
+<item><title>HBO HD</title><link>http://93.174.95.125:1935/edge/_definst_/z28ie9oqoku4qoy/playlist.m3u8?wowzasessionid=1419879571</link></item>
+
+<item><title>Showtime HD</title><link>http://93.174.95.125:1935/edge/_definst_/bwbop58ixz281wv/chunklist.m3u8?wowzasessionid=1419875151</link></item>
+
+<item><title>Nat GEO HD</title><link>http://93.174.95.125:1935/edge/_definst_/qzsfigd1y3bgbhs/playlist.m3u8?wowzasessionid=1420249412</link></item>
+
+<item><title>NBC HD</title><link>http://93.174.95.125:1935/edge/_definst_/kjgkefh6la1di6g/playlist.m3u8?wowzasessionid=1419879103</link></item>
+
+<item><title>FOX News HD</title><link>http://93.174.95.125:1935/edge/_definst_/ohn58e97er36vjr/playlist.m3u8?wowzasessionid=1420123821</link></item>
+
+<item><title>TNT HD</title><link>http://93.174.95.125:1935/edge/_definst_/7uz4als3nigi0j3/playlist.m3u8?wowzasessionid=1420124827</link></item>
+
+<item><title>Travel Channel HD</title><link>http://93.174.95.125:1935/edge/_definst_/4aiufk0o430qt0d/playlist.m3u8?wowzasessionid=1419877887</link></item>
+
+<item><title>USA Network</title><link>http://93.174.95.125:1935/edge/_definst_/h5eovaj1jeegluq/playlist.m3u8?wowzasessionid=1420249300</link></item>
+
+<item><title>Lifetime HD</title><link>http://93.174.95.125:1935/edge/_definst_/7b2gr554gyyth8e/playlist.m3u8?wowzasessionid=1419879018</link></item>
+
+<item><title>SyFy SD</title><link>http://93.174.95.125:1935/edge/_definst_/oepz9q5oivflbcw/playlist.m3u8?wowzasessionid=1419878403</link></item>
+
+<item><title>I.D. Investigation Discovery</title><link>http://93.174.95.125:1935/edge/_definst_/yjma618cibkqxeo/chunklist.m3u8?wowzasessionid=1420168729</link></item>
+
+<item><title>OWN HD</title><link>http://93.174.95.125:1935/edge/_definst_/uehgy5htiasffj3/playlist.m3u8?wowzasessionid=1419878658</link></item>
+
+<item><title>PAC National</title><link>http://xrxs.net/video/live-p12netw-2328.m3u8</link></item>
+
+<item><title>PAC-12 Net. (Arizona)</title><link>http://xrxs.net/video/live-p12ariz-2328.m3u8</link></item>
+
+<item><title>PAC-12 Net. (Arizona)</title><link>http://xrxs.net/video/live-p12ariz-1164.m3u8</link></item>
+
+<item><title>PAC-12 Net. (Bay Area)</title> <link>http://xrxs.net/video/live-p12baya-2328.m3u8</link></item>
+
+<item><title>PAC-12 Net. (Los Angeles)</title><link>http://xrxs.net/video/live-p12losa-2328.m3u8</link></item>
+
+<item><title>PAC-12 Net. (Oregon)</title> <link>http://xrxs.net/video/live-p12oreg-2328.m3u8</link></item>
+
+<item><title>PAC-12 Net. (Washington)</title><link>http://xrxs.net/video/live-p12wash-2328.m3u8</link></item>
+
+<item><title>USA:Vevo1 HD </title><link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch1/05/prog_index.m3u8</link></item>
+
+<item><title>USA:Vevo2 HD </title><link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch2/05/prog_index.m3u8</link></item>
+
+<item><title>USA:Vevo3 HD </title><link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch3/05/prog_index.m3u8</link></item>
+
+<item><title>USA:Kiss Tv </title>
+<link>rtmp://tst.es.flash.glb.ipercast.net/tst.es-live/live</link></item>
+
+<item><title>Sports Night HD </title>
+<link>rtmp://freeview.fms.visionip.tv/live/sports_tonight-sports_tonight-live-25f-16x9-HD</link></item>
+
+<item><title>Bahrain Sport </title>
+<link>rtmp://alayam.netromedia.net/btv3/btv3 </link></item>
+
+<item><title>Big Ten Network </title><link>http://bigten247.cdnak.bigtenhd.neulion.com/nlds/btn2go/btnnetwork/as/live/btnnetwork_hd_3000.m3u8</link></item>
+
+<item><title>Xtreme Impacts </title><link>http://46.249.213.93/iPhone/broadcast/xtremeimpacts-tablet.3gp/xtremeimpacts-tablet.3gp-mr647k.m3u8</link></item>
+
+<item><title>Antena 3 Sports 720 HD </title><link>http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel01/antena_3_hd_1548K_1280x720_main.m3u8</link></item>
+  
+<item><title>Sports Night</title>
+<link>rtmp://freeview.fms.visionip.tv/live/sports_tonight-sports_tonight-live-25f-16x9-SD</link></item>
+  
+<item><title>Big Ten Network HD</title><link>http://bigten247.cdnak.bigtenhd.neulion.com/nlds/btn2go/btnnetwork/as/live/btnnetwork_hd_3000.m3u8</link></item>
+ 
+<item><title>Antena 3 Sports</title><link>http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel01/antena_3_hd_1548K_1280x720_main.m3u8 </link></item>
+
+<item><title> CNN</title><link>http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_,264,528,828,.m3u8</link></item>
+
+<item><title> CNBC</title><link>http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/cnbc_eu/ls_satlink/b_,264,528,828,.m3u8</link></item>
+ 
+<item><title> NBC GOLF SD</title><link>http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/1896k/prog.m3u8|X-Forwarded-For=209.239.112.104</link></item>
+ 
+<item><title> NBC GOLF 720p</title><link>http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/2596k/prog.m3u8|X-Forwarded-For=209.239.112.104</link></item>
+ 
+<item><title> NBC GOLF 1080p</title><link>http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/4296k/prog.m3u8|X-Forwarded-For=209.239.112.104</link></item>
+ 
+<item><title>NBC Sports Network 1080P</title><link>http://tvenbcsn-i.Akamaihd.net/hls/live/218235/nbcsnx/4296k/prog.m3u8|X-Forwarded-For=209.239.112.104</link></item>
+ 
+<item><title>USA Live TV Big Ten Network</title><link>http://bigten247.cdnak.bigtenhd.neulion.com/nlds/btn2go/btnnetwork/as/live/btnnetwork_hd_3000.m3u8</link></item>
+ 
+
+ 
+<item><title>USA:Kiss Tv Music</title>
+<link>rtmp://tst.es.flash.glb.ipercast.net/tst.es-live/live</link></item>
+ 
+
+ 
+<item><title>ABC News</title><link>http://abclive.abcnews.com/i/abc_live4@136330/index_1200_av-b.m3u8</link></item>
+ 
+<item><title>ABC News (stream 2)</title><link>http://abclive.abcnews.com/i/abc_live4@136330/index_1200_av-b.m3u8?sd=10&b=1200&rebase=on</link></item>
+ 
+<item><title> CNBC</title><link>http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/cnbc_eu/ls_satlink/b_,264,528,828,.m3u8</link></item>
+ 
+<item><title> CNN USA</title><link>http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_828.m3u8</link></item>
+ 
+<item><title> Bloomberg</title><link>http://cdn3.videos.bloomberg.com/btv/us/master.m3u8?b?b*t$</link></item>
+ 
+<item><title> RT Americ</title>a<link>http://odna.octoshape.net/f3f5m2v4/cds/ch4_720p/chunklist.m3u8</link></item>
+ 
+<item><title>News 12 Long Island(Stream 1)</title>
+<link>rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-b4e3010000000000/fs-b4e3010000000000</link></item>
+ 
+<item><title>News Bronx(Stream 1)</title>
+<link>rtmp://fs-b5e3010000000000.id.cdn.cv.net/vxedge/fs-b5e3010000000000/fs-b5e3010000000000</link></item>
+ 
+<item><title>News Bronx(Weather)</title>
+<link>rtmp://fs-afe3010000000000.id.cdn.cv.net/vxedge/fs-afe3010000000000/fs-afe3010000000000</link></item>
+ 
+<item><title>News Brooklyn(Stream 1)</title>
+<link>rtmp://fs-ace3010000000000.id.cdn.cv.net/vxedge/fs-ace3010000000000/fs-ace3010000000000</link></item>
+ 
+<item><title>News Connecticut(Stream 1)</title>
+<link>rtmp://fs-bbe3010000000000.id.cdn.cv.net/vxedge/fs-bbe3010000000000/fs-bbe3010000000000</link></item>
+ 
+<item><title>News Connecticut(Weather)</title>
+<link>rtmp://fs-b6e3010000000000.id.cdn.cv.net/vxedge/fs-b6e3010000000000/fs-b6e3010000000000</link></item>
+ 
+<item><title>News Hudson Valley(Stream 1)</title>
+<link>rtmp://fs-bae3010000000000.id.cdn.cv.net/vxedge/fs-bae3010000000000/fs-bae3010000000000</link></item>
+ 
+<item><title>News Hudson Valley(Weather)</title>
+<link>rtmp://fs-b8e3010000000000.id.cdn.cv.net/vxedge/fs-b8e3010000000000/fs-b8e3010000000000</link></item>
+ 
+<item><title>News Long Island(Stream 2)</title>
+<link>rtmp://fs-b94e110000000000.id.cdn.cv.net/vxedge/fs-b94e110000000000/fs-b94e110000000000</link></item>
+ 
+<item><title>News Long Island(Weather)</title>
+<link>rtmp://fs-aee3010000000000.id.cdn.cv.net/vxedge/fs-aee3010000000000/fs-aee3010000000000</link></item>
+ 
+<item><title>News New Jersey(Stream 1)</title>
+<link>rtmp://fs-b9e3010000000000.id.cdn.cv.net/vxedge/fs-b9e3010000000000/fs-b9e3010000000000</link></item>
+ 
+<item><title>News New Jersey(Weather)</title>
+<link>rtmp://fs-b3e3010000000000.id.cdn.cv.net/vxedge/fs-b3e3010000000000/fs-b3e3010000000000</link></item>
+ 
+<item><title>News Westchester(Stream 1)</title>
+
+<link>rtmp://fs-bce3010000000000.id.cdn.cv.net/vxedge/fs-bce3010000000000/fs-bce3010000000000</link></item>
+ 
+
+
+<item><title>Canal Idman </title><link>http://hls01-07.az.myvideo.az/hls-live/livepkgr/idman/idman/idman.m3u8</link></item>
+
+<item><title>ABC NEWS</title><link>http://abclive.abcnews.com/i/abc_live4@136330/index_1200_av-b.m3u8?sd=10&b=1200&rebase=on</link></item>
+
+<item><title>ALJAZEERA</title><link>http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/aljazeera_en/ls_satlink/b_528.m3u8</link></item>
+
+<item><title> HSN B</title>
+<link>rtmp://hsn.mpl.miisolutions.net:1935/hsn-live01/_definst_/mp4:420p500kB31?b?b*t$ playpath=mp4:420p500kB31</link></item>
+ 
+<item><title> HSN 2 </title>
+<link>rtmp://hsn.mpl.miisolutions.net:1935/hsn-live01/_definst_/mp4:468p500kB31?b?b*t$ playpath=mp4:468p500kB31</link></item>
+
+
+
+<item><title> CNN USA</title><link><link>http://142.4.216.60:1935/edge/_definst_/rjxo8hz17q9waiq/playlist.m3u8?wowzasessionid=1758235421&xs=_we_cmp4bzhoejE3cTl3YWlxfDEzOTY4MjM0MTZ8NDkuOTMuMzcuNjN8NTM0MWM3NjgyZTY3Nnw5YWNmYzRhM2FiNjQwMmFkMmY1OGQ2YjJlOWVkMjllYTQ0MTgxODI2 timeout=10</link></item>
+
+<item><title>RT Documentary HD</title><link>http://odna.octoshape.net/f3f5m2v4/cds/ch5_720p/chunklist.m3u8</link></item>
+
+<item><title>Fox Sports</title><link>http://113.160.49.34/lives/origin03/foxhd.isml/foxhd-2096k.m3u8</link></item>
+
+<item><title>Fox Sports 1 </title><link>http://198.27.94.105/hls/fox1.m3u8</link></item>
+
+<item><title>Fox Sports 2 </title><link>http://198.27.94.105/hls/fox2.m3u8</link></item>
+
+
+
+<item><title>Heart</title><link>http://37.48.118.32/live/heart.stream/master.m3u8</link></item>
+
+<item><title>Magic Music</title><link>http://37.48.118.32/live/magic.stream/playlist.m3u8</link></item>
+
+<item><title> Mtunes</title><link>http://mthls-i.akamaihd.net/hls/live/219508/mthls/06.m3u8</link></item>
+
+<item><title>MTV Hits</title><link>http://cdn-02.sdn.si/mtvhits/mtvhits.m3u8</link></item>
+
+<item><title>MTV Dance</title><link>http://cdn-02.sdn.si/mtvdance/mtvdance.m3u8</link></item>
+
+<item><title>MTV Rock</title>s<link>http://cdn-02.sdn.si/mtvrocks/mtvrocks.m3u8</link></item>
+
+<item><title>Now Thats What I Call Music Channel</title><link>http://rrr.sz.xlcdn.com/?account=AATW&file=nowmusic&type=live&service=wowza&protocol=http&output=playlist.m3u8</link></item>
+
+<item><title>VH1 CLASSIC</title><link>http://hlsstr02.svc.iptv.rt.ru/hls/CH_VH1CLASSIC/variant.m3u8</link></item>
+
+<item><title>1HD</title><link>http://109.239.142.62:1935/live/livestream3/playlist.m3u8</link></item>
+
+<item><title>PARTY TV MUSIC</title><link>http://149.11.34.6:1935/live/partytv.stream/playlist.m3u8</link></item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			<item>
+			<title>FoodNetwork</title>
+			<link>rtmp://watch1.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
+			<regex>
+			<name>path</name>
+			<page>https://www.streamlive.to/view/69023</page>
+			<expres>file: "(.*).flv</expres>
+			</regex>
+			<regex>
+			<name>tok</name>
+			<expres>token":"([^"]*)</expres>
+			<page>$doregex[tokpg]</page>
+			<referer>https://www.streamlive.to</referer>
+			</regex>
+			<regex>
+			<name>tokpg</name>
+			<expres>getJSON\("([^"]*)</expres>
+			<page>https://www.streamlive.to/view/69023</page>
+			</regex>
+			<regex>
+			<name>xs</name>
+			<expres>/(\?xs=.*?)"</expres>
+			<page>https://www.streamlive.to/view/69023</page>
+			<rawpost>captcha=$doregex[answer]</rawpost>
+			<referer>https://www.streamlive.to</referer>
+			<cookieJar></cookieJar>
+			<ignorecache/>
+			</regex>
+			<regex>
+			<name>answer</name>
+			<expres>$pyFunction:($doregex[captcha])</expres>
+			<page></page>
+			</regex>
+			<regex>
+			<name>captcha</name>
+			<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+			<page></page>
+			</regex>
+			<regex>
+			<name>xcaptcha</name>
+			<expres>Question: (.*) =</expres>
+			<page>https://www.streamlive.to/view/69023</page>
+			<referer>http://www.streamlive.to</referer>
+			<cookieJar></cookieJar>
+			</regex>
+			<thumbnail></thumbnail>
+			</item>
+			
+			
+					
+		   <item><title>abc family </title><link>rtmp://rtmp.myhdcast.com/redirect/NyRerYqWuhRWGCsmb3f3 swfUrl=http://cdn.zerocast.tv/player/jwplayer.flash.swf pageUrl=http://zerocast.in/embed.php?a=2 token=OOG17t.x#K9Vh#|</link></item>
+
+		   <item><title>amc </title><link>rtmp://rtmp.myhdcast.com/redirect/TfRQx7deUAuncJwM047m swfUrl=http://cdn.zerocast.tv/player/jwplayer.flash.swf pageUrl=http://zerocast.in/embed.php?a=237 token=OOG17t.x#K9Vh#|</link></item>
+
+		   <item><title>cbs </title><link>rtmp://rtmp.myhdcast.com/redirect/Ger61uLQ4fedzvjRjrB7 swfUrl=http://cdn.zerocast.tv/player/jwplayer.flash.swf pageUrl=http://zerocast.in/embed.php?a=338 token=OOG17t.x#K9Vh#|</link></item>
+
+		   <item><title>Cartoon Network </title><link>rtmp://rtmp.myhdcast.com/redirect/08pydvp1b7ZwZb3a5TW1 swfUrl=http://cdn.zerocast.tv/player/jwplayer.flash.swf pageUrl=http://zerocast.in/embed.php?a=6 token=OOG17t.x#K9Vh#|</link></item>
+
+		   <item><title>cw </title><link>rtmp://rtmp.myhdcast.com/redirect/IWSyIjvWgHRCMM7MEJoZ swfUrl=http://cdn.zerocast.tv/player/jwplayer.flash.swf pageUrl=http://zerocast.in/embed.php?a=8 token=OOG17t.x#K9Vh#|</link></item>
+
+		   <item><title>fox </title><link>rtmp://rtmp.myhdcast.com/redirect/9pxGCtP3aEnJYgoBFFH8 swfUrl=http://cdn.zerocast.tv/player/jwplayer.flash.swf pageUrl=http://zerocast.in/embed.php?a=306 token=OOG17t.x#K9Vh#|</link></item>
+
+		   <item><title>FX </title><link>rtmp://rtmp.myhdcast.com/redirect/VCV8SViFVBv2nX5RQwKI swfUrl=http://cdn.zerocast.tv/player/jwplayer.flash.swf pageUrl=http://zerocast.in/embed.php?a=10 token=OOG17t.x#K9Vh#|</link></item>
+
+		   <item><title>HBO </title><link>rtmp://rtmp.myhdcast.com/redirect/qKmzUdRhBM73njBBDFyL swfUrl=http://cdn.zerocast.tv/player/jwplayer.flash.swf pageUrl=http://zerocast.in/embed.php?a=845 token=OOG17t.x#K9Vh#|</link></item>
+
+		   <item><title>looney toons </title><link>rtmp://rtmp.myhdcast.com/redirect/fo2FgVN6vw1izsjm5CqJ swfUrl=http://cdn.zerocast.tv/player/jwplayer.flash.swf pageUrl=http://zerocast.in/embed.php?a=330 token=OOG17t.x#K9Vh#|</link></item>
+
+		   <item><title>mtv </title><link>rtmp://rtmp.myhdcast.com/redirect/7U8HX14EnQVGCFy swfUrl=http://cdn.zerocast.tv/player/jwplayer.flash.swf pageUrl=http://zerocast.in/embed.php?a=12 token=OOG17t.x#K9Vh#|</link></item>
+
+		   <item><title>nbc </title><link>rtmp://rtmp.myhdcast.com/redirect/nbc01_augqlbj1 swfUrl=http://cdn.zerocast.tv/player/jwplayer.flash.swf pageUrl=http://zerocast.in/embed.php?a=653 token=OOG17t.x#K9Vh#|</link></item>
+
+		   <item><title>tnt </title><link>rtmp://rtmp.myhdcast.com/redirect/Waz0WqvbqNHmt0gdzrsm swfUrl=http://cdn.zerocast.tv/player/jwplayer.flash.swf pageUrl=http://zerocast.in/embed.php?a=309 token=OOG17t.x#K9Vh#|</link></item>
+
+		   <item><title>usa </title><link>rtmp://rtmp.myhdcast.com/redirect/jvZXQUYQmlsPirfiVK1G swfUrl=http://cdn.zerocast.tv/player/jwplayer.flash.swf pageUrl=http://zerocast.in/embed.php?a=19 token=OOG17t.x#K9Vh#|</link></item>
+			
+		
+		
+		<item><title>Food Network HK</title><link>http://83.139.104.107/Content/HLS/Live/Channel(food_network)/Stream(03)/index.m3u8</link></item>
+				
+		
+			
+			<item><title>POPEYE</title><link>http://72.13.93.186/POPEYE</link></item>
+			<item><title>bonanza</title><link>http://72.13.93.186/bonanza</link></item>
+			<item><title>beverlyhillbillies</title><link>http://72.13.93.186/beverlyhillbillies</link></item>
+			<item><title>campcartoon</title><link>http://72.13.93.186/campcartoon?ovpsv=2.3.1.0</link></item>
+			<item><title>dickvandyke</title><link>http://72.13.93.186/dickvandyke</link></item>
+			<item><title>dragnet</title><link>http://72.13.93.186/dragnet</link></item>
+			<item><title>johnnycarson</title><link>http://72.13.93.186/johnnycarson</link></item>
+			<item><title>lucy</title><link>http://72.13.93.186/lucy</link></item>
+			<item><title>petticoatjunction</title><link>http://72.13.93.186/petticoatjunction</link></item>
+
+			<item><title>crime movies</title>
+<link>mms://72.13.93.186/crimemovies</link></item>
+			<item><title>best oldies movies</title>
+<link>mms://72.13.93.186/bestoldies</link></item>
+			<item><title>western movies</title>
+<link>mms://72.13.93.186/westernsmovies</link></item>
+			<item><title>movie lovers</title>
+<link>mms://72.13.93.186/movielovers</link></item>
+			<item><title>family movies</title>
+<link>mms://72.13.93.186/familymovies</link></item>
+			<item><title>drama movies</title>
+<link>mms://72.13.93.186/dramamovies</link></item>
+			<item><title>comedy movies</title>
+<link>mms://72.13.93.186/comedymovies</link></item>
+			<item><title>movies of the 60s 70s 80s</title>
+<link>mms://72.13.93.186/moviesofthe60s70s80s</link></item>
+			<item><title>classic movies</title>
+<link>mms://72.13.93.186/CLASSICMOVIES</link></item>
+			<item><title>classic book movies</title>
+<link>mms://72.13.93.186/classicbookmovies</link></item>
+			<item><title>blockbuster</title>
+<link>mms://72.13.93.186/BLOCKBUSTER</link></item>
+			<item><title>adventure movies</title>
+<link>mms://72.13.93.186/adventuremovies</link></item>
+			<item><title>action movies</title>
+<link>mms://72.13.93.186/actionmovies</link></item>
+			<item><title>sifi</title>
+<link>mms://72.13.93.186/sifi</link></item>
+			<item><title>john wayne</title>
+<link>mms://72.13.93.186/JOHNWAYNE</link></item>
+			<item><title>mystery movies</title>
+<link>mms://72.13.93.186/mysterymovies</link></item>
+			<item><title>history in film</title>
+<link>mms://72.13.93.186/historyinfilm</link></item>
+			<item><title>western action</title>
+<link>mms://72.13.93.186/westernaction</link></item>
+			<item><title>victory at sea</title>
+<link>mms://72.13.93.186/victoryatsea</link></item>
+			<item><title>adventurous women</title>
+<link>mms://72.13.93.186/adventurouswomen</link></item>
+			<item><title>why we fight</title>
+<link>mms://72.13.93.186/whywefight</link></item>
+			<item><title>sheriff of cochise</title>
+<link>mms://72.13.93.186/sheriffofcochise</link></item>
+			<item><title>hoppity hooper</title>
+<link>mms://72.13.93.186/hoppityhooper</link></item>
+			<item><title>color westerns</title>
+<link>mms://72.13.93.186/colorwesterns</link></item>
+			<item><title>war movies/title>
+<link>mms://72.13.93.186/warmovies</link></item>
+			<item><title>sherlock holmes</title>
+<link>mms://72.13.93.186/sherlockholmes</link></item>
+			<item><title>ozzie</title>
+<link>mms://72.13.93.186/ozzie</link></item>
+			<item><title>murder my steries</title>
+<link>mms://72.13.93.186/murdermysteries</link></item>
+			<item><title>lawan dorder</title>
+<link>mms://72.13.93.186/lawandorder</link></item>
+			<item><title>tv detectives</title>
+<link>mms://72.13.93.186/tvdetectives</link></item>
+			
+            </items>	
+        
+   </channel>		
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+          <channel>
+    <name>          Republica Dominicana</name>
+    <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
+    <fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+        <items>
+                <item><title>[COLOR=green]########[/COLOR][COLOR=orange] •   R E P U B L I C A     D O M I N I C A N A   •[/COLOR][COLOR=green]######[/COLOR] </title><link>http://about.me/adryan</link></item>
+			
+			
+			
+			
+
+<item><title>[COLOR skyblue]CDN 37[/COLOR]</title><link>http://108.168.206.90:1935/cdn/cdn/playlist.m3u8</link></item>
+ 
+<item><title>[COLOR skyblue]Antenana Canal 7[/COLOR]</title><link>http://ss6.domint.net:1962/al_edge/antena/playlist.m3u8</link></item>
+ 
+<item><title>[COLOR skyblue]Color Vision[/COLOR]</title><link>http://ss7.domint.net:2048/cvis_str/color/playlist.m3u8</link></item>
+ 
+<item><title>[COLOR skyblue]Digital 15 [/COLOR]</title><link>rtmp://vivo.canalesdominicanosenvivo.com:1935/canal/ playpath=telemicro1515.stream</link></item>
+ <item><title>[COLOR skyblue]Digital 15 2 [/COLOR]</title><link>http://vivo.canalesdominicanosenvivo.com:1935/appcado/mediodigital1515/playlist.m3u8</link></item>
+  <item><title>[COLOR skyblue]Digital 15 2 [/COLOR]</title><link>rtmp://vivo.canalesdominicanosenvivo.com:1935/can/ playpath=d15.stream swfUrl=http://canalesdominicanosenvivo.com/asset/play/jwplayer.flash.swf live=1 pageUrl=http://canalesdominicanosenvivo.com/asset/play/rep2.php?canal=223</link></item>
+ 
+ 
+ 
+ 
+<item><title>[COLOR skyblue]Teleuniverso Canal 29 Santiago[/COLOR]</title><link>http://ss7.domint.net:1942/tu_str/universo/playlist.m3u8</link></item>
+ 
+<item><title>[COLOR skyblue]Teleradio America Canal 45[/COLOR]</title><link>http://ss7.domint.net:2068/t45_str/trlive/playlist.m3u8</link></item>
+ 
+<item><title>[COLOR skyblue]Certv Canal 4 Santo D.[/COLOR]</title><link>http://216.24.196.40:1935/live/canal4/playlist.m3u8</link></item>
+ 
+<item><title>[COLOR skyblue]Telecentro Canal 13 Santo D[/COLOR]</title><link>rtmp://vivo.canalesdominicanosenvivo.com:1935/canal/ playpath=telecentro1313.stream swfUrl=http://emisoradominicana.net/html5/play/jwplayer.flash.swf pageUrl=http://emisoradominicana.net/html5/play/paly.php?canal=194 live=true</link></item>
+ 
+<item><title>[COLOR skyblue]Teleantillas Canal 2[/COLOR]</title><link>http://mek4.mekstream.com/teleantillas/smil:teleantillas.smil/playlist.m3u8</link></item>
+ 
+<item><title>[COLOR skyblue]CineVision Canal 19[/COLOR]</title><link>rtmp://204.77.214.15:80/mogulus-stream-edge/cinevisioncanal19 playpath=rtmp://212-72.livestream.com/affiliateStream/cinevisioncanal19/6c69766572657065617465723a72746d703a2f2f3231322d37322e6c69766573747265616d2e636f6d2f6d6f67756c75732f63696e65766973696f6e63616e616c31392f6664617568616a726532303135303431362È3131343835365f313938 swfUrl=http://cdn.livestream.com/chromelessPlayer/v21/playerapi.swf?mute=false&width=700&color=0xe7e7e7&height=380&jsEnabled=false&iconColorOver=0x888888&time=&allowchat=true&autoPlay=true&iconColor=0x777777 pageUrl=http://cdn.livestream.com/embed/cinevisioncanal19?layout=4&color=0xe7e7e7&autoPlay=true&mute=false&iconColorOver=0x888888&iconColor=0x777777&allowchat=true&height=380&width=700 live=true</link></item>
+ 
+<item><title>[COLOR skyblue]TELEFUTURO[/COLOR]</title><link>rtmp://ss7.domint.net:1950/tf_str/ playpath=futu swfUrl=http://p.jwpcdn.com/6/8/jwplayer.flash.swf pageUrl=http://emisoradominicana.net/html5/play/plya.php?id=139 live=true</link></item>
+ 
+<item><title>[COLOR skyblue]TELENORD Canal 10[/COLOR]</title><link>http://mek2.mekstream.com/telenord10/live2/playlist.m3u8</link></item>
+ 
+<item><title>[COLOR skyblue]CDN SPORTS MAX[/COLOR]</title><link>http://108.168.206.90:1935/cdnsm/cdnsm/playlist.m3u8</link></item>
+ 
+<item><title>[COLOR skyblue]DOMINICANYORK[/COLOR]</title><link> rtmp://stream.dominicanyork.tv:1935/dominicanyorktv/ playpath=DMYTV swfUrl=http://p.jwpcdn.com/6/8/jwplayer.flash.swf pageUrl=http://emisoradominicana.net/html5/play/plya.php?id=129 live=true</link></item>
+ 
+<item><title>[COLOR skyblue]TELEMEDIOS[/COLOR]</title><link>http://ss7.domint.net:2074/tdtv_str/vision/playlist.m3u8</link></item>
+ 
+<item><title>[COLOR skyblue]ROMANA TV 42[/COLOR]</title><link>http://tv.romanatv42.com:1935/rtplive/romanatv.sdp/playlist.m3u8</link></item>
+ 
+<item><title>[COLOR skyblue]Vegateve La Vega[/COLOR]</title><link>http://ss7.domint.net:2084/vtv_str/canal8/playlist.m3u8</link></item>
+ 
+<item><title>[COLOR skyblue]MUSA TV[/COLOR]</title><link>http://joelzaiter1.srfms.com:1963/live/musav.sdp/playlist.m3u8</link></item>
+ 
+<item><title>[COLOR skyblue]Mia TV Higuey[/COLOR]</title><link>http://ss7.domint.net:2066/mia_str/mialive/playlist.m3u8</link></item>
+ 
+<item><title>[COLOR skyblue]TELECONTACTO Santiago[/COLOR]</title><link>rtmp://stream.prostudionetwork.com:1957/telecontacto/ playpath=TC swfUrl=http://p.jwpcdn.com/6/8/jwplayer.flash.swf pageUrl=http://emisoradominicana.net/html5/play/plya.php?id=103 live=true</link></item>
+ 
+<item><title>[COLOR skyblue]Telesistema rep dom[/COLOR]</title><link>http://mek4.mekstream.com/telesistema/smil:telesistema.smil/chunklist_w187860908_b2000000.m3u8</link></item>
+ 
+ <item><title>[COLOR skyblue]Digital 15 rep dom[/COLOR]</title><link>rtmp://vivo.canalesdominicanosenvivo.com:1935/canal/ playpath=telemicro1515.stream swfUrl=http://canalesdominicanosenvivo.com/asset/play/jwplayer.flash.swf pageUrl=http://canalesdominicanosenvivo.com/asset/play/rep2.php?canal=223 live=true</link></item>
+ 
+ <item><title>[COLOR skyblue]Antena Latina rep dom[/COLOR]</title><link>http://ss6.domint.net:1962/al_edge/antena/playlist.m3u8</link></item>
+ <item><title>[COLOR skyblue]CDN Sport Max[/COLOR]</title><link>http://108.168.206.90:1935/cdnsm/cdnsm/playlist.m3u8</link></item>
+ <item><title>[COLOR skyblue]Color Vision[/COLOR]</title><link>http://ss7.domint.net:2048/cvis_str/color/playlist.m3u8</link></item>
+ <item><title>[COLOR skyblue]Romana TV 42[/COLOR]</title><link> rtmp://tv.romanatv42.com:1935/rtplive/ playpath=romanatv.sdp swfUrl=http://p.jwpcdn.com/6/8/jwplayer.flash.swf pageUrl=http://canalesdominicanosenvivo.com/asset/play/rpe.php?id=85 live=true</link></item>
+ 
+<item><title>[COLOR skyblue]Telemicro 5[/COLOR]</title><link>rtmp://vivo.canalesdominicanosenvivo.com:1935/canal/ playpath=telemicro0505.stream swfUrl=http://canalesdominicanosenvivo.com/asset/play/jwplayer.flash.swf pageUrl=http://canalesdominicanosenvivo.com/asset/play/rep2.php?canal=222 live=true</link></item>
+
+
+			<item>
+<title>CDN Canal 37 ( Republica Dominicana)</title>
+<link>http://108.168.206.90:1935/cdn/cdn/playlist.m3u8</link>
+<thumbnail>http://tv-online.in/wp-content/uploads/2013/01/CDN1-CANAL-37-Santo-Domingo-live.gif</thumbnail>
+</item>
+
+<item>
+<title>Teleantillas Canal 2</title>
+<link>http://mek4.mekstream.com/teleantillas/live3/playlist.m3u8</link>
+<thumbnail>http://teleantillas.com.do/images/logo2.png</thumbnail>
+</item>
+
+ <item>
+	<title>teleantillas(dominicana)</title>
+	<link>rtmp://mek4.mekstream.com/teleantillas playpath=live3_source swfUrl=http://www.mekstream.com/clients/teleantillas/player-licensed.swf live=1 pageUrl=http://teleantillas.com.do/senal-en-vivo/</link>
+	<thumbnail>http://d14tj5vpz5tbhm.cloudfront.net/files/2013/08/no_imagen.jpg</thumbnail>
+	</item>
+	
+	
+
+<item>
+<title>Telesistema Canal 11</title>
+<link>http://mek4.mekstream.com/telesistema/smil:telesistema.smil/chunklist_w965232534_b464000.m3u8</link>
+<thumbnail>http://canalesdominicanosenvivo.com/wp-content/uploads/2013/09/telesistema_poster.png</thumbnail>
+</item>
+
+<item>
+<title>Telefuturo Canal 23</title>
+<link>http://ss7.domint.net:1950/tf_str/futu/playlist.m3u8</link>
+<thumbnail>http://tusolcaribe.net/wp-content/uploads/2012/10/telefuturo.jpg</thumbnail>
+</item>
+
+<item>
+<title>Noticias 16 Canal 16</title>
+<link>http://mek2.mekstream.com:1935/noticias16/live2/playlist.m3u8</link>
+<thumbnail>http://canalesdominicanosenvivo.com/wp-content/uploads/2014/05/Noticias-16-Santo-Domingo-Canales-Dominicanos-Online.jpg</thumbnail>
+</item>
+
+<item>
+<title>CDN Sport Max</title>
+<link>http://108.168.206.90:1935/cdnsm/cdnsm/playlist.m3u8</link>
+<thumbnail>http://mediavid.net/img/tv-icons/cdnsports.jpg</thumbnail>
+</item>
+
+<item>
+	<title>telenord  canal 8 (dominicana)</title>
+	<link>rtmp://mek2.mekstream.com:1935/telenord10 playpath=live2 swfUrl=http://www.mekstream.com/clients/telenord10/player-licensed.swf live=1 pageUrl=http://www.telenord.com.do/index.php/canales/canal10</link>
+	<thumbnail>http://radioteve.com/tele/caribe/stdomingo/logo/Telenord8.jpg</thumbnail>
+	</item>
+
+<item>
+<title>Teleuniverso Canal 29</title>
+<link>http://ss7.domint.net:1942/tu_str/universo/playlist.m3u8</link>
+<thumbnail>http://emisoradominicana.net/television/logos/Teleuniverso-Canal-29.jpg</thumbnail>
+</item>
+
+
+<item>
+<title>CineVision 19</title>
+<link>http://xcinevisioncanal19x.api.channel.livestream.com/3.0/playlist.m3u8</link>
+<thumbnail>http://emisoradominicana.net/tv/wp-content/uploads/2013/09/Cinevision-Canal-19.jpg</thumbnail>
+</item>
+
+<item>
+<title>Digital 15</title>
+<link>rtmp://67.212.234.140:9095/live2/ playpath=digi15 swfUrl=http://telemicro.com.do/tv/components/com_jmsvideo/jwplayer/jwplayer.flash.swf pageUrl=http://emisoradominicana.net/ live=true timeout=15</link>
+<thumbnail>http://www.cirqueros.com/web/images/stories/digital%2015%20logo.jpg</thumbnail>
+</item>
+
+
+
+<item>
+<title>Telecontacto 57</title>
+<link>rtmp://stream.prostudionetwork.com:1957/telecontacto/ playpath=TC swfUrl=http://yucatv.com/jwplayer/jwplayer.flash.swf live=true timeout=15 pageUrl=http://emisoradominicana.net/html5/iframes/telecontacto.html</link>
+<thumbnail>http://emisoradominicana.net/television/logos/Telecontacto-Canal-57.jpg</thumbnail>
+</item>
+
+<item>
+<title>Telemicro 5 </title>
+<link>rtmp://67.212.234.140:9095/live2/ playpath=telemicro swfUrl=http://telemicro.com.do/tv/components/com_jmsvideo/jwplayer/jwplayer.flash.swf live=true timeout=15 pageUrl=http://emisoradominicana.net/html5/iframes/base-iframes-2.php?id=5</link>
+<thumbnail>http://radioteve.com/tele/caribe/stdomingo/logo/telemic.jpg</thumbnail>
+</item>
+
+
+ <item>
+    <title>Telemicro canal 5 </title>
+    <link>rtmp://67.212.234.140:9095/live2/ playpath=telemicro5 swfUrl=http://p.jwpcdn.com/6/8/jwplayer.flash.swf live=1 pageUrl=http://emisoradominicana.net/html5/swfjs/index.php?id=142 conn=S:OK --live</link>
+    </item>  
+
+    <item>
+    <title> Digital 15  </title> 
+<link>rtmp://67.212.234.140:9095/live2/ playpath=digital15 swfUrl=http://p.jwpcdn.com/6/8/jwplayer.flash.swf pageUrl=http://emisoradominicana.net/html5/swfjs/index.php?id=148 conn=S:OK --live</link>
+    </item>
+     
+    <item>
+    <title> ANTENA LATINA 7 </title>     
+    <link>http://ss6.domint.net:1962/al_edge/antena/chunklist_w1741835366.m3u8</link>
+    </item>     
+
+ <item>
+    <title> COLOR VISIÓN  9 </title>     
+    <link>http://ss7.domint.net:2048/cvis_str/color/chunklist_w1932876334.m3u8</link>
+    </item>     
+    
+    <item>
+    <title> CDN canal 37 </title> 
+    <link>rtmp://108.168.206.90/cdn playpath=cdn swfUrl=http://cdn.com.do/wp-content/themes/cdn/js/player.swf live=1 pageUrl=http://josegutierrezproducciones.com/portal/tv-player.php conn=S:OK --live </link>
+    </item>     
+
+    <item>
+    <title>CDN SPORTMAX   </title>          
+<link>rtmp://108.168.206.90/cdnsm playpath=cdnsm swfUrl=http://cdn.com.do/wp-content/themes/cdn/js/player.swf live=1 timeout=13 pageUrl=http://cdn.com.do/ AnisotropicTV</link>
+    </item>   
+   
+    <item>
+    <title>TELESISTEMA 11 </title> 
+    <link>http://mek4.mekstream.com/telesistema/smil:telesistema.smil/chunklist_w965232534_b464000.m3u8</link>
+    </item>
+    <item>
+	<title> RADIO TELEVISION DOMINICANA 4</title>
+	<link>http://216.24.196.40:1935/live/canal4/playlist.m3u8</link>
+	</item>    
+    <item>
+	<title>TELE VIDA 41 </title>
+	<link>rtmp://69.175.12.34/live/ALOJADO_TELEVIDA</link>
+	</item>    
+    
+    <item>
+    <title> TELEFUTURO 23</title>     
+    <link>http://ss7.domint.net:1950/tf_str/futu/playlist.m3u8</link>
+    </item>      
+    
+    <item><title>Antena latina 7</title>
+		<link>http://ss6.domint.net:1962/al_edge/antena/playlist.m3u8</link></item>
+		<item><title>cdn </title>
+		<link>http://108.168.206.90:1935/cdn/cdn/playlist.m3u8</link></item>
+		<item><title>teleantillas</title>
+		<link>http://mek4.mekstream.com/teleantillas/smil:teleantillas.smil/playlist.m3u8</link></item>
+		<item><title>color vision </title>
+		<link>http://ss7.domint.net:2048/cvis_str/color/playlist.m3u8</link></item>
+		<item><title>cdn sport max</title>
+		<link>http://108.168.206.90:1935/cdnsm/cdnsm/playlist.m3u8</link></item>
+		<item><title>cer tv </title>
+		<link>http://216.24.196.40:1935/live/canal4/playlist.m3u8</link></item>
+		<item><title>teleuniverso</title>
+		<link>http://ss7.domint.net:1942/tu_str/universo/playlist.m3u8</link></item>
+		<item><title>canal 25 santiago</title>
+		<link>http://ss7.domint.net:2074/tdtv_str/vision/playlist.m3u8</link></item>
+		<item><title>telecentro</title>
+		<link>http://ss7.domint.net:2050/tcc_str/tc13/playlist.m3u8</link></item>
+		<item><title>Teleradio America</title>
+		<link>http://ss7.domint.net:2068/t45_str/trlive/playlist.m3u8</link></item>
+		<item><title>Super canal 33</title>
+		<link>http://ss6.domint.net:2010/sc33_str/super/playlist.m3u8</link></item>
+	
+	
+	
+	</items>	
+       
+   </channel>	
+
+
+
+
+          <channel>
+    <name>          Venezuela</name>
+    <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
+    <fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+        <items>
+
+<item><title>Venevision</title>
+<link>rtmp://streamtv.gangahosting.com/venevisionenvivo/venevisionenvivo-48876016</link></item>
+
+
+<item><title>Televisora Del Tachira (TRT)</title>
+<link>rtmp://edge.wms28.lorini.net/trttv/ playpath=trttv swfUrl=http://www.lorini.net/playerv/player.swf live=1 pageUrl=http://trt.com.ve/web/senal-en-vivo/</link></item>
+
+<item><title>Venevision</title>
+<link>rtmp://50.7.28.146/flash<playpath>20358?MTQyMzE1NDIwMDsyZGViZGQ0MTEwZGE2NTA2ZGU1MTQwYTFmNWY4NWI1Zg== <swfUrl>http://static3.sawlive.tv/player.swf <pageUrl>http://sawlive.tv/embed/watch/g1ZWZlMTYyNDc3YTMzYTM1NjQ2OTIzZDIyOTQ3N2Y_/dmVuZXZpc2lvbjIwMTU6ZDg3NGIwZDhmNjQ4Mzk4N2IyM2VlMDcwOTczY2UyNmY6OT</link></item>
+
+
+
+
+<item><title>Antv (Asamblea Nacional)</title>
+<link>rtmp://cast.streamingconnect.tv:1935/antvweb/ playpath=antvweb swfUrl=http://www.movipbox.com/nuevo/player/player.swf live=1 pageUrl=http://www.movipbox.com/nuevo/embed/antv/index1.html</link></item>
+
+
+
+<item><title>Promar Tv</title>
+<link>rtmp://edge.wms28.lorini.net/promartv/ playpath=promartv swfUrl=http://www.lorini.net/playerv/player.swf live=1 pageUrl=http://www.lorini.net/streaming/clientes/promartv.html</link></item>
+
+
+
+<item><title>Canal i</title>
+<link>rtmp://edge.wms28.lorini.net/canal-i playpath=canal-i swfUrl=http://www.lorini.tv/flvplayer/FLVplayer_Custom.swf live=1 pageUrl=http://www.canal-i.com/sitio/</link></item>
+
+
+
+<item><title>Globovision</title>
+<link>http://www.dailymotion.com/video/xio7e2_senal-en-vivo_news?start=7</link></item>
+
+
+<item><title>Venezolana De Television (VTV)</title>
+<link>rtmp://cast.streamingconnect.tv:1935/vtvweb2/ playpath=vtvweb2 swfUrl=http://www.movipbox.com/nuevo/player/player.swf live=1 pageUrl=http://www.movipbox.com/nuevo/embed/vtv/index.html?now=1423154517</link></item>
+
+
+<item><title>Telesur</title>
+<link>http://cdn2.telesur.ultrabase.net/livecf/telesurLive/chunklist.m3u8</link></item>
+
+
+
+<item><title>White Zoom Channel </title>
+<link>rtmp://stream.iglesiaytecnologia.com:2045/live/ playpath=wzclive1 swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf live=1 pageUrl=http://www.wzcinternacional.com/home.html</link></item>
+
+
+<item><title>Urbe Tv (Maracaibo)</title>
+<link>rtmp://edge.wms28.lorini.net/urbetv playpath=urbetv swfUrl=http://www.lorini.tv/flvplayer/FLVplayer_Custom.swf live=1 pageUrl=http://www.lorini.net/streaming/clientes/urbetv.htm</link></item>
+
+
+
+<item><title>Vale Tv</title>
+<link>rtmp://edge.wms28.lorini.net:80/valetv playpath=valetv swfUrl=http://source.netandino.com/html5/player-2012-free.swf live=1 pageUrl=http://radioteve.com/tele/suramerica/venezuela/ch35.html</link></item>
+
+
+<item><title>Ven Tv</title>
+<link>rtmp://edge.wms28.lorini.net/ventv playpath=ventv swfUrl=http://www.lorini.tv/flvplayer/FLVplayer_Custom.swf live=1 pageUrl=http://www.lorini.net/streaming/clientes/ventv.htm</link></item>
+
+
+
+<item><title>Conquivacoa Tv (Maracibo)</title>
+<link>rtmp://edge.wms28.lorini.net/coquivacoatv/ playpath=coquivacoatv swfUrl=http://source.netandino.com/html5/player-2012-free.swf live=1 pageUrl=http://radioteve.com/tele/suramerica/venezuela/ch28.html</link></item>
+
+
+
+<item><title>Oasis Tv (Puerto La Cruz)</title>
+<link>rtmp://edge.wms28.lorini.net/oasistv playpath=oasistv swfUrl=http://www.lorini.tv/flvplayer/FLVplayer_Custom.swf live=1 pageUrl=http://www.lorini.net/streaming/clientes/oasistv.html</link></item>
+
+
+<item><title>Meridiano Television</title>
+<link>rtmp://109.123.116.154/live/tvmeridiano?id=75570rtmp://109.123.116.154/live/tvmeridiano?id=75570rtmp://109.123.116.154/live/tvmeridiano?id=75570</link></item>
+
+
+<item><title>Anzoategui Tv</title>
+<link>rtmp://edge.wms28.lorini.net/anzoateguitv playpath=anzoateguitv swfUrl=http://www.lorini.tv/flvplayer/FLVplayer_Custom.swf live=1 pageUrl=http://www.lorini.net/streaming/clientes/anzoateguitv.htm</link></item>
+
+
+<item><title>Tves</title>
+<link>rtmp://cast.streamingconnect.tv:1935/tves2/ playpath=tves2 swfUrl=http://www.movipbox.com/nuevo/player/player.swf live=1 pageUrl=http://www.movipbox.com/nuevo/embed/tves/index1.html</link></item>
+
+
+
+<item><title>Isla Tv (Margarita)</title>
+<link>rtmp://edge.wms28.lorini.net/islatv playpath=islatv swfUrl=http://www.lorini.tv/flvplayer/FLVplayer_Custom.swf live=1 pageUrl=http://www.islatv.com.ve/<link>http://www.islatv.com.ve/</link></item>
+
+
+<item><title>Shalom Tv</title>
+<link>rtmp://204.77.214.18:80/mogulus-stream-edge/shalomtvvenezuela/rtmp://212-91.livestream.com/affiliateStream/shalomtvvenezuela/6c69766572657065617465723a72746d703a2f2f3231322d39312e6c69766573747265616d2e636f6d2f6d6f67756c75732f7368616c6f6d747676656e657a75656c612f6c69766573747265616d</link></item>
+
+
+<item><title>Global Tv </title>
+<link>rtmp://edge.wms28.lorini.net/globaltv/ playpath=globaltv swfUrl=http://source.netandino.com/html5/player-2012-free.swf live=1 pageUrl=http://radioteve.com/tele/suramerica/venezuela/ch25.html</link></item>
+
+
+<item><title>Reforma Tv (Caracas)</title>
+<link>rtmp://edge.wms28.lorini.net/reforma playpath=reforma swfUrl=http://www.lorini.tv/flvplayer/FLVplayer_Custom.swf live=1 pageUrl=http://www.lorini.net/streaming/clientes/reforma-tv.html</link></item>
+
+
+
+<item><title>Tic Tv (Maracay)</title>
+<link>rtmp://edge.wms28.lorini.net/tictv/ playpath=tictv swfUrl=http://source.netandino.com/html5/player-2012-free.swf live=1 pageUrl=http://radioteve.com/tele/suramerica/venezuela/ch22.html</link></item>
+
+
+<item><title>Telesol Sucre</title>
+<link>rtmp://demo.iblups.com/demo playpath=eS3jhbbGu3 swfUrl=http://iblups.com/playertvlive123456789.swf?autostart=true&config=configplayer%2Ephp%3Fid%3D10963 live=1 pageUrl=http://iblups.com/e_telesoltv-498-310</link></item>
+
+
+<item><title>Contactv (Religion)</title>
+<link>5942574</link></item>
+
+
+<item><title>Tele Aragua</title>
+<link>rtmp://edge.wms28.lorini.net/telearagua playpath=telearagua1 swfUrl=http://www.lorini.tv/flvplayer/FLVplayer_Custom.swf live=1 pageUrl=http://www.telearagua.com/en-vivo/telearagua-hd.htm</link></item>
+
+
+
+<item><title>Tvct 21</title>
+<link>rtmp://vpn58.hdtv.lorini.net/tvct playpath=tvct swfUrl=http://www.lorini.tv/flvplayer/FLVplayer_Custom.swf live=1 pageUrl=http://www.lorini.tv/tvct21/</link></item>
+
+
+
+<item><title>Conciencia Tv (Caracas)</title>
+<link>rtmp://edge.wms28.lorini.net/concienciatv playpath=concienciatv swfUrl=http://www.lorini.tv/flvplayer/FLVplayer_Custom.swf live=1 pageUrl=http://www.lorini.net/streaming/clientes/concienciatv.htm</link></item>
+
+
+
+<item><title>Barinas tv</title>
+<link>rtmp://edge.wms28.lorini.net/barinastv playpath=barinastv swfUrl=http://www.lorini.tv/flvplayer/FLVplayer_Custom.swf live=1 pageUrl=http://www.lorini.net/streaming/clientes/barinastv.htm</link></item>
+
+
+<item><title>Telemax (Tachira)</title>
+<link>rtmp://edge.wms28.lorini.net/telemax playpath=telemax swfUrl=http://www.lorini.tv/flvplayer/FLVplayer_Custom.swf live=1 pageUrl=http://www.lorini.net/streaming/clientes/telemax.htm</link></item>
+
+
+<item><title>Bonaire</title>
+<link>rtmp://edge.wms28.lorini.net/EnergiaVision playpath=EnergiaVision1 swfUrl=http://www.lorini.tv/flvplayer/FLVplayer_Custom.swf live=1 pageUrl=http://www.lorini.net/streaming/clientes/energiavisiontv.html</link></item>
+
+
+<item><title>Canal Once (Zulia)</title>
+<link>rtmp://edge.wms28.lorini.net/canalonce playpath=canalonce swfUrl=http://www.lorini.tv/flvplayer/FLVplayer_Custom.swf live=1 pageUrl=http://www.lorini.net/streaming/clientes/canal11zulia.htm</link></item>
+
+
+
+<item><title>Claret Tv (Religion)</title>
+<link>rtmp://edge.wms28.lorini.net/clarettv playpath=clarettv swfUrl=http://www.lorini.tv/flvplayer/FLVplayer_Custom.swf live=1 pageUrl=http://www.lorini.net/streaming/clientes/clarettv.htm</link></item>
+
+
+</items>	
+       
+   </channel>	
+
+ 
+   	 
+    <channel>
+    <name>          Uruguay </name>
+    <info>Canales para ver cosas de Uruguay</info>
+ 
+
+<items>
+
+
+
+
+
+
+
+<item>
+<title>Tevé Ciudad</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6046</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://tv.vera.com.uy/dynamic/content_images/6046/default_source.jpg</thumbnail>
+</item>
+	
+<item>
+<title>Canal 10</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6047</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://tv.vera.com.uy/dynamic/content_images/6047/default_source.jpg</thumbnail>
+</item>
+	
+	
+<item><title>Canal 10</title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres>
+
+<page>http://tv.vera.com.uy/canal/6047</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex></item>
+	
+
+
+<item><title>Canal 11 Las Piedras</title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres>
+
+<page>http://tv.vera.com.uy/canal/6055</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex></item>
+	
+
+<item><title>Canal 11 Treinta y tres</title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres>
+
+<page>http://tv.vera.com.uy/canal/6853</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex></item>
+	
+
+
+<item><title>Canal 12 Melo</title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres>
+
+<page>http://tv.vera.com.uy/canal/6074</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex></item>
+	
+
+
+<item><title>Canal 2 Lascano</title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres>
+
+<page>http://tv.vera.com.uy/canal/6090</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex></item>
+
+
+<item><title>Canal 4 Paysandu</title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres>
+
+<page>http://tv.vera.com.uy/canal/9239</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex></item>
+
+<item><title>Canal 4 El Salto</title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres>
+
+<page>http://tv.vera.com.uy/canal/8081</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex></item>
+
+<item><title>Canal 4 Chuy </title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres>
+
+<page>http://tv.vera.com.uy/canal/6057</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex></item>		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<item>
+<title>Monte Carlo TV</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6040</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://tv.vera.com.uy/dynamic/content_images/6040/default_source.jpg</thumbnail>
+</item>
+	
+<item>
+<title>Canal U</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/7609</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://tv.vera.com.uy/dynamic/content_images/7609/default_source.jpg</thumbnail>
+</item>
+
+
+
+
+<item>
+<title>Canal 10</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>hls": "(.*?)"</expres>
+<page>http://content.zetatv.com.uy/content/1a92dbdb-5701-46cc-b865-f2b17195afbb/embed/url/?video_type=wowzaadmin&amp;token=</page>
+<referer>http://content.zetatv.com.uy/content/1a92dbdb-5701-46cc-b865-f2b17195afbb/embed/?poster=http://web10.images.production.s3.amazonaws.com/uploads/image/image/398/AHORA_EN_VIVO-950x540.jpg</referer>
+<x-req>XMLHttpRequest</x-req>
+<cookieJar>$doregex[Cookie]</cookieJar>
+</regex>
+<regex>
+<name>Cookie</name>
+<expres></expres>
+<page>http://content.zetatv.com.uy/content/1a92dbdb-5701-46cc-b865-f2b17195afbb/embed/?poster=http://web10.images.production.s3.amazonaws.com/uploads/image/image/398/AHORA_EN_VIVO-950x540.jpg</page>
+<referer>http://www.canal10.com.uy/pages/live-tv</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://web10.images.production.s3.amazonaws.com/uploads/image/image/66/logo-canal10.jpg</thumbnail>
+</item>
+
+<item>
+<title>Canal 10 HD</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>hls": "(.*?)"</expres>
+<page>http://content.zetatv.com.uy/content/1a92dbdb-5701-46cc-b865-f2b17195afbb/embed/url/?video_type=wowzaadmin&amp;token=</page>
+<referer>http://content.zetatv.com.uy/content/1a92dbdb-5701-46cc-b865-f2b17195afbb/embed/?poster=http://web10.images.production.s3.amazonaws.com/uploads/image/image/398/AHORA_EN_VIVO-1280x720.jpg</referer>
+<x-req>XMLHttpRequest</x-req>
+<cookieJar>$doregex[Cookie]</cookieJar>
+</regex>
+<regex>
+<name>Cookie</name>
+<expres></expres>
+<page>http://content.zetatv.com.uy/content/1a92dbdb-5701-46cc-b865-f2b17195afbb/embed/?poster=http://web10.images.production.s3.amazonaws.com/uploads/image/image/398/AHORA_EN_VIVO-1280x720.jpg</page>
+<referer>http://www.canal10.com.uy/pages/live-tv</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://web10.images.production.s3.amazonaws.com/uploads/image/image/66/logo-canal10.jpg</thumbnail>
+</item>
+	
+
+<item>
+<title>Canal 7</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/10425</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://tv.vera.com.uy/dynamic/content_images/10425/default_source.jpg</thumbnail>
+</item>
+
+<item>
+<title>Canal 2 San Carlos</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/8204</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://tv.vera.com.uy/dynamic/content_images/8204/default_source.jpg</thumbnail>
+</item>
+
+<item>
+<title>Canal 11 Treinta y Tres</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6853</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://tv.vera.com.uy/dynamic/content_images/6853/320/default.jpg</thumbnail>
+</item>
+
+<item>
+<title>Artigas TV</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6044</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6044/320/default.jpg</thumbnail>
+</item>
+
+<item>
+<title>TNU</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6042</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://tv.vera.com.uy/dynamic/content_images/6042/default_source.jpg</thumbnail>
+</item>
+
+<item>
+<title>DW</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6019</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://tv.vera.com.uy/dynamic/content_images/6019/default_source.jpg</thumbnail>
+</item>
+
+<item>
+<title>Telesur</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6028</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://tv.vera.com.uy/dynamic/content_images/6028/default_source.jpg</thumbnail>
+</item>
+
+<item>
+<title>Canal 12 Melo</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6074</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://tv.vera.com.uy/dynamic/content_images/6074/320/default.jpg</thumbnail>
+</item>
+
+<item>
+<title>Al Jazeera</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/11580</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://tv.vera.com.uy/dynamic/content_images/11580/default_source.jpg</thumbnail>
+</item>
+
+<item>
+<title>Soy Tacuarembó</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6880</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://tv.vera.com.uy/dynamic/content_images/6880/320/default.jpg</thumbnail>
+</item>
+
+<item>
+<title></title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6707</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+
+</item>
+
+<item>
+<title>Canal 8 Rivera</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/9369</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+
+</item>
+<item><title>Canal THX</title><link>rtmp://178.239.53.132/live/cthx</link></item>
+</item>
+<item><title>Tele Doce</title><link>http://livestream-f.akamaihd.net/13567583_4079490_fc699d9f_1_678@14719?v=3.6.0&fp=WIN%2018,0,0,232&r=NWQMK&g=ULUUSXOCIKHK</link></item>
+
+
+
+</item>
+<item><title>TcheNet</title><link>http://streaming41.sitehosting.com.br:1935/andres/_definst_/andres/playlist.m3u8</link></item>
+</item>
+
+
+</items>
+</channel>
+
+   <channel>
+   <name>          Thailandia</name>
+   <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
+   <fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+   <items>
+   
+			
+			
+			
+			<item><title>DMC (Thai)		</title><link>http://live-us.dmc.tv/live/_definst_/th_platinum.stream/playlist.m3u8</link></item>
+			<item><title>Malimar Thai Music (Thai)		</title><link>http://dalorigin00.malimarcdn.com:1935/ftaorigin/_definst_/MalimarMHD.sdp/playlist.m3u8</link></item>
+			<item><title>CTH 1 </title><link>rtmp://178.239.53.132/live/cth1</link></item>
+			<item><title>CTH 2 </title><link>rtmp://178.239.53.132/live/cth2</link></item>
+			<item><title>CTH 3 </title><link>rtmp://178.239.53.132/live/cth3</link></item>
+			<item><title>CTH 4 </title><link>rtmp://178.239.53.132/live/cth4</link></item>
+			<item><title>CTH 5 </title><link>rtmp://178.239.53.132/live/cth5</link></item>
+			<item><title>CTH X </title><link>rtmp://178.239.53.132/live/cthx</link></item>
+			
+   
+   </items>
+   </channel>
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	</channels>
+    
+  

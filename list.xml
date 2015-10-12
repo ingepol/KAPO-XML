@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<items>
+	<items_info>
+	  <title>KAPO</title> 
+	  <genre>Tv Live</genre>
+	  <description>Lista de Canales</description>
+	  <thumbnail>http://www.4shared.com/download/zscFS34Jce/logo_kapo.png?sbsr=a6aaa8760ba9a14206e15d07e41f6615376cc0bcedd33549&lgfp=3000</thumbnail>
+	  <fanart>https://wallpaperscraft.com/image/islam_mosque_city_sunset_10864_1280x720.jpg</fanart>
+	  <date>05.09.2015</date>
+	  <credits>kapo</credits>
+	</items_info>
+	<item>
+		<title>                                [COLOR skyblue][B]L I S T A [/COLOR][COLOR deepskyblue]K A P O[/B][/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.4shared.com/download/zscFS34Jce/logo_kapo.png?sbsr=a6aaa8760ba9a14206e15d07e41f6615376cc0bcedd33549&lgfp=3000</thumbnail>
+	  	<fanart>https://wallpaperscraft.com/image/islam_mosque_city_sunset_10864_1280x720.jpg</fanart>
+	</item>
+
+	<item>
+		<title>                     [COLOR lightblue]   update: [COLOR orange]05[/COLOR] • Octubre • 2015[/COLOR]      </title>
+		<link>http://ignorame</link>
+	</item>
+	
+	<item>
+		<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Deportes[/COLOR] </title>
+		<link>http://ignorame</link>
+		<externallink>https://dl.dropboxusercontent.com/u/66945917/lista.xml</externallink>
+	</item>
+	
+	
+		<item>
+			<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Sports[/B]   [/COLOR][COLOR skyblue][p2p@Plexus] [/COLOR]</title>
+			<link>http://ignorame</link>
+			<externallink>http://adrian.kodistream.info/ace.xml</externallink>
+		</item>
+
+		<item>
+			<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  España [/COLOR]</title>
+			<link>http://ignorame</link>
+			<externallink>https://adrian.kodistream.info/esp.xml</externallink>
+		</item>
+		<item>
+			<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Mexico[/COLOR] </title>
+			<link>http://ignorame</link>
+			<externallink>adrian.kodistream.info/mx.xml</externallink>
+		</item>
+
+		<item>
+			<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Stalker[/B]   [/COLOR] [COLOR skyblue][Nescafe] [/COLOR]  </title>
+			<link>http://ignorame</link>
+			<externallink>https://adrian.kodistream.info/nescafe.xml</externallink>
+		</item>
+
+		<item>
+			<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  IPTV +   [/COLOR] [COLOR skyblue][/COLOR]  </title>
+			<link>http://ignorame</link>
+			<externallink>http://adrian.kodistream.info/stalker001.m3u</externallink>
+		</item>
+
+		<item>
+			<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay    [/COLOR] [COLOR skyblue][Solo para Mexico] [/COLOR]  </title>
+			<link>http://ignorame</link>
+			<externallink>https://dl.dropboxusercontent.com/u/32066381/totalp.xml</externallink>
+		</item>
+
+		<item>
+			<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Entretenimiento[/COLOR]  [COLOR skyblue][ TotalPlay 2 ] [/COLOR]  </title>
+			<link>http://ignorame</link>
+			<externallink>http://adrian.kodistream.info/ent.xml</externallink>
+		</item>
+		
+		<item>
+			<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Peliculas & [B]Series de TV [COLOR skyblue]24/7[/COLOR][/B][/COLOR] [COLOR green] [/COLOR]</title>
+			<link>http://ignorame</link>
+			<externallink>http://adrian.kodistream.info/p247.xml</externallink>
+		</item>
+		
+		<item>
+			<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Peliculas [/COLOR]   [COLOR lime] [/COLOR] </title>
+			<link>http://ignorame</link>
+			<externallink>http://adrian.kodistream.info/peliculas.xml</externallink>
+		</item>
+		
+		<item>
+			<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Series de TV [/COLOR]   [COLOR gray] [/COLOR]  </title>
+			<link>http://ignorame</link>
+			<externallink>http://adrian.kodistream.info/tv.xml</externallink>
+		</item>
+
+		<item>
+			<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Musica[/COLOR]</title>
+			<link>http://ignorame</link>
+			<externallink>http://adrian.kodistream.info/musi.xml</externallink>
+		</item>
+		
+		<item>
+			<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Paises[/COLOR]</title>
+			<link>http://ignorame</link>
+			<externallink>http://adrian.kodistream.info/paises.xml</externallink>
+		</item>
+		
+		<item>
+			<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Internaciones[/COLOR] </title>
+			<link>http://ignorame</link>
+			<externallink>http://adrian.kodistream.info/inter.xml</externallink>
+		</item>
+
+		<item>
+			<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Mas Listas[/COLOR]</title>
+			<link>http://ignorame</link>
+			<externallink>http://adrian.kodistream.info/lists.xml</externallink>
+		</item>	
+	
+
+</items>
+

@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+	<channel>
+    <name>[COLOR=green]-----[/COLOR][COLOR=orange]► M U S I C A [/COLOR][COLOR gray] Vevo 1-3 • Vh1 • Mtv hits • rock • Dance • Exa Tv • Live Music [/COLOR][COLOR=green]-----[/COLOR]</name>
+    <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
+    <fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+        <items>
+           
+			<items_info> <!-- this is opitonal -->
+      <title>Adryan List </title>
+      <genre>Tv Live</genre>
+      <description>: Lista de Canales para el Livestreamspro :</description>
+      <thumbnail>http://i.imgur.com/CkvRWfL.jpg</thumbnail>
+      <fanart>http://i.imgur.com/vnB7jHv.jpg</fanart>
+      <date>03.02.2015</date>
+      <credits>adryan</credits>
+    </items_info>
+			
+		<item>
+<title>1 hd</title>
+<link>rtmp://109.239.142.62/live/livestream3</link>
+<thumbnail>http://sat-one.info/news-imeg/18462.jpg</thumbnail>
+<fanart/>
+</item>
+<item>
+<title>heart music</title>
+<link>
+http://ooyalahd2-f.akamaihd.net/i/globalradio02_delivery@156522/master.m3u8
+</link>
+<thumbnail/>
+<fanart/>
+</item>
+<item>
+<title>vh1</title>
+<link>
+http://93.174.95.125:1935/edge/_definst_/oeiigxxv1gbeqq9/manifest.m3u8?wowzasessionid=1420170560
+</link>
+<thumbnail/>
+<fanart/>
+</item>	
+			
+		<item><title>Heart</title>
+<link>http://37.48.118.32/live/heart.stream/master.m3u8</link></item>
+
+		<item><title>Magic Music</title>
+<link>http://37.48.118.32/live/magic.stream/playlist.m3u8</link></item>
+
+		<item><title> Mtunes</title>
+<link>http://mthls-i.akamaihd.net/hls/live/219508/mthls/06.m3u8</link></item>
+
+		<item><title>Now Thats What I Call Music Channel</title>
+<link>http://rrr.sz.xlcdn.com/?account=AATW&file=nowmusic&type=live&service=wowza&protocol=http&output=playlist.m3u8</link></item>
+
+		<item><title>VH1 CLASSIC</title>
+<link>http://hlsstr02.svc.iptv.rt.ru/hls/CH_VH1CLASSIC/variant.m3u8</link></item>
+
+		<item><title>1HD</title>
+<link>http://109.239.142.62:1935/live/livestream3/playlist.m3u8</link></item>
+
+		<item><title>PARTY TV MUSIC</title>
+<link>http://149.11.34.6:1935/live/partytv.stream/playlist.m3u8</link></item>
+
+
+<item><title>Rock television</title>
+<link>http://mediatv2.topix.it/24rocktelevision66</link></item>
+<item><title>Rock 21st</title>
+<link>http://mediatv2.topix.it/242166</link></item>
+<item><title>Rock 90</title>
+<link>http://mediatv2.topix.it/249066</link></item>
+<item><title>Rock 80</title>
+<link>http://mediatv2.topix.it/248066</link></item>
+<item><title>Rock 70</title>
+<link>http://mediatv2.topix.it/247066</link></item>
+<item><title>ROCK 60</title>
+<link>http://mediatv2.topix.it/246066</link></item>
+<item><title>ROCK Hard and Heavy</title>
+<link>http://mediatv2.topix.it/24hard66</link></item>
+<item><title>ROCK</title>
+<link>http://mediatv2.topix.it/24prog66</link></item>
+<item><title>ROCK BALADAS</title>
+<link>http://mediatv2.topix.it/24soft66</link></item>
+
+
+<item><title>mtv dance</title><link>http://acabsw.doiptv.com/mtvdance/playlist.m3u8|User-Agent=stagefright</link></item>
+<item><title>mtv rocs</title><link>http://acabsw.doiptv.com/mtvrocs/playlist.m3u8|User-Agent=stagefright</link></item>
+<item><title>mtv hits</title><link>http://acabsw.doiptv.com/mtvhits/playlist.m3u8|User-Agent=stagefright</link></item>
+<item><title>mtv rocks</title><link>http://acabsw.doiptv.com/mtvrocks/playlist.m3u8|User-Agent=stagefright</link></item>
+<item><title>vh1</title><link>http://acabsw.doiptv.com/gr_vh1/playlist.m3u8|User-Agent=stagefright</link></item>
+
+
+			
+			
+			
+			<item>
+			<title>MTV</title>
+			<link>http://secure.ilikehd.com:8080/livetv/player/totlink.m3u8?channel_id=8d45473ff4ca44d79e1abc4516c2fee0&amp;bitrate=1500</link>
+			</item>
+			<item>
+			<title>Club Land</title>
+			<link>http://rrr.sz.xlcdn.com/?account=AATW&file=clublandtv&type=live&service=wowza&protocol=http&output=playlist.m3u8</link>
+			<thumbnail></thumbnail>
+			<fanart></fanart>
+			</item>
+			
+			<item>
+			<title>Now Music</title>
+			<link>http://rrr.sz.xlcdn.com/?account=AATW&file=nowmusic&type=live&service=wowza&protocol=http&output=playlist.m3u8</link>
+			<thumbnail></thumbnail>
+			<fanart></fanart>
+			</item>
+			
+			<item>
+			<title>MTV HITS</title>
+			<link>rtmp://94.242.221.176:1937/live/stream153</link>
+			<thumbnail></thumbnail>
+			<fanart></fanart>
+			</item>
+			
+			<item>
+			<title>ESKA TV</title>
+			<link>rtmp://stream.smcloud.net/live/eskatv</link>
+			<thumbnail></thumbnail>
+			<fanart></fanart>
+			</item>
+			
+			<item>
+			<title>Party TV</title>
+			<link>rtmp://stream.smcloud.net/live2/eska_party/eska_party_360p</link>
+			<thumbnail></thumbnail>
+			<fanart></fanart>
+			</item>
+
+			<item>
+			<title>Best Music TV</title>
+			<link>rtmp://stream.smcloud.net/live2/best/best_360p</link>
+			<thumbnail></thumbnail>
+			<fanart></fanart>
+			</item>
+
+			<item>
+			<title>Rock TV</title>
+			<link>rtmp://stream.smcloud.net/live2/eska_rock/eska_rock_720p</link>
+			<thumbnail></thumbnail>
+			<fanart></fanart>
+			</item>
+
+			<item>
+			<title>MUSIC 1HD</title>
+			<link>rtmp://109.239.142.62/live/livestream3</link>
+			</item>
+
+			<item>
+			<title>VIRGIN MUSIC</title>
+			<link>rtmp://fms.105.net:1935/live playpath=virgin1 swfUrl=http://video.virginradioitaly.it/co...y.it/com/universalmind/tv/virgin/videoXML.xml live=1 pageUrl=http://verlatelegratis.com/canales/virgintv.php</link>
+			</item>
+			
+			<item>  
+			<title>VH1 Europa</title>
+			<link>http://hls01-03.az.myvideo.az/hls-live/livepkgr/vh1/vh1/vh1.m3u8?mfamwuUL6IpOXDJ8WwxJ</link>
+			<thumbnail></thumbnail>
+			</item>
+			
+			<item>
+			<title>VEVO 1 HD</title>
+			<link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch1/06/prog_index.m3u8</link>
+			</item> 
+
+			<item>
+			<title>VEVO 2 HD</title>
+			<link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch2/06/prog_index.m3u8</link>
+			</item> 
+
+			<item>
+			<title>VEVO 3 HD</title>
+			<link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch3/06/prog_index.m3u8</link>
+			</item> 
+			
+			<item> 
+			<title>Heart TV</title>
+			<link>rtmp://cdn-sov-2.musicradio.com:80/LiveVideo/Heart</link>
+			<thumbnail></thumbnail>
+			</item> 
+			
+			<item>  
+			<title>Dancefloor Channel</title>
+			<link>http://www.djing.com/tv/dancefloor.m3u8</link>
+			</item>
+			
+			<item>  
+			<title>Hot Hot Channel</title>
+			<link>http://www.djing.com/tv/hothothot.m3u8</link>
+			</item>			
+
+			<item> 
+			<title>MTV</title>
+			<link>rtmp://83.218.202.202/live playpath=wt_mtv.stream swfUrl=http://webtv.md/swf/WebTV.swf?red5Server=rtmp://83.218.202.202/live&stream=wt_mtv.stream live=1</link>
+			<thumbnail></thumbnail>
+			</item> 
+			
+			<item> 
+			<title>MTV Dance</title>
+			<link>rtmp://94.242.221.176:1937/live/ playpath=stream80 swfUrl=http://www.portaltv.ro/jw6/jwplayer.flash.swf live=1</link>
+			<thumbnail></thumbnail>
+			</item> 
+
+			<item> 
+			<title>MTV Hits</title>
+			<link>rtmp://94.242.221.176:1937/live/ playpath=stream153 swfUrl=http://www.portaltv.ro/jw6/jwplayer.flash.swf live=1</link>
+			<thumbnail></thumbnail>
+			</item> 
+
+			<item> 
+			<title>LIVE CLASSIC HD</title>
+			<link>http://91.201.78.3:1935/live/classicshd/playlist.m3u8?wowzasessionid=350623067&publisher=4</link>
+			<thumbnail></thumbnail>
+			</item> 
+
+			<item> 
+			<title>LIVE DANCE HD</title>
+			<link>http://91.201.78.3:1935/live/dancehd/playlist.m3u8?publisher=2</link>
+			<thumbnail></thumbnail>
+			</item> 
+w
+			<item> 
+			<title>LIVE JAZZ HD</title>
+			<link>http://91.201.78.3:1935/live/jazzhd/playlist.m3u8?publisher=6</link>
+			<thumbnail></thumbnail>
+			</item> 
+
+			<item> 
+			<title>LIVE MIX HD</title>
+			<link>http://91.201.78.3:1935/live/onehdhd/playlist.m3u8?publisher=5</link>
+			<thumbnail></thumbnail>
+			</item> 
+
+			<item> 
+			<title>LIVE POP HD</title>
+			<link>http://91.201.78.3:1935/live/pophd/playlist.m3u8?publisher=1</link>
+			<thumbnail></thumbnail>
+			</item> 
+
+			<item> 
+			<title>LIVE ROCK HD</title>
+			<link>http://91.201.78.3:1935/live/rockhd/playlist.m3u8?publisher=3</link>
+			<thumbnail></thumbnail>
+			</item> 
+
+			<item> 
+			<title>1 Music Channel</title>
+			<link>http://77.36.61.45:8010/MusicChannel.m3u8</link>
+			<thumbnail></thumbnail>
+			</item> 
+
+			<item> 
+			<title>Europa TV</title>
+			<link>http://europaplus.cdnvideo.ru:1935/europaplus-live/mp4:eptv_main.sdp/playlist.m3u8</link>
+			<thumbnail></thumbnail>
+			</item> 
+			
+			
+			
+			
+			
+			<item><title>EXA TV (PONTE EXA)</title>
+			<link>http://iphone-streaming.ustream.tv/uhls/16934974/streams/live/iphone/playlist.m3u8</link></item>
+
+			
+			
+			<item><title>TV POLANCO</title>
+
+			<link>rtmp://186.155.200.118:1935/live/ColombiasuMusica</link></item>
+
+			<item><title>VITROLA</title>
+
+			<link>rtmp://186.155.200.118:1935/live/Televitrola</link></item>
+
+			
+
+			<item><title>Telemusica</title>
+			<link>rtmp://186.155.200.118:1935/live/telemusica</link></item>
+
+			<item><title>melody channel</title>
+
+			<link>rtmp://186.155.200.118:1935/live/MelodyChannel</link></item>
+
+			<item><title>Discostk TV</title>
+			<link>rtmp://186.155.200.118:1935/live/discotktv</link></item>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<item><title>MELODY CHANNEL (RELAX)</title>
+			<link>rtmp://190.0.28.154:1935/live/ playpath=pqDyhE3GWS swfUrl=http://p.jwpcdn.com/6/9/jwplayer.flash.swf live=1 pageUrl=http://www.melodychanneltv.com/iframe/</link></item>
+
+			<item><title>MUSICA:1HD 1080p</title>
+			<link>http://109.239.142.62:1935/live/hlsstream/bayash.m3u8</link></item>
+			
+			<item><title>CAPITAL TV</title>
+			<link>rtmp://cdn-the-2.musicradio.com:80/LiveVideo/Capital</link></item>
+			
+			<item><title>MONTECARLO TV</title>
+			<link>rtmp://fms.105.net:1935/live/rmc1</link></item>
+
+
+			<item><title>VIRGIN TV</title>
+			<link>rtmp://fms.105.net:1935/live/virgin1</link></item>
+			
+			
+			<item>
+			<title>Rock Television</title>
+			<link>mmsh://mediatv2.topix.it:80/246066?MSWMExt=.asf</link>
+			</item>
+
+			<item>
+			<title>Mtv Rocks</title>
+			<link>rtmp://94.242.221.176:1937/live/stream166</link>
+			</item>
+			
+			<item><title>MeSuena TV	</title>
+			<link>http://uneapple-i.akamaihd.net/hls/live/215955/grupoune_st44@215955/st44_index.m3u8</link>
+			</item>
+			<item><title>MeSuena TV (Opción 2)</title>
+			<link>http://uneapple-i.akamaihd.net/hls/live/205017/grupoune_st8@205017/st8_index.m3u8</link>
+			</item>
+			<item><title>MeSuena TV (Opción 3)</title>
+			<link>http://uneapple-i.akamaihd.net/hls/live/207643/grupoune_st24@207643/st24_index.m3u8</link>
+			</item>
+			<item><title>MeSuena TV (Opción 4)</title>
+			<link>http://uneapple-i.akamaihd.net/hls/live/207646/grupoune_st27@207646/st27_index.m3u8</link>
+			</item>
+			<item><title>MeSuena TV (Opción 5)</title>
+			<link>http://uneapple-i.akamaihd.net/hls/live/215944/grupoune_st33@215944/st33_index.m3u8</link>
+			</item>
+
+			
+			
+			
+			
+			<item><title>Cantinazo TV (Latino)</title>
+			<link>http://uneapple-i.akamaihd.net/hls/live/206419/grupoune_st18@206419/st18_index.m3u8</link>
+			</item>
+			<item><title>MiMusica TV  (Latino)</title>
+			<link>http://uneapple-i.akamaihd.net/hls/live/206731/grupoune_st20@206731/st20_index.m3u8</link>
+			</item>
+			
+			
+			
+     
+			  <item>
+			  <title>GALAXIE TODAY'S LATIN POP</title>
+			  <link>rtmp://live61.la3.edge.filmon.com:1935/ app=live/?id=1ad5aac39bb13fbe916b3ae34021eea69bd0a8e4eaf3aaf861227e11dd1716452f1ae4cc8d5e80d8b846b228e9d89ed0486dca97e3b6996562d37cfbe7cdeaded166938acdd066452b42f3eacb6fd477e216f601267420b8b0c36e8834bd3c5fccd19068d5266c08daced7f6dd7170be3c11bc9c18e247d8ef14488ff95bb730b9b6bf64a6f69d6d1c3caefa464390c3ec2b40f55e19a9bd pageUrl=https://www.filmon.com/ swfUrl=https://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf?v=28 conn=O:1 conn=O:0 playpath=644.high.stream buffer=96000000</link>
+			  </item>
+			 
+			 
+			 
+			  <item>
+			  <title>GALAXIE RETRO LATINO</title>  
+			  <link>rtmp://live61.la3.edge.filmon.com:1935/ app=live/?id=1ad5aac39bb13fbe0b0446db5bb59e90fb82c60ba803c02e21e1b69cd8eaf506ab07ebb6d5216a63c0f1b27d192446058df1e396dff93159e66f20cf649eae8047fb9562e24b2f474cddb91b51a5cb126614d58fd594589084e8654d0429dfdb946198ea09518bc7d12c1df7f69a8af0e4e67483c0415c45e5b1909053baf28dc4a4f82e950fde6c18c4cd5a4a1553e874b0c37cd07e0877 pageUrl=https://www.filmon.com/ swfUrl=https://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf?v=28 conn=O:1 conn=O:0 playpath=674.high.stream buffer=96000000</link>
+			  </item>  
+			 
+			 
+			 
+			  <item>
+			  <title>GALAXIE REGIONAL MEXICAN</title>
+			  <link>rtmp://live61.la3.edge.filmon.com:1935/ app=live/?id=1ad5aac39bb13fbe2ec2cb9f30304e0c88faa93762a0ffcf3db287e5ad254e279092b721544ca5637862ee174b21d7b3ca81e53970ed2efd23e01a19a49e3ef113a9857822beef37db15bcab4d0a86ad3f024080b1582a701830694c50b1e449b7ea21dc488985888012b4878e20f960f32feb7cd54d6673d60b99c00b7ef24797aeca30fb25315aca13f4e18ea7b78c8c890e14d531e8f4 pageUrl=https://www.filmon.com/ swfUrl=https://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf?v=28 conn=O:1 conn=O:0 playpath=683.high.stream buffer=96000000</link>
+			  </item>  
+			 
+			 
+			  <item>
+			  <title>GALAXIE MAXIMUM PARTY</title>
+			  <link>rtmp://live61.la3.edge.filmon.com:1935/ app=live/?id=1ad5aac39bb13fbe2ec2cb9f30304e0c0122f7cc4dd6b932f2521a9e930293bb14d0051282e204cdd5ffef1643663b39b063e33b1fc6015f9d4eccc6748150cd938e5086bbaeb7489487bb9689208e126eb12acd938d7f5e4823632a0fa43f45a9e912481ab3f04edb45be46ce4c520981af57e5fd82dff9de0eb4225d49b95ceeb1052780ada670f1578297d4c8e998dc40167bac79eaff pageUrl=https://www.filmon.com/ swfUrl=https://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf?v=28 conn=O:1 conn=O:0 playpath=614.high.stream buffer=96000000</link>
+			  </item>  
+			 
+			 
+			  <item>
+			  <title>GALAXIE LATINO TROPICAL</title>
+			  <link>rtmp://live61.la3.edge.filmon.com:1935/ app=live/?id=1ad5aac39bb13fbe2ec2cb9f30304e0ca749a6d4650a7302bdcb26ed6e700b68540994cfed9a8e10c0be9eedf6dcb728975c23e28cfaa82cbcb6bfc1efb594b85626097bf22e6d61050ee0baa676ff6c44c3bcb199704f4df91af0124ddc22e78a810c771d8119348284de850a5cbc6a69da7762f72242e8d8cffccfe554ae1762ced02257e59820e5eae8f87edaf2739d603ac5ac871b27 pageUrl=https://www.filmon.com/ swfUrl=https://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf?v=28 conn=O:1 conn=O:0 playpath=575.high.stream buffer=96000000</link>
+			  </item>  
+			 
+			 
+			   
+			 
+			  <item>
+			  <title>FLASHBACK 70S</title>
+			  <link>rtmp://live61.la3.edge.filmon.com:1935/ app=live/?id=1ad5aac39bb13fbeb74863ba9c14825eeb6bfac4ba2272e1fc6a3a004d4961bc65ed92eddd70cea03745eef5f533510158acda6bb8bc765730f04c9de616c53d6e46e674cfa2c0bb23d2f65fd23ecaee23c379caedf29095d6e9edc6701b0c66e23c99aae3e076dfde9c16b620fdb9b76164de1eb53fb53a6952835f804cb5647b1d6da73c36e6f62d0d3afc58e9813989eb5aecefd57822 pageUrl=https://www.filmon.com/ swfUrl=https://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf?v=28 conn=O:1 conn=O:0 playpath=551.high.stream buffer=96000000</link>
+			  </item>    
+			 
+			 
+			 
+			  <item>
+			  <title>HOLIDAY HITS NAVIDAD</title>
+			  <link>rtmp://live61.la3.edge.filmon.com:1935/ app=live/?id=1ad5aac39bb13fbeb74863ba9c14825e87c8512527e68a2315be75545960f437512c757adbb1488cda809d0124bac32448e3c4b7098cd4d15156d82a9cef8c3a9eb80c978fa6713819b90fbbb582c8be2e20db69a2e29ccf17cf1450f733cf6490f979a06ca2915f4770ffe972e8ee7850d8f10edc96a9425b294ffe248d1b511195ebaeb318c2bca62b54c3a8c2455a7218c0d16f85a49d pageUrl=https://www.filmon.com/ swfUrl=https://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf?v=28 conn=O:1 conn=O:0 playpath=656.high.stream buffer=96000000</link>
+			  </item>
+			  
+  
+  
+  <item><title>Bliss TV</title><link>http://84.232.5.115/liveedge/bliss.stream/playlist.m3u8
+</link></item><item><title>Real Madrid TV</title><link>http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1250_av-b.m3u8?sd=10&rebase=on
+</link></item><item><title>TRACE Urban</title><link>http://stream-ak-2.vty.dailymotion.com/17/dm/1/x1ahjk1/live.isml/events(live-1437253920)/live-audio=128000-video=1891000.bootstrap/playlist.m3u8
+</link></item><item><title>ESKA TV</title><link>http://stream.smcloud.net/live/eskatv/aylist.m3u8
+</link></item><item><title>ESKA Best Music HD</title><link>http://stream.smcloud.net/live2/best/best_720p/playlist.m3u8
+</link></item><item><title>ESKA VOX HD</title><link>http://stream.smcloud.net/live2/vox/vox_720p/playlist.m3u8
+</link></item><item><title>Uncategorized
+Uncategorized;US;English;http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch1/06/prog_index.m3u8
+</link></item><item><title>CAPITAL TV</title><link>http://ooyalahd2-f.akamaihd.net/i/globalradio01_delivery@156521/index_656_av-p.m3u8?sd=10&rebase=on
+</link></item><item><title>HEART TV</title><link>http://ooyalahd2-f.akamaihd.net/i/globalradio02_delivery@156522/master.m3u8
+</link></item><item><title>VEVO 1 HD</title><link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch1/06/prog_index.m3u8
+</link></item><item><title>VEVO 2 HD</title><link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch2/06/prog_index.m3u8
+</link></item><item><title>VEVO 3 HD</title><link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch3/06/prog_index.m3u8
+</link></item><item><title>MTV Music</title><link>http://81.92.105.134:5555/pl.m3u8?channel=516
+</link></item><item><title>Radio Italia TV</title><link>http://81.92.105.134:5555/pl.m3u8?channel=527
+</link></item><item><title>Telemusica</title><link>http://186.155.200.118:1935/live/telemusica/chunklist_w1353784156_69909.m3u8
+</link></item><item><title>Telehit</title><link>http://201.161.59.7/telehit.isml/manifest(format=m3u8-aapl).m3u8
+</link></item><item><title>VM Music</title><link>http://k3.usastreams.com:1935/canal29/canal29/playlist.m3u8
+</link></item><item><title>Play Music TV</title><link>http://nwk3-lh.akamaihd.net/i/us3_utvstars@315925/index_1100.m3u8
+</link></item><item><title>Now Music</title><link>http://rrr.sz.xlcdn.com/?account=AATW&file=nowmusic&type=live&service=wowza&protocol=http&output=playlist.m3u8
+</link></item><item><title>Clubland TV</title><link>http://rrr.sz.xlcdn.com/?account=AATW&file=clublandtv&type=live&service=wowza&protocol=http&output=playlist.m3u8
+</link></item><item><title>Planet POP</title><link>http://rrr.sz.xlcdn.com/?account=AATW&file=ppop&type=live&service=wowza&protocol=http&output=playlist.m3u8
+</link></item><item><title>AKA Hip Hop</title><link>http://rrr.sz.xlcdn.com/?account=AATW&file=akanew&type=live&service=wowza&protocol=http&output=playlist.m3u8
+</link></item><item><title>A ONE Hip Hop</title><link>http://87.239.31.232/hls/230.3.3.93.sd.stream.m3u8
+</link></item><item><title>DJING HD</title><link>http://www.djing.com/tv/h-05.m3u8
+</link></item><item><title>DJING Dancefloor HD</title><link>http://www.djing.com/tv/d-05.m3u8
+</link></item><item><title>DJING Underground HD</title><link>http://www.djing.com/tv/u-05.m3u8
+</link></item><item><title>DJING Hot Hot Hot HD</title><link>http://www.djing.com/tv/hothothot.m3u8
+</link></item><item><title>DJING Animation HD</title><link>http://www.djing.com/tv/a-05.m3u8
+</link></item><item><title>DJING Classic HD</title><link>http://www.djing.com/tv/i-05.m3u8
+</link></item><item><title>Clubbing TV</title><link>http://204.107.26.252:1935/live/691.high.stream/playlist.m3u8
+</link></item><item><title>1HD Music TV</title><link>http://195.189.238.18/streaming/firstmuz/16/hd/playlist.m3u8
+</link></item><item><title>KISS TV</title><link>http://tst.es.flash.glb.ipercast.net/tst.es-live/live/playlist.m3u8
+</link></item><item><title>Virgin TV</title><link>http://fms.105.net:1935/live/virgin1/playlist.m3u8
+</link></item><item><title>Dance TV</title><link>http://87.239.31.232/hls/230.3.4.169.sd.stream.m3u8
+</link></item><item><title>Monte Carlo TV</title><link>http://fms.105.net:1935/live/rmc1/playlist.m3u8
+</link></item><item><title>M2O Music</title><link>http://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/index_600_av-b.m3u8?sd=10&rebase=on
+</link></item><item><title>ZOOM Music TV</title><link>http://d1hya96e2cm7qi.cloudfront.net/Live/_definst_/sweetbcha1novD160_W_150.sdp/playlist.m3u8
+</link></item><item><title>Gold TV</title><link>http://87.248.160.8/edge/smil:goldtv/playlist.m3u8
+</link></item><item><title>Miami Music TV</title><link>http://74.208.152.93/music/stream3/stream.m3u8
+</link></item><item><title>Real Hip Hop Network</title><link>http://rhn.tulix.tv/live/Stream1/playlist.m3u8
+</link></item><item><title>Music India</title><link>http://hlshinextra-lh.akamaihd.net/i/ams4_musicind@124573/index_1100_av.m3u8?e=e745d0932c6d36ab&hdnea=ip=124.197.50.67~st=1427274120~exp=1427274420~acl=*~data=0~hmac=ccb65cdb812846dfd3c6cd7e6d6c8611702b8dc8ff5a1f5443399810f625a359&attributes=off
+</link></item><item><title>TV Polanco</title><link>http://186.155.200.118:1935/live/ColombiasuMusica/chunklist.m3u8
+</link></item><item><title>M6 HD France</title><link>http://streaming-hub.com/tv/i/m6_1@97467/index_1300_av-b.m3u8?sd=10
+</link></item><item><title>Sun Music</title><link>http://hlsbanglaent-lh.akamaihd.net/i/ams43_sunmusic@310067/index_1100.m3u8
+</link></item><item><title>MTV AM</title><link>http://mtvam.ru/hlsam/playlist.m3u8
+</link></item><item><title>Dream TV</title><link>http://live.netd.com.tr/S1/HLS_LIVE/dreamtv/1000/prog_index.m3u8
+</link></item><item><title>MiMusica Latina</title><link>http://k4.usastreams.com:1935/mimusica/mimusica/playlist.m3u8
+</link></item><item><title>MTV ForMusic</title><link>http://194.116.73.52/quartaretetv1/formusicweb/playlist.m3u8
+</link></item><item><title>POLO Party Polska</title><link>http://stream.smcloud.net/live2/polo_party/polo_party_720p/playlist.m3u8
+</link></item><item><title>b4U Music</title><link>http://46.249.213.87/iPhone/HLS_TS/broadcast/befouryoumusic-tablet.3gp/befouryoumusic-tablet.3gp-mr648k.m3u8
+</link></item><item><title>Wawa Music</title><link>http://stream.smcloud.net/live2/wawa/wawa_360p/playlist.m3u8
+</link></item><item><title>Ven FM TV</title><link>http://edge.wms28.lorini.net/venfmplay/venfmplay/playlist.m3u8
+</link></item><item><title>Super Q FM TV</title><link>http://cdn6.iviplanet.com:1935/SuperQTV/myStream.sdp/playlist.m3u8
+</link></item><item><title>Soy FM TV</title><link>http://cdn6.iviplanet.com:1935/SoyFM/myStream.sdp/playlist.m3u8
+</link></item><item><title>Vibz FM TV</title><link>http://cdn6.iviplanet.com:1935/VIBZFMTV/myStream.sdp/playlist.m3u8
+</link></item><item><title>Cool Radio Music Videos</title><link>http://cdn6.iviplanet.com:1935/AVRA/myStream.sdp/playlist.m3u8
+</link></item><item><title>Top Music - CityTV</title><link>http://nodeb.gocaster.net:1935/CGL/_definst_/mp4:TODAYFM_TEST2/live.m3u8</link></item>
+			
+					
+        </items>
+    </channel>
