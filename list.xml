@@ -71,11 +71,11 @@
 		<externallink>https://raw.githubusercontent.com/ingepol/KAPO-XML/master/xml%20channels/peliculas.xml</externallink>
 	</item> -->
 	
-	<!-- <item>
+	<item>
 		<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Series de TV [/COLOR]   [COLOR gray] [/COLOR]  </title>
 		<link>http://ignorame</link>
 		<externallink>https://raw.githubusercontent.com/ingepol/KAPO-XML/master/xml%20channels/tv.xml</externallink>
-	</item> -->
+	</item>
 
     <!-- <item>
         <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Musica[/COLOR]</title>
