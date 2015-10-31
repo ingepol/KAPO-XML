@@ -23,17 +23,12 @@
 		<link>http://ignorame</link>
 	</item>
 	
-	<!-- <item>
+	<item>
 		<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Deportes[/COLOR] </title>
 		<link>http://ignorame</link>
 		<externallink>https://raw.githubusercontent.com/ingepol/KAPO-XML/master/xml%20channels/deportes.xml</externallink>
 	</item>
-	 -->
-	<!-- <item>
-		<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Sports[/B]   [/COLOR][COLOR skyblue][p2p@Plexus] [/COLOR]</title>
-		<link>http://ignorame</link>
-		<externallink>https://raw.githubusercontent.com/ingepol/KAPO-XML/master/xml%20channels/ace.xml</externallink>
-	</item> -->
+	 
 
 	<!-- <item>
 		<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  España [/COLOR]</title>
@@ -65,11 +60,11 @@
 		<externallink>https://raw.githubusercontent.com/ingepol/KAPO-XML/master/xml%20channels/p247.xml</externallink>
 	</item>
 	
-	<!-- <item>
+	<item>
 		<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Peliculas [/COLOR]   [COLOR lime] [/COLOR] </title>
 		<link>http://ignorame</link>
 		<externallink>https://raw.githubusercontent.com/ingepol/KAPO-XML/master/xml%20channels/peliculas.xml</externallink>
-	</item> -->
+	</item>
 	
 	<item>
 		<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Series de TV [/COLOR]   [COLOR gray] [/COLOR]  </title>
