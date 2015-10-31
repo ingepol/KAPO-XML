@@ -19,8 +19,10 @@
 			<link>http://ignorame.ime</link>
 		</item>
 
+		
+
 		<item>
-			<title>[COLOR dodgerblue]VIPRACING 01 (Bein ñ)[/COLOR]</title>
+			<title>[COLOR skyblue]TDN[/COLOR]</title>
 			<link>$doregex[getVipRacing]</link>
 			<regex>
 				<name>getVipRacing</name>
@@ -31,7 +33,7 @@
 		</item>
 
 		<item>
-			<title>[COLOR dodgerblue]VIPRACING 02 (Bein ñ)[/COLOR]</title>
+			<title>[COLOR skyblue]Bein ñ[/COLOR]</title>
 			<link>$doregex[getVipRacing]</link>
 			<regex>
 				<name>getVipRacing</name>
@@ -43,24 +45,151 @@
 
 		<item>	
 			<title>[COLOR skyblue]NFL NETWORK SD[/COLOR]</title>
-			<link>http://nflsvgatlgame3-i.akamaihd.	net/hls/live/223175/NFL_Mobile/2015Mobile_NFLN_664k.m3u8</link>
+			<link>http://nflsvgatlgame3-i.akamaihd.net/hls/live/223175/NFL_Mobile/2015Mobile_NFLN_664k.m3u8</link>
 		</item>
+		
 		<item>	
 			<title>[COLOR skyblue]NFL NETWORK HD[/COLOR]</title><link>http://nflsvglagame1-i.akamaihd.net/hls/live/223206/NFL_Mobile/2015Mobile_NFLN_2000k.m3u8</link>
 		</item>
+		
 		<item>
 			<title>UFC</title>
 			<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls2/75.m3u8</link>
 		</item>
 
+		<item>
+			<title>Pru</title>
+			<link>rtmp://edge.ultracast.me:1935/live/?Token=c2VydmVyX3RpbWU9MTQ0NjI2MjQyMyZoYXNoX3ZhbHVlPWY5ZDQwMWZmYzg0OTliYjMzYTYwMzA3YTk4YzE2MzZhJnZhbGlkbWludXRlcz0zMCZDTw== playpath=copo6bx0C5 swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://www.ultracast.me/player.php?id=6319&width=620&height=382</link>
+		</item>
 
 		<item>
 			<title>WWE</title>
 			<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/casthls/138.m3u8</link><thumbnail>http://adryanlist.host.sk/Logos/.jpg</thumbnail>
 		</item>
+		
 		<item>
 			<title>WWE</title><link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls2/138.m3u8</link><thumbnail>http://adryanlist.host.sk/Logos/wwe.jpg</thumbnail>
 		</item>	
+
+		<item>
+			<title>Deportes Diablo</title>
+			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_deportesdiablo52 live=1 timeout=20</link>
+			<regex>
+				<name>clearCode</name>
+				<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
+				<page></page>
+			</regex>
+			<regex>
+				<name>getencoded</name>
+				<expres>:mvnkey-(.*)</expres>
+				<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+				<name>getserver</name>
+				<expres>(.*?);</expres>
+				<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+				<name>getUrl</name>
+				<expres>(.*)</expres>
+				<page>http://mvn.vaughnsoft.net/video/edge/live_deportesdiablo52$doregex[gettime]-$doregex[gettime].33434</page>
+			</regex>
+			<regex>
+				<name>gettime</name>
+				<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
+				<page></page>
+			</regex>
+		</item>
+
+		<item>
+			<title>PSN TV</title>
+			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_psntv89  live=1 timeout=20</link>
+			<regex>
+				<name>clearCode</name>
+				<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
+				<page></page>
+			</regex>
+			<regex>
+				<name>getencoded</name>
+				<expres>:mvnkey-(.*)</expres>
+				<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+				<name>getserver</name>
+				<expres>(.*?);</expres>
+				<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+				<name>getUrl</name>
+				<expres>(.*)</expres>
+				<page>http://mvn.vaughnsoft.net/video/edge/live_psntv89$doregex[gettime]-$doregex[gettime].33434</page>
+			</regex>
+			<regex>
+				<name>gettime</name>
+				<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
+				<page></page>
+			</regex>
+		</item>
+
+		<item>
+			<title>ESPN 2</title>
+			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_argentimania42  live=1 timeout=20</link>
+			<regex>
+				<name>clearCode</name>
+				<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
+				<page></page>
+			</regex>
+			<regex>
+				<name>getencoded</name>
+				<expres>:mvnkey-(.*)</expres>
+				<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+				<name>getserver</name>
+				<expres>(.*?);</expres>
+				<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+				<name>getUrl</name>
+				<expres>(.*)</expres>
+				<page>http://mvn.vaughnsoft.net/video/edge/live_argentimania42$doregex[gettime]-$doregex[gettime].33434</page>
+			</regex>
+			<regex>
+				<name>gettime</name>
+				<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
+				<page></page>
+			</regex>
+		</item>
+
+		<item>
+			<title>TyC Deportes</title>
+			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_afatv1  live=1 timeout=20</link>
+			<regex>
+				<name>clearCode</name>
+				<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
+				<page></page>
+			</regex>
+			<regex>
+				<name>getencoded</name>
+				<expres>:mvnkey-(.*)</expres>
+				<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+				<name>getserver</name>
+				<expres>(.*?);</expres>
+				<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+				<name>getUrl</name>
+				<expres>(.*)</expres>
+				<page>http://mvn.vaughnsoft.net/video/edge/live_afatv1$doregex[gettime]-$doregex[gettime].33434</page>
+			</regex>
+			<regex>
+				<name>gettime</name>
+				<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
+				<page></page>
+			</regex>
+		</item>
 
 	</items>
 
