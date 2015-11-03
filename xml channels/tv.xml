@@ -4,8 +4,12 @@
 
 <channel>
 	<name>Series</name>
-	<info>Series de Television En Audio Latino  y Subtituladas</info>
+	<info>Series y animes de Television En Audio Latino  y Subtituladas</info>
 	<items>
+		<item>
+			<title>[COLOR=green]-----[/COLOR][COLOR=orange]SERIES[/COLOR][COLOR=green]-----[/COLOR]</title>
+			<link>http://ignorame</link>
+		</item>
 		<item>
 			<title>Smallville</title>
 			<link>http://ignoram.e</link>
@@ -13,5 +17,14 @@
 			<thumbnail>http://tvmegasite.net/images/primetime/smallville/smallvillefinal.jpg</thumbnail>
 			<fanart>https://allserieslinamarcela.files.wordpress.com/2009/11/smallville.jpg</fanart>
 		</item>
+
+		<item>
+			<title>[COLOR=green]-----[/COLOR][COLOR=orange]ANIMES[/COLOR][COLOR=green]-----[/COLOR]</title>
+			<link>http://ignorame</link>
+		</item>
+
+		<item><link>$doregex[id]</link><regex><name>id</name><expres>file:'(.*)'</expres><page>http://streamin.to/embed-$doregex[link]-740x360.html</page><referer>http://streamin.to</referer></regex><regex><name>link</name><expres>http://streamin.to/embed-(.*)-</expres><page>http://animeflv.net/ver/fullmetal-alchemist-1.html</page><referer>http://streamin.to</referer></regex><title>Capitulo 01</title>
+		<thumbnail>http://www.solopeliculasgratis.com/img-pelicula/smallville-temp-1.jpg</thumbnail><fanart>http://screenrant.com/wp-content/uploads/smallville-season-10-final-promo-art.jpg</fanart></item>
+
 	</items>
-<channel>
+	<channel>

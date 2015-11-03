@@ -28,31 +28,6 @@
 		<link>http://ignorame</link>
 		<externallink>https://raw.githubusercontent.com/ingepol/KAPO-XML/master/xml%20channels/deportes.xml</externallink>
 	</item>
-	 
-
-	<!-- <item>
-		<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  España [/COLOR]</title>
-		<link>http://ignorame</link>
-		<externallink>https://raw.githubusercontent.com/ingepol/KAPO-XML/master/xml%20channels/esp.xml</externallink>
-	</item> -->
-
-	<!-- <item>
-		<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Stalker[/B]   [/COLOR] [COLOR skyblue][Nescafe] [/COLOR]  </title>
-		<link>http://ignorame</link>
-		<externallink>https://raw.githubusercontent.com/ingepol/KAPO-XML/master/xml%20channels/netscafe.xml</externallink>
-	</item> -->
-
-	<!-- <item>
-		<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  IPTV +   [/COLOR] [COLOR skyblue][/COLOR]  </title>
-		<link>http://ignorame</link>
-		<externallink>https://raw.githubusercontent.com/ingepol/KAPO-XML/master/m3u%20channels/stalker001.m3u</externallink>
-	</item> -->
-
-	<!-- <item>
-		<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Entretenimiento[/COLOR]  [COLOR skyblue][ TotalPlay 2 ] [/COLOR]  </title>
-		<link>http://ignorame</link>
-		<externallink>https://raw.githubusercontent.com/ingepol/KAPO-XML/master/xml%20channels/entretenimiento.xml</externallink>
-	</item> -->
 	
 	<item>
 		<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Peliculas & [B]Series de TV [COLOR skyblue]24/7[/COLOR][/B][/COLOR] [COLOR green] [/COLOR]</title>
@@ -72,29 +47,17 @@
 		<externallink>https://raw.githubusercontent.com/ingepol/KAPO-XML/master/xml%20channels/tv.xml</externallink>
 	</item>
 
-    <!-- <item>
+    <item>
         <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Musica[/COLOR]</title>
         <link>http://ignorame</link>
         <externallink>https://raw.githubusercontent.com/ingepol/KAPO-XML/master/xml%20channels/musica.xml</externallink>
-    </item>-->         
-	
-	<!--<item>
-		<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Paises[/COLOR]</title>
-		<link>http://ignorame</link>
-		<externallink>https://raw.githubusercontent.com/ingepol/KAPO-XML/master/xml%20channels/paises.xml</externallink>
-	</item> -->
+    </item>        
 	
 	<!-- <item>
 		<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Internacionales[/COLOR] </title>
 		<link>http://ignorame</link>
 		<externallink>https://raw.githubusercontent.com/ingepol/KAPO-XML/master/xml%20channels/internacional.xml</externallink>
 	</item> -->
-
-	<!-- <item>
-		<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Mas Listas[/COLOR]</title>
-		<link>http://ignorame</link>
-		<externallink>https://raw.githubusercontent.com/ingepol/KAPO-XML/master/xml%20channels/lists.xml</externallink>
-	</item> -->	
 
 </items>
 
